@@ -1,21 +1,22 @@
 import { MODULES } from '../data/modules'
-import { BETA, modComplete, topicState, TOPIC, TOPIC_MOD } from '../lib/studentModel'
-import type { ProgressState } from '../types'
+import { predictCorrect, P_L0 } from '../lib/bkt'
+import { modComplete, topicState, TOPIC, TOPIC_MOD } from '../lib/studentModel'
+import type { ProgressState, Question } from '../types'
 import { QuestionBox } from './QuestionBox'
 
 interface DrawerProps {
   currentTopic: string | null
   progress: ProgressState
-  alpha: number
-  qPos: Record<string, number>
+  pT: number
+  currentQuestion: Question | null
   answeredIdx: number | null
   onClose: () => void
-  onAnswer: (optIndex: number) => void
+  onAnswer: (optIndex: number, hintsUsed: number) => void
   onNext: () => void
 }
 
-/** Painel lateral com o modelo do aluno, pré-requisitos, fórmula e a questão. */
-export function Drawer({ currentTopic, progress, alpha, qPos, answeredIdx, onClose, onAnswer, onNext }: DrawerProps) {
+/** Painel lateral (modelo aberto do aluno): P(domínio) BKT, pré-requisitos e a questão. */
+export function Drawer({ currentTopic, progress, pT, currentQuestion, answeredIdx, onClose, onAnswer, onNext }: DrawerProps) {
   const open = currentTopic != null
 
   let content = null
@@ -28,6 +29,7 @@ export function Drawer({ currentTopic, progress, alpha, qPos, answeredIdx, onClo
 
     const stLabel = s === 'master' ? 'dominado' : s === 'learning' ? 'em aprendizado' : s === 'locked' ? 'bloqueado' : 'não iniciado'
     const stCls = s === 'master' ? 'master' : s === 'learning' ? 'learning' : 'locked'
+    const pAcerto = currentQuestion ? Math.round(predictCorrect(st.m, currentQuestion.difficulty) * 100) : null
 
     content = (
       <>
@@ -40,7 +42,7 @@ export function Drawer({ currentTopic, progress, alpha, qPos, answeredIdx, onClo
           <p className="desc">{t.desc}</p>
 
           <div className="field">
-            <div className="h">Modelo do aluno</div>
+            <div className="h">Modelo do aluno · P(domínio)</div>
             <div className="mastery-big">
               <span className="v">{pct}%</span>
               <span className={`state ${stCls}`}>{stLabel}</span>
@@ -69,18 +71,26 @@ export function Drawer({ currentTopic, progress, alpha, qPos, answeredIdx, onClo
           </div>
 
           <div className="field">
-            <div className="h">Atualização por questão</div>
+            <div className="h">Como o tutor pensa · BKT</div>
             <div className="formula">
-              acerto: p<span className="hl">'</span> = p + <span className="hl">α</span>·(1 − p)<br />
-              erro:&nbsp;&nbsp; p<span className="hl">'</span> = p·(1 − <span className="hl">β</span>)<br />
-              <span className="cmt"># α = {alpha.toFixed(2)} · β = {BETA.toFixed(2)} · questões respondidas: {st.seen}</span>
+              P(domínio) atualiza por <span className="hl">Bayesian Knowledge Tracing</span>:<br />
+              acerto / erro → <span className="hl">posterior</span> (slip · guess)<br />
+              depois → aprendizado <span className="hl">P(T)</span>·(1 − posterior)<br />
+              <span className="cmt"># prior P(L0) = {P_L0.toFixed(2)} · P(T) = {pT.toFixed(2)} · oportunidades: {st.seen}</span><br />
+              <span className="cmt"># pedir dica (scaffolding) reduz o crédito de domínio do acerto</span>
+              {pAcerto != null && (
+                <>
+                  <br />
+                  <span className="cmt"># P(acerto) prevista nesta questão: {pAcerto}%</span>
+                </>
+              )}
             </div>
           </div>
 
           <QuestionBox
-            topicId={currentTopic}
+            key={currentQuestion?.id ?? 'none'}
+            question={currentQuestion}
             status={s}
-            qPos={qPos[currentTopic] ?? 0}
             answeredIdx={answeredIdx}
             onAnswer={onAnswer}
             onNext={onNext}

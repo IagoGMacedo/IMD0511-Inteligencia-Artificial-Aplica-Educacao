@@ -1,0 +1,426 @@
+[
+  {
+    "id": "irA-q01",
+    "topicId": "irA",
+    "stem": "Na renda fixa tradicional, a tabela regressiva de IR começa em 22,5% e chega ao mínimo de:",
+    "options": [
+      { "text": "15% para prazos acima de 720 dias" },
+      { "text": "27,5% sempre" },
+      { "text": "0% para qualquer prazo" },
+      { "text": "30% após 1.000 dias" }
+    ],
+    "correct": 0,
+    "explanation": "Quanto maior o prazo, menor a alíquota: começa em 22,5% e chega ao mínimo de 15% após 720 dias.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irA-q02",
+    "topicId": "irA",
+    "stem": "São exemplos de renda fixa isenta de IR para a pessoa física:",
+    "options": [
+      { "text": "LCI, LCA, CRI e CRA" },
+      { "text": "CDB e Tesouro Prefixado" },
+      { "text": "Fundos DI tradicionais" },
+      { "text": "Debêntures comuns (não incentivadas)" }
+    ],
+    "correct": 0,
+    "explanation": "Esses papéis ligados aos setores imobiliário e do agronegócio são isentos de IR para PF.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irA-q03",
+    "topicId": "irA",
+    "stem": "Em um CDB, o imposto de renda sobre o rendimento é, em regra:",
+    "options": [
+      { "text": "Retido na fonte pela instituição no momento do resgate, incidindo apenas sobre o rendimento" },
+      { "text": "Recolhido pelo investidor via DARF sobre o valor total aplicado", "misconception": "ir-rf-sobre-principal-via-darf", "feedback": "Na renda fixa, o IR é retido na fonte (não por DARF do investidor) e incide só sobre o rendimento, não sobre o principal." },
+      { "text": "Cobrado sobre o valor principal investido" },
+      { "text": "Sempre isento para qualquer prazo" }
+    ],
+    "correct": 0,
+    "explanation": "Na renda fixa tributada, a própria instituição retém o IR na fonte no resgate, calculado apenas sobre o rendimento conforme a tabela regressiva.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "conceitual",
+    "hints": ["Quem recolhe o IR da renda fixa: o investidor ou a instituição?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irA-q04",
+    "topicId": "irA",
+    "stem": "O come-cotas, presente em fundos abertos de renda fixa e multimercado, é:",
+    "options": [
+      { "text": "A antecipação semestral do IR, que reduz a quantidade de cotas do investidor" },
+      { "text": "Uma taxa de administração paga ao gestor" },
+      { "text": "Um imposto cobrado apenas no resgate final" },
+      { "text": "Um benefício que aumenta o número de cotas" }
+    ],
+    "correct": 0,
+    "explanation": "Em maio e novembro, o come-cotas antecipa o IR desses fundos, abatendo cotas; no resgate, ajusta-se o que falta conforme a tabela.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Acontece duas vezes ao ano e mexe na quantidade de cotas."],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irA-q05",
+    "topicId": "irA",
+    "stem": "Um investidor resgatou um CDB tributado após 200 dias de aplicação. Pela tabela regressiva, a alíquota de IR sobre o rendimento será:",
+    "options": [
+      { "text": "20% (faixa de 181 a 360 dias)" },
+      { "text": "15%, pois é o mínimo sempre aplicável", "misconception": "usa-aliquota-minima-em-prazo-curto", "feedback": "A alíquota de 15% só vale acima de 720 dias; em 200 dias o investidor está na faixa de 20%." },
+      { "text": "22,5%, pois vale até 360 dias" },
+      { "text": "27,5%, como no salário" }
+    ],
+    "correct": 0,
+    "explanation": "A tabela regressiva: 22,5% até 180 dias; 20% de 181 a 360; 17,5% de 361 a 720; 15% acima de 720. Em 200 dias, aplica-se 20%.",
+    "difficulty": "dificil",
+    "bloom": "aplicar",
+    "type": "calculo",
+    "hints": ["Localize 200 dias nas faixas: 180 / 360 / 720.", "De 181 a 360 dias a alíquota é 20%."],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irA-q06",
+    "topicId": "irA",
+    "stem": "Considerando a tributação, comparar uma LCI isenta com um CDB tributado de forma justa exige:",
+    "options": [
+      { "text": "Calcular o rendimento líquido do CDB (após o IR) e só então comparar com o da LCI isenta" },
+      { "text": "Comparar diretamente as taxas brutas de cada um", "misconception": "compara-bruto-com-isento", "feedback": "Comparar a taxa bruta do CDB com a da LCI isenta é injusto: é preciso descontar o IR do CDB para chegar ao líquido." },
+      { "text": "Escolher sempre o de maior taxa bruta" },
+      { "text": "Ignorar o prazo e a tabela regressiva" }
+    ],
+    "correct": 0,
+    "explanation": "Como a LCI é isenta, uma taxa bruta menor pode render mais líquido que um CDB tributado; a comparação relevante é sempre a do rendimento líquido.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Desconte o IR do CDB antes de comparar com a LCI."],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irB-q01",
+    "topicId": "irB",
+    "stem": "Vendas de ações até R$ 20 mil em um único mês, no mercado à vista comum (swing trade), têm o ganho:",
+    "options": [
+      { "text": "Isento de imposto de renda" },
+      { "text": "Tributado em 27,5%" },
+      { "text": "Tributado em 20%, como o day trade", "misconception": "aplica-aliquota-day-trade-no-swing", "feedback": "A isenção até R$ 20 mil/mês vale para o swing trade comum; a alíquota de 20% é do day trade, que não tem essa isenção." },
+      { "text": "Proibido por lei" }
+    ],
+    "correct": 0,
+    "explanation": "Há isenção de IR sobre o lucro quando o total vendido no mês não passa de R$ 20 mil no mercado à vista comum (não vale para day trade nem FIIs).",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irB-q02",
+    "topicId": "irB",
+    "stem": "O imposto sobre o ganho de capital em ações (acima do limite de isenção) é, em regra:",
+    "options": [
+      { "text": "Apurado e recolhido pelo próprio investidor via DARF" },
+      { "text": "Retido integralmente pela corretora" },
+      { "text": "Pago somente no ano seguinte, na declaração" },
+      { "text": "Inexistente, pois ações são sempre isentas" }
+    ],
+    "correct": 0,
+    "explanation": "O próprio investidor calcula e recolhe o IR por DARF; a corretora apenas retém um pequeno valor na fonte (o dedo-duro), que não dispensa o recolhimento.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irB-q03",
+    "topicId": "irB",
+    "stem": "Sobre a tributação dos fundos imobiliários (FIIs), é correto afirmar que:",
+    "options": [
+      { "text": "Os rendimentos mensais costumam ser isentos para PF (com condições), mas o ganho na venda das cotas é tributado" },
+      { "text": "Tudo no FII é isento, inclusive o lucro na venda das cotas", "misconception": "fii-totalmente-isento", "feedback": "A isenção é dos rendimentos mensais (com condições); o ganho de capital na venda das cotas é tributado, tipicamente em 20%." },
+      { "text": "Os rendimentos mensais são tributados em 27,5%" },
+      { "text": "FIIs não têm nenhuma relação com o imposto de renda" }
+    ],
+    "correct": 0,
+    "explanation": "Rendimentos de FIIs distribuídos a PF costumam ser isentos sob certas regras; já o lucro ao vender cotas é tributado (cerca de 20%) e recolhido via DARF.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Separe o rendimento mensal do ganho na venda da cota."],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irB-q04",
+    "topicId": "irB",
+    "stem": "Comparado ao swing trade, o day trade em ações tem tributação:",
+    "options": [
+      { "text": "Em alíquota maior (20%) e sem a isenção mensal de R$ 20 mil" },
+      { "text": "Sempre isenta, por ser de curtíssimo prazo" },
+      { "text": "Idêntica à do swing trade, inclusive na isenção" },
+      { "text": "Recolhida automaticamente pela Receita, sem DARF" }
+    ],
+    "correct": 0,
+    "explanation": "Operações de day trade são tributadas em 20% sobre o ganho e não contam com a isenção de R$ 20 mil/mês do swing trade.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Day trade tem alíquota própria e não goza da isenção de R$ 20 mil."],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irB-q05",
+    "topicId": "irB",
+    "stem": "Quando há IR a pagar sobre lucro com ações em um mês, o DARF deve ser recolhido, em regra:",
+    "options": [
+      { "text": "Até o último dia útil do mês seguinte ao da apuração do ganho" },
+      { "text": "No mesmo dia da venda, obrigatoriamente" },
+      { "text": "Apenas na entrega da declaração anual", "misconception": "darf-so-na-declaracao-anual", "feedback": "O DARF do ganho com ações é mensal: vence no último dia útil do mês seguinte, e não apenas na declaração anual." },
+      { "text": "Somente quando o lucro acumulado passar de R$ 100 mil" }
+    ],
+    "correct": 0,
+    "explanation": "A apuração é mensal: o IR é recolhido por DARF até o último dia útil do mês seguinte ao da operação; a declaração anual apenas consolida o que já foi feito.",
+    "difficulty": "dificil",
+    "bloom": "aplicar",
+    "type": "conceitual",
+    "hints": ["O prazo é mensal, não anual: até quando do mês seguinte?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irB-q06",
+    "topicId": "irB",
+    "stem": "Sobre prejuízos em renda variável, é correto afirmar que eles:",
+    "options": [
+      { "text": "Podem ser compensados com lucros futuros da mesma categoria, reduzindo o IR a pagar" },
+      { "text": "São perdidos e não têm nenhum efeito tributário" },
+      { "text": "Geram restituição imediata em dinheiro da Receita" },
+      { "text": "Aumentam o imposto devido no mês seguinte" }
+    ],
+    "correct": 0,
+    "explanation": "Prejuízos podem ser carregados e abatidos de lucros futuros da mesma categoria (ex.: comum com comum), diminuindo o imposto — desde que controlados e declarados.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["O prejuízo de hoje pode abater o lucro de amanhã da mesma categoria."],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irC-q01",
+    "topicId": "irC",
+    "stem": "Investimentos e ganhos no exterior, para o residente fiscal no Brasil:",
+    "options": [
+      { "text": "Devem ser declarados à Receita Federal conforme as regras vigentes" },
+      { "text": "São sempre isentos e dispensam declaração" },
+      { "text": "Não precisam ser informados em hipótese alguma" },
+      { "text": "São proibidos para pessoas físicas" }
+    ],
+    "correct": 0,
+    "explanation": "O investidor brasileiro precisa declarar bens e ganhos no exterior; ocultá-los configura irregularidade perante a Receita.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irC-q02",
+    "topicId": "irC",
+    "stem": "Manter ativos no exterior exige do investidor brasileiro:",
+    "options": [
+      { "text": "Atenção às regras específicas de declaração e tributação, que podem mudar ao longo do tempo" },
+      { "text": "Renunciar à nacionalidade brasileira" },
+      { "text": "Nada além de comprar os ativos" },
+      { "text": "Pagar apenas IOF e nada mais" }
+    ],
+    "correct": 0,
+    "explanation": "Há regras próprias de tributação e declaração para ativos no exterior, que evoluem com a legislação e exigem acompanhamento.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irC-q03",
+    "topicId": "irC",
+    "stem": "Ao apurar o ganho de capital na venda de um ativo no exterior, o investidor brasileiro precisa considerar que:",
+    "options": [
+      { "text": "A variação do câmbio (real x dólar) entra na conta, pois os valores são convertidos para reais na apuração" },
+      { "text": "O câmbio é irrelevante, bastando o preço em dólar", "misconception": "ignora-cambio-na-apuracao-exterior", "feedback": "O câmbio importa: a apuração considera os valores convertidos para reais, então a variação do dólar afeta o ganho tributável." },
+      { "text": "Não há tributação sobre ganhos no exterior" },
+      { "text": "O ganho é sempre isento até R$ 1 milhão por dia" }
+    ],
+    "correct": 0,
+    "explanation": "Como a apuração é feita em reais, a variação cambial entre a compra e a venda influencia o ganho de capital tributável no exterior.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "conceitual",
+    "hints": ["Em que moeda a Receita apura o ganho: dólar ou real?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irC-q04",
+    "topicId": "irC",
+    "stem": "Sobre dividendos de ações americanas recebidos por um residente no Brasil, é comum que:",
+    "options": [
+      { "text": "Haja retenção de imposto na fonte nos EUA, e o investidor ainda precise observar as regras brasileiras de declaração" },
+      { "text": "Não exista nenhuma tributação em lugar nenhum" },
+      { "text": "O FGC brasileiro garanta o valor dos dividendos" },
+      { "text": "O imposto seja recolhido automaticamente pela Receita brasileira" }
+    ],
+    "correct": 0,
+    "explanation": "Os EUA costumam reter IR na fonte sobre dividendos a estrangeiros; além disso, o investidor deve cumprir as obrigações de declaração no Brasil.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["O imposto sobre o dividendo costuma ser retido onde a empresa está."],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irC-q05",
+    "topicId": "irC",
+    "stem": "Por que é importante acompanhar mudanças na legislação sobre investimentos no exterior (como regras de aplicações e estruturas offshore)?",
+    "options": [
+      { "text": "Porque as regras de tributação e declaração evoluem, e o tratamento de hoje pode não valer no ano que vem" },
+      { "text": "Porque a legislação nunca muda, então basta aprender uma vez" },
+      { "text": "Porque ganhos no exterior são sempre isentos por lei permanente" },
+      { "text": "Porque a Receita não fiscaliza ativos fora do país" }
+    ],
+    "correct": 0,
+    "explanation": "A tributação de aplicações e estruturas no exterior passou por mudanças relevantes; manter-se atualizado evita erros e autuações.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "hints": ["Regras de exterior costumam mudar — o que isso exige do investidor?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irC-q06",
+    "topicId": "irC",
+    "stem": "Um investidor com conta e ativos no exterior que não os declara à Receita está sujeito a:",
+    "options": [
+      { "text": "Cair na malha fina e sofrer multas e cobranças, pois há obrigação de informar bens e ganhos no exterior" },
+      { "text": "Nenhuma consequência, já que o dinheiro está fora do Brasil" },
+      { "text": "Receber isenção automática por manter os recursos fora" },
+      { "text": "Ter os ativos garantidos pelo governo brasileiro" }
+    ],
+    "correct": 0,
+    "explanation": "Omitir bens e ganhos no exterior é irregularidade: pode levar à malha fina, multas e cobrança do imposto devido com acréscimos.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Estar fora do país isenta de declarar no Brasil?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irD-q01",
+    "topicId": "irD",
+    "stem": "Para declarar os investimentos corretamente, o documento essencial que o investidor deve reunir é:",
+    "options": [
+      { "text": "Os informes de rendimentos das instituições (corretoras e bancos)" },
+      { "text": "Apenas o extrato do cartão de crédito" },
+      { "text": "A conta de luz do imóvel" },
+      { "text": "Somente o comprovante de residência" }
+    ],
+    "correct": 0,
+    "explanation": "Os informes das corretoras e bancos trazem saldos, posições e rendimentos necessários ao preenchimento correto da declaração.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irD-q02",
+    "topicId": "irD",
+    "stem": "Saldos de aplicações e a posição de ações no fim do ano são informados na declaração na ficha de:",
+    "options": [
+      { "text": "Bens e Direitos" },
+      { "text": "Dependentes" },
+      { "text": "Doações Efetuadas" },
+      { "text": "Dívidas e Ônus Reais" }
+    ],
+    "correct": 0,
+    "explanation": "As posições e saldos de fim de ano entram em Bens e Direitos, com os códigos correspondentes a cada tipo de ativo.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irD-q03",
+    "topicId": "irD",
+    "stem": "Na declaração, os rendimentos de diferentes investimentos costumam ser separados entre:",
+    "options": [
+      { "text": "Rendimentos isentos, tributáveis e de tributação exclusiva/definitiva, conforme a natureza de cada um" },
+      { "text": "Apenas uma única ficha que junta tudo" },
+      { "text": "Somente a ficha de Bens e Direitos" },
+      { "text": "Exclusivamente a ficha de Dependentes" }
+    ],
+    "correct": 0,
+    "explanation": "Cada tipo de rendimento tem o seu lugar: isentos (ex.: dividendos, rendimentos de FII), tributáveis e de tributação exclusiva (ex.: rendimentos de renda fixa).",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Há fichas distintas conforme o rendimento seja isento, tributável ou exclusivo."],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irD-q04",
+    "topicId": "irD",
+    "stem": "Mesmo que um rendimento seja ISENTO (como os proventos de um FII ou dividendos), o investidor:",
+    "options": [
+      { "text": "Ainda deve informá-lo na declaração, no campo de rendimentos isentos, e manter a posição em Bens e Direitos" },
+      { "text": "Não precisa declarar nada, pois é isento", "misconception": "isento-nao-declara", "feedback": "Ser isento de imposto não dispensa a declaração: rendimentos isentos têm campo próprio e a posição vai em Bens e Direitos." },
+      { "text": "Deve pagar imposto sobre ele mesmo assim" },
+      { "text": "Só precisa informar se ultrapassar R$ 1 milhão" }
+    ],
+    "correct": 0,
+    "explanation": "Isenção é sobre o imposto, não sobre a obrigação de declarar: o valor entra como rendimento isento e o ativo permanece em Bens e Direitos.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Isento de imposto é a mesma coisa que dispensado de declarar?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irD-q05",
+    "topicId": "irD",
+    "stem": "Um erro comum que pode levar o investidor à malha fina é:",
+    "options": [
+      { "text": "Omitir posições, saldos ou rendimentos que constam dos informes enviados à Receita pelas instituições" },
+      { "text": "Declarar todos os ativos com base nos informes" },
+      { "text": "Informar corretamente os rendimentos isentos" },
+      { "text": "Guardar os comprovantes por vários anos" }
+    ],
+    "correct": 0,
+    "explanation": "As instituições também reportam dados à Receita; divergências e omissões em relação aos informes são uma das principais causas de cair na malha fina.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "aplicacao",
+    "hints": ["A Receita já recebe os mesmos informes; o que acontece se sua declaração divergir?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irD-q06",
+    "topicId": "irD",
+    "stem": "Manter um bom controle ao longo do ano (informes, DARFs pagos, notas de operações) ajuda na declaração porque:",
+    "options": [
+      { "text": "Permite preencher com precisão e comprovar as informações em caso de questionamento da Receita" },
+      { "text": "Dispensa a entrega da declaração anual" },
+      { "text": "Garante restituição maior automaticamente" },
+      { "text": "Elimina a necessidade dos informes das instituições" }
+    ],
+    "correct": 0,
+    "explanation": "Organização durante o ano evita erros, facilita o preenchimento e dá respaldo documental se a Receita pedir comprovação — reduzindo o risco de malha.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Documentação organizada serve para preencher certo e comprovar depois."],
+    "source": "IR · Imposto de Renda"
+  }
+]

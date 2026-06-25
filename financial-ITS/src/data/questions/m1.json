@@ -1,0 +1,532 @@
+[
+  {
+    "id": "m1a-q01",
+    "topicId": "m1a",
+    "stem": "Em um orçamento doméstico, o que caracteriza uma despesa fixa?",
+    "options": [
+      { "text": "Um gasto recorrente e previsível, como aluguel ou mensalidade escolar" },
+      { "text": "Qualquer gasto pago com cartão de crédito", "misconception": "confunde-meio-de-pagamento-com-natureza-do-gasto", "feedback": "A forma de pagar (cartão, dinheiro, Pix) não define a natureza do gasto; o que importa é a recorrência e a previsibilidade." },
+      { "text": "Um gasto que acontece uma única vez por ano" },
+      { "text": "O valor que sobra no fim do mês" }
+    ],
+    "correct": 0,
+    "explanation": "Despesas fixas se repetem com valor previsível (aluguel, internet, mensalidades). Separá-las das variáveis é o primeiro passo para enxergar o orçamento.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1a-q02",
+    "topicId": "m1a",
+    "stem": "Qual é o principal objetivo de manter um orçamento doméstico?",
+    "options": [
+      { "text": "Eliminar todo tipo de lazer da vida", "misconception": "orcamento-como-privacao", "feedback": "Orçamento não é cortar todo prazer; é dar consciência e direção ao dinheiro, inclusive ao lazer planejado." },
+      { "text": "Enxergar para onde vai a renda e gerar sobra para investir" },
+      { "text": "Aumentar o limite do cartão de crédito" },
+      { "text": "Calcular automaticamente o imposto de renda" }
+    ],
+    "correct": 1,
+    "explanation": "O orçamento revela a sobra (ou o rombo) e transforma consciência em capacidade de poupar e investir.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1a-q03",
+    "topicId": "m1a",
+    "stem": "A renda líquida da família é R$ 5.000, com despesas fixas de R$ 3.200 e despesas variáveis de R$ 1.500. Qual é a sobra mensal?",
+    "options": [
+      { "text": "R$ 1.800", "misconception": "ignora-despesas-variaveis", "feedback": "R$ 1.800 considera apenas as despesas fixas; as variáveis também consomem a renda." },
+      { "text": "R$ 300" },
+      { "text": "R$ 500" },
+      { "text": "R$ 800" }
+    ],
+    "correct": 1,
+    "explanation": "Sobra = renda − (fixas + variáveis) = 5.000 − 4.700 = R$ 300. É essa sobra que pode virar reserva e investimento.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "calculo",
+    "hints": ["Some todas as despesas antes de subtrair da renda.", "Sobra = renda − fixas − variáveis."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1a-q04",
+    "topicId": "m1a",
+    "stem": "Ao revisar os gastos, a família descobre que 30% da renda vai para assinaturas e delivery raramente usados. Esse achado é um exemplo de:",
+    "options": [
+      { "text": "Um gargalo (vazamento) do orçamento, candidato natural a corte" },
+      { "text": "Uma despesa fixa essencial e inegociável", "misconception": "trata-supérfluo-como-essencial", "feedback": "Gastos pouco usados não são essenciais; são justamente os mais fáceis de cortar sem perda de qualidade de vida." },
+      { "text": "Um investimento de baixo risco" },
+      { "text": "A reserva de emergência da família" }
+    ],
+    "correct": 0,
+    "explanation": "Gargalos são gastos que pesam muito e entregam pouco; identificá-los é o caminho mais rápido para gerar sobra.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "aplicacao",
+    "hints": ["Pense em qual gasto pesa muito e entrega pouco retorno."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1a-q05",
+    "topicId": "m1a",
+    "stem": "Pela regra 50/30/20, uma renda líquida de R$ 6.000 destinaria a necessidades, desejos e poupança/investimento, respectivamente:",
+    "options": [
+      { "text": "R$ 3.000, R$ 1.800 e R$ 1.200" },
+      { "text": "R$ 3.000, R$ 1.200 e R$ 1.800", "misconception": "inverte-desejos-e-poupanca", "feedback": "Na regra 50/30/20, 30% vai para desejos e 20% para poupança/investimento — aqui os dois foram trocados." },
+      { "text": "R$ 2.000 para cada categoria" },
+      { "text": "R$ 1.200, R$ 1.800 e R$ 3.000" }
+    ],
+    "correct": 0,
+    "explanation": "50% de 6.000 = 3.000 (necessidades), 30% = 1.800 (desejos), 20% = 1.200 (poupança/investimento). É um ponto de partida, não uma regra rígida.",
+    "difficulty": "dificil",
+    "bloom": "aplicar",
+    "type": "calculo",
+    "hints": ["Calcule 50%, 30% e 20% de R$ 6.000.", "Necessidades é a maior fatia; poupança é a menor."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1a-q06",
+    "topicId": "m1a",
+    "stem": "Para um profissional autônomo com renda que varia bastante de mês para mês, qual prática de orçamento é mais saudável?",
+    "options": [
+      { "text": "Dimensionar o padrão de gastos por uma média conservadora e guardar o excedente dos meses bons" },
+      { "text": "Calibrar o padrão de vida pelo melhor mês do ano", "misconception": "ancora-no-melhor-mes", "feedback": "Ancorar os gastos no melhor mês cria um padrão que a renda média não sustenta, gerando dívidas nos meses fracos." },
+      { "text": "Ignorar o orçamento, já que a renda é imprevisível" },
+      { "text": "Financiar o consumo no cartão nos meses fracos e quitar nos fortes" }
+    ],
+    "correct": 0,
+    "explanation": "Com renda volátil, planejar pela média conservadora e reservar o excedente cria um colchão que estabiliza o consumo ao longo do ano.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["O risco está em gastar como se todo mês fosse o melhor mês."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1b-q01",
+    "topicId": "m1b",
+    "stem": "Na lógica patrimonial, um ativo é algo que:",
+    "options": [
+      { "text": "Coloca dinheiro no seu bolso ou tende a se valorizar" },
+      { "text": "Tira dinheiro do seu bolso todos os meses", "misconception": "troca-ativo-por-passivo", "feedback": "Essa é a definição de passivo: gera custos recorrentes. Ativo gera ou preserva valor." },
+      { "text": "É sempre um bem caro, como um carro de luxo" },
+      { "text": "É qualquer objeto que você possui" }
+    ],
+    "correct": 0,
+    "explanation": "Ativo gera renda ou se valoriza; passivo gera custos. A classificação depende do fluxo de caixa, não do preço do bem.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1b-q02",
+    "topicId": "m1b",
+    "stem": "Qual destes é o comportamento típico de um passivo?",
+    "options": [
+      { "text": "Gerar custos recorrentes e/ou se desvalorizar com o tempo" },
+      { "text": "Pagar dividendos mensais ao dono" },
+      { "text": "Se valorizar de forma consistente no longo prazo" },
+      { "text": "Render juros todos os meses" }
+    ],
+    "correct": 0,
+    "explanation": "Passivos drenam recursos (manutenção, juros, depreciação). Reconhecê-los evita confundir consumo com investimento.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1b-q03",
+    "topicId": "m1b",
+    "stem": "Um carro financiado, usado apenas para lazer, com parcelas, seguro e manutenção, tende a ser classificado como:",
+    "options": [
+      { "text": "Um passivo" },
+      { "text": "Um ativo, porque tem valor de revenda", "misconception": "valor-de-revenda-vira-ativo", "feedback": "Ter valor de revenda não basta: o carro drena caixa todo mês e se desvaloriza, comportando-se como passivo." },
+      { "text": "Uma reserva de valor" },
+      { "text": "Um investimento de renda fixa" }
+    ],
+    "correct": 0,
+    "explanation": "Ele consome recursos mensalmente e se desvaloriza — fluxo de caixa negativo é a marca de um passivo.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Olhe o fluxo de caixa mensal: entra ou sai dinheiro por causa dele?"],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1b-q04",
+    "topicId": "m1b",
+    "stem": "Um apartamento comprado para alugar, cujo aluguel cobre com folga as despesas (condomínio, IPTU, manutenção), é melhor classificado como:",
+    "options": [
+      { "text": "Um ativo, pois gera fluxo de caixa positivo" },
+      { "text": "Um passivo, porque imóvel sempre dá despesa" },
+      { "text": "Uma despesa fixa" },
+      { "text": "Uma reserva de emergência" }
+    ],
+    "correct": 0,
+    "explanation": "Se o aluguel líquido é positivo, o imóvel coloca dinheiro no bolso — fluxo de caixa positivo o torna um ativo.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "aplicacao",
+    "hints": ["O aluguel cobre as despesas e ainda sobra? Então o fluxo é positivo."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1b-q05",
+    "topicId": "m1b",
+    "stem": "Do ponto de vista estrito de fluxo de caixa, a casa própria onde a família mora costuma se comportar como:",
+    "options": [
+      { "text": "Um passivo, pois gera custos (IPTU, manutenção) sem gerar renda" },
+      { "text": "Um ativo, porque todo imóvel é investimento", "misconception": "todo-imovel-e-investimento", "feedback": "Nem todo imóvel é ativo: a casa de moradia gera despesas e não produz renda; pelo fluxo de caixa, ela drena recursos." },
+      { "text": "Uma reserva de emergência líquida" },
+      { "text": "Renda variável" }
+    ],
+    "correct": 0,
+    "explanation": "Mesmo trazendo segurança e conforto, no fluxo de caixa a moradia própria gera custos e não renda — por isso costuma ser tratada como passivo nessa análise.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "hints": ["A pergunta é sobre fluxo de caixa, não sobre conforto ou patrimônio."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1b-q06",
+    "topicId": "m1b",
+    "stem": "A mentalidade patrimonial sugere que, para construir riqueza ao longo do tempo, a pessoa deve priorizar:",
+    "options": [
+      { "text": "Adquirir ativos que gerem renda antes de assumir passivos de consumo" },
+      { "text": "Comprar passivos caros para demonstrar sucesso" },
+      { "text": "Manter todo o dinheiro parado na conta corrente" },
+      { "text": "Trocar de carro o mais rápido possível" }
+    ],
+    "correct": 0,
+    "explanation": "Quem primeiro acumula ativos geradores de renda usa esse fluxo para sustentar o estilo de vida — em vez de financiar passivos com a própria renda do trabalho.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["A ordem importa: ativos primeiro, passivos de consumo depois."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1c-q01",
+    "topicId": "m1c",
+    "stem": "Sobre o consórcio, é correto afirmar que:",
+    "options": [
+      { "text": "Não cobra juros, mas tem taxa de administração e a contemplação é incerta" },
+      { "text": "Garante a entrega imediata do bem ao aderir", "misconception": "consorcio-contemplacao-imediata", "feedback": "No consórcio a contemplação ocorre por sorteio ou lance e pode levar anos; não há entrega garantida no início." },
+      { "text": "Rende mais que a bolsa de valores" },
+      { "text": "É totalmente isento de custos" }
+    ],
+    "correct": 0,
+    "explanation": "O consórcio troca juros por taxa de administração, mas a posse do bem depende de sorteio ou lance — pode demorar.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1c-q02",
+    "topicId": "m1c",
+    "stem": "Entre as dívidas a seguir, qual costuma ter os juros mais altos e perigosos?",
+    "options": [
+      { "text": "Rotativo do cartão de crédito e cheque especial" },
+      { "text": "Financiamento imobiliário" },
+      { "text": "Empréstimo consignado" },
+      { "text": "Crédito com garantia de imóvel" }
+    ],
+    "correct": 0,
+    "explanation": "Rotativo do cartão e cheque especial têm os juros mais altos do mercado — devem ser evitados e quitados com prioridade.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1c-q03",
+    "topicId": "m1c",
+    "stem": "Você tem uma dívida no cartão a 14% ao mês e, ao mesmo tempo, R$ 5.000 disponíveis. A decisão financeiramente mais sólida costuma ser:",
+    "options": [
+      { "text": "Quitar a dívida, pois nenhum investimento de baixo risco rende perto de 14% ao mês" },
+      { "text": "Investir os R$ 5.000 em ações para pagar a dívida com o lucro", "misconception": "investir-antes-de-quitar-divida-cara", "feedback": "Apostar em lucro futuro incerto contra juros certos de 14% ao mês é matematicamente desfavorável; quitar é o melhor retorno garantido." },
+      { "text": "Aplicar na poupança e pagar o mínimo do cartão" },
+      { "text": "Fazer um novo financiamento para investir" }
+    ],
+    "correct": 0,
+    "explanation": "Quitar uma dívida de 14% ao mês equivale a um retorno garantido de 14% ao mês — imbatível por qualquer investimento de baixo risco.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Compare o juro CERTO da dívida com o retorno INCERTO do investimento."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1c-q04",
+    "topicId": "m1c",
+    "stem": "Qual é a principal diferença entre financiamento e consórcio?",
+    "options": [
+      { "text": "No financiamento você tem o bem logo e paga juros; no consórcio não há juros, mas a contemplação é incerta" },
+      { "text": "Os dois cobram exatamente os mesmos custos" },
+      { "text": "O consórcio entrega o bem na hora e o financiamento não" },
+      { "text": "Financiamento é isento de juros e consórcio cobra juros altos", "misconception": "inverte-juros-financiamento-consorcio", "feedback": "É o contrário: financiamento cobra juros; consórcio cobra taxa de administração, sem juros." }
+    ],
+    "correct": 0,
+    "explanation": "Financiamento = bem imediato + juros; consórcio = sem juros, com taxa de administração e espera pela contemplação. A escolha depende de pressa e custo total.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Pense em dois eixos: quando você recebe o bem e qual é o custo embutido."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1c-q05",
+    "topicId": "m1c",
+    "stem": "Uma pessoa tem uma dívida cara no cheque especial e recebe a oferta de um consignado com juros muito menores. Trocar uma dívida pela outra (portabilidade/renegociação) faz sentido quando:",
+    "options": [
+      { "text": "O novo custo total é menor e a pessoa não cria dívida nova em cima da antiga" },
+      { "text": "Sempre, em qualquer circunstância, sem analisar o custo total" },
+      { "text": "Nunca, porque trocar de dívida é sempre ruim" },
+      { "text": "Apenas se o prazo for muito mais longo, independentemente do juro" }
+    ],
+    "correct": 0,
+    "explanation": "Substituir dívida cara por barata reduz o custo total — desde que não vire desculpa para gastar de novo e empilhar dívidas.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["O ganho está no custo total menor, não em simplesmente alongar o prazo."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1c-q06",
+    "topicId": "m1c",
+    "stem": "Por que alongar muito o prazo de uma dívida, só para reduzir o valor da parcela, pode ser uma armadilha?",
+    "options": [
+      { "text": "Parcelas menores por muito mais tempo costumam elevar o total de juros pago" },
+      { "text": "Prazos longos sempre eliminam os juros" },
+      { "text": "O valor total da dívida nunca muda com o prazo" },
+      { "text": "Parcela menor significa, necessariamente, dívida menor", "misconception": "parcela-menor-igual-divida-menor", "feedback": "Parcela menor não quer dizer dívida menor: diluir em mais meses costuma aumentar o total de juros pago." }
+    ],
+    "correct": 0,
+    "explanation": "Focar só na parcela esconde o custo total: mais tempo pagando juros normalmente significa pagar muito mais no fim.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "interpretacao",
+    "hints": ["Olhe o total pago ao longo de todo o contrato, não só a parcela."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1d-q01",
+    "topicId": "m1d",
+    "stem": "A reserva de emergência deve ficar preferencialmente em:",
+    "options": [
+      { "text": "Um ativo de alta liquidez e baixo risco, como o Tesouro Selic" },
+      { "text": "Ações de empresas pequenas com alto potencial" },
+      { "text": "Bitcoin, pela valorização" },
+      { "text": "Um fundo imobiliário de tijolo" }
+    ],
+    "correct": 0,
+    "explanation": "A reserva precisa estar disponível a qualquer momento e sem risco de perda — liquidez e segurança vêm antes de retorno.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1d-q02",
+    "topicId": "m1d",
+    "stem": "Na ordem das prioridades financeiras, a reserva de emergência vem:",
+    "options": [
+      { "text": "Antes de qualquer investimento de risco" },
+      { "text": "Depois de já ter uma carteira de ações montada", "misconception": "investe-risco-antes-da-reserva", "feedback": "Sem reserva, o primeiro imprevisto força a vender investimentos de risco no pior momento; a reserva vem antes." },
+      { "text": "Somente após a aposentadoria" },
+      { "text": "Apenas para quem é autônomo" }
+    ],
+    "correct": 0,
+    "explanation": "A reserva é o colchão que evita resgatar investimentos no pior momento diante de imprevistos — por isso é prioridade.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1d-q03",
+    "topicId": "m1d",
+    "stem": "Uma família com despesas mensais de R$ 3.000 quer uma reserva equivalente a 6 meses. De quanto ela precisa?",
+    "options": [
+      { "text": "R$ 18.000" },
+      { "text": "R$ 6.000" },
+      { "text": "R$ 9.000" },
+      { "text": "R$ 36.000", "misconception": "usa-renda-no-lugar-de-despesa", "feedback": "A reserva é calculada sobre as DESPESAS mensais, não sobre o dobro delas nem sobre a renda." }
+    ],
+    "correct": 0,
+    "explanation": "Reserva = despesas mensais × nº de meses = 3.000 × 6 = R$ 18.000. O número de meses depende da estabilidade da renda.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "calculo",
+    "hints": ["Multiplique a despesa mensal pelo número de meses desejado."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1d-q04",
+    "topicId": "m1d",
+    "stem": "Por que não é recomendável manter a reserva de emergência em ações ou criptomoedas?",
+    "options": [
+      { "text": "Porque podem estar desvalorizadas justamente quando você precisar do dinheiro" },
+      { "text": "Porque ações e cripto não rendem nada" },
+      { "text": "Porque é proibido por lei" },
+      { "text": "Porque têm liquidez melhor que o Tesouro Selic" }
+    ],
+    "correct": 0,
+    "explanation": "Ativos voláteis podem cair na hora da emergência, obrigando a vender no prejuízo. A reserva exige previsibilidade, não potencial de alta.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "interpretacao",
+    "hints": ["Emergências não escolhem a hora; e se o ativo estiver em queda nesse dia?"],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1d-q05",
+    "topicId": "m1d",
+    "stem": "Comparada à poupança, a reserva no Tesouro Selic tende a ser melhor principalmente porque:",
+    "options": [
+      { "text": "Acompanha a Selic de forma mais consistente, com liquidez quase imediata" },
+      { "text": "É garantida pelo FGC, enquanto a poupança não é" },
+      { "text": "Nunca pode perder valor em nenhuma hipótese" },
+      { "text": "Tem rendimento fixo de 1% ao mês garantido" }
+    ],
+    "correct": 0,
+    "explanation": "O Tesouro Selic costuma render mais que a poupança em cenários de juros altos e oferece liquidez rápida (resgate em D+1), mantendo baixa oscilação.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Pense em rendimento acompanhando a Selic e em prazo de resgate."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1d-q06",
+    "topicId": "m1d",
+    "stem": "Depois de usar parte da reserva de emergência em um imprevisto, qual é a atitude mais coerente?",
+    "options": [
+      { "text": "Priorizar a recomposição da reserva antes de voltar a investir em risco" },
+      { "text": "Ignorar a reserva, já que ela serviu uma vez" },
+      { "text": "Substituir a reserva por mais ações para recuperar o valor rápido", "misconception": "recompoe-reserva-com-ativo-de-risco", "feedback": "Recompor a reserva com ativos voláteis recria o problema: ela precisa de liquidez e baixo risco." },
+      { "text": "Cancelar a reserva e usar o limite do cartão como emergência" }
+    ],
+    "correct": 0,
+    "explanation": "A reserva é a base da segurança financeira; usá-la e recompô-la faz parte do ciclo. Voltar ao risco só depois de reconstruí-la mantém a proteção.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["A reserva é a fundação; reconstrua-a antes de subir os andares de risco."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1e-q01",
+    "topicId": "m1e",
+    "stem": "A diferença central entre PGBL e VGBL está:",
+    "options": [
+      { "text": "Na forma de tributação e na possibilidade de dedução no IR" },
+      { "text": "No país onde o dinheiro é investido" },
+      { "text": "Apenas no nome comercial do produto" },
+      { "text": "No fato de um deles render sempre mais que o outro", "misconception": "previdencia-define-rentabilidade", "feedback": "PGBL e VGBL são estruturas tributárias; a rentabilidade depende do fundo escolhido, não da sigla." }
+    ],
+    "correct": 0,
+    "explanation": "PGBL permite deduzir aportes da base do IR (com regras) e tributa o resgate sobre o total; VGBL não deduz e tributa só o rendimento.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1e-q02",
+    "topicId": "m1e",
+    "stem": "O PGBL tende a ser mais vantajoso para quem:",
+    "options": [
+      { "text": "Faz a declaração completa do IR e pode deduzir até 12% da renda tributável" },
+      { "text": "Faz a declaração simplificada do IR" },
+      { "text": "É isento de imposto de renda" },
+      { "text": "Não possui nenhuma renda tributável" }
+    ],
+    "correct": 0,
+    "explanation": "A dedução de até 12% só beneficia quem declara no modelo completo e tem imposto a pagar; para os demais, o VGBL costuma ser melhor.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1e-q03",
+    "topicId": "m1e",
+    "stem": "Uma pessoa que faz a declaração simplificada do IR e quer previdência privada deveria, em geral, preferir:",
+    "options": [
+      { "text": "VGBL, pois não aproveitaria a dedução do PGBL e o VGBL tributa só o rendimento" },
+      { "text": "PGBL, para deduzir 12% mesmo na simplificada", "misconception": "deducao-pgbl-na-simplificada", "feedback": "A dedução de 12% do PGBL só existe na declaração completa; na simplificada ela não se aplica." },
+      { "text": "Tanto faz, pois a tributação é idêntica" },
+      { "text": "Nenhum dos dois, porque previdência nunca vale a pena" }
+    ],
+    "correct": 0,
+    "explanation": "Sem aproveitar a dedução, o PGBL perde a vantagem e ainda tributa o total no resgate; por isso o VGBL costuma ser melhor para quem usa a declaração simplificada.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["A vantagem do PGBL é a dedução — e ela exige declaração completa."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1e-q04",
+    "topicId": "m1e",
+    "stem": "Na previdência privada, a tabela regressiva de IR é mais indicada para quem pretende:",
+    "options": [
+      { "text": "Deixar o dinheiro investido por muitos anos, chegando à alíquota mínima de 10%" },
+      { "text": "Resgatar tudo em menos de dois anos" },
+      { "text": "Fazer saques frequentes de curto prazo" },
+      { "text": "Evitar qualquer tributação para sempre" }
+    ],
+    "correct": 0,
+    "explanation": "Na tabela regressiva, a alíquota cai com o tempo, chegando a 10% após 10 anos — ideal para objetivos de longo prazo, como aposentadoria.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Quanto mais tempo investido, menor a alíquota na tabela regressiva."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1e-q05",
+    "topicId": "m1e",
+    "stem": "No momento do resgate, qual afirmação sobre a tributação está correta?",
+    "options": [
+      { "text": "No PGBL o IR incide sobre todo o valor resgatado; no VGBL, apenas sobre o rendimento" },
+      { "text": "Em ambos o IR incide somente sobre o rendimento" },
+      { "text": "Em ambos o IR incide sobre todo o valor resgatado" },
+      { "text": "No VGBL o IR incide sobre o total e no PGBL só sobre o rendimento", "misconception": "inverte-base-pgbl-vgbl", "feedback": "Está invertido: PGBL tributa o total resgatado; VGBL tributa apenas o rendimento." }
+    ],
+    "correct": 0,
+    "explanation": "Como o PGBL deduziu os aportes na entrada, ele cobra IR sobre o total na saída; o VGBL, que não deduziu, cobra só sobre o ganho.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Quem deduziu na entrada paga sobre o total na saída."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1e-q06",
+    "topicId": "m1e",
+    "stem": "Um investidor de declaração completa, com horizonte de 20 anos para a aposentadoria, busca eficiência tributária. A combinação mais coerente costuma ser:",
+    "options": [
+      { "text": "PGBL com tabela regressiva, aproveitando a dedução e a alíquota mínima de 10% no longo prazo" },
+      { "text": "VGBL com tabela progressiva para saques mensais imediatos" },
+      { "text": "PGBL com tabela progressiva para resgatar em 1 ano" },
+      { "text": "Qualquer combinação, pois não há diferença tributária" }
+    ],
+    "correct": 0,
+    "explanation": "Para quem declara no completo e tem horizonte longo, o PGBL aproveita a dedução de 12% e a tabela regressiva leva a alíquota a 10% — alta eficiência tributária.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Junte duas vantagens: dedução do PGBL (completa) + alíquota mínima da regressiva (longo prazo)."],
+    "source": "M1 · Organize seus gastos"
+  }
+]

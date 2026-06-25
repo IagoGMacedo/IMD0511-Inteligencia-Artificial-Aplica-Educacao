@@ -1,0 +1,426 @@
+[
+  {
+    "id": "m4a-q01",
+    "topicId": "m4a",
+    "stem": "A função principal de uma reserva de valor é:",
+    "options": [
+      { "text": "Proteger o patrimônio contra inflação e crises ao longo do tempo" },
+      { "text": "Multiplicar o patrimônio rapidamente" },
+      { "text": "Substituir a reserva de emergência" },
+      { "text": "Pagar dividendos mensais ao investidor" }
+    ],
+    "correct": 0,
+    "explanation": "Reserva de valor é seguro, não motor de crescimento: o objetivo é preservar poder de compra em cenários adversos.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4a-q02",
+    "topicId": "m4a",
+    "stem": "Em relação ao restante da carteira, reservas de valor costumam ter peso:",
+    "options": [
+      { "text": "Minoritário, como proteção e diversificação" },
+      { "text": "Majoritário, acima de 80% do patrimônio" },
+      { "text": "Sempre exatamente igual a zero" },
+      { "text": "Igual a 100% da carteira" }
+    ],
+    "correct": 0,
+    "explanation": "Por serem proteção, entram em proporção menor para diversificar, não para dominar a carteira.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4a-q03",
+    "topicId": "m4a",
+    "stem": "Qual é a diferença entre reserva de valor e reserva de emergência?",
+    "options": [
+      { "text": "A de emergência prioriza liquidez e baixo risco para imprevistos; a de valor visa proteger o patrimônio contra inflação e crises no longo prazo" },
+      { "text": "São exatamente a mesma coisa, com nomes diferentes", "misconception": "confunde-reserva-valor-com-emergencia", "feedback": "Não são iguais: a de emergência precisa de liquidez imediata e baixo risco; a de valor pode oscilar e foca em proteção de longo prazo." },
+      { "text": "A reserva de valor deve ficar no Tesouro Selic" },
+      { "text": "A reserva de emergência é feita de ouro e bitcoin" }
+    ],
+    "correct": 0,
+    "explanation": "São papéis distintos: a de emergência é dinheiro líquido e seguro para imprevistos; a de valor protege o poder de compra no longo prazo e pode oscilar.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Pense em liquidez e prazo: uma é para imprevistos, a outra para o longo prazo."],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4a-q04",
+    "topicId": "m4a",
+    "stem": "Quais ativos são tipicamente citados como possíveis reservas de valor?",
+    "options": [
+      { "text": "Ouro e bitcoin, entre outros ativos de oferta limitada ou refúgio histórico" },
+      { "text": "Apenas o cheque especial" },
+      { "text": "Cartões de crédito e financiamentos" },
+      { "text": "Somente a poupança" }
+    ],
+    "correct": 0,
+    "explanation": "Ouro (refúgio histórico) e bitcoin (escassez programada) são exemplos comuns de candidatos a reserva de valor — cada um com seus riscos.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Pense em ativos de oferta escassa ou refúgio tradicional."],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4a-q05",
+    "topicId": "m4a",
+    "stem": "Uma característica comum das reservas de valor (como o ouro) é que elas:",
+    "options": [
+      { "text": "Geralmente não geram renda (juros ou dividendos), valendo pela preservação e pela proteção em crises" },
+      { "text": "Pagam juros mensais como um CDB" },
+      { "text": "Distribuem dividendos trimestrais" },
+      { "text": "Garantem rendimento real positivo todo ano" }
+    ],
+    "correct": 0,
+    "explanation": "Reservas de valor clássicas não pagam renda; seu papel é preservar poder de compra e atuar como proteção, não gerar fluxo de caixa.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Elas protegem, mas você recebe juros ou dividendos delas?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4a-q06",
+    "topicId": "m4a",
+    "stem": "Por que incluir uma pequena fatia de reserva de valor pode melhorar uma carteira diversificada?",
+    "options": [
+      { "text": "Porque tende a ter baixa correlação com ações e renda fixa, ajudando a amortecer perdas em certas crises" },
+      { "text": "Porque garante o maior retorno da carteira em qualquer cenário", "misconception": "reserva-valor-como-motor-de-retorno", "feedback": "Reserva de valor não é o motor de retorno da carteira; seu benefício é a proteção e a baixa correlação, não maximizar o ganho." },
+      { "text": "Porque elimina completamente o risco da carteira" },
+      { "text": "Porque substitui a necessidade de renda fixa e ações" }
+    ],
+    "correct": 0,
+    "explanation": "Ativos com baixa correlação tendem a se comportar de forma diferente do resto em crises, suavizando a oscilação total da carteira — esse é o ganho de diversificação.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["O valor está em se comportar diferente do resto da carteira nas crises."],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4b-q01",
+    "topicId": "m4b",
+    "stem": "O ouro é historicamente visto como:",
+    "options": [
+      { "text": "Um ativo de proteção (refúgio) em momentos de crise" },
+      { "text": "Um gerador de dividendos mensais" },
+      { "text": "Uma renda fixa garantida pelo FGC" },
+      { "text": "Uma moeda digital descentralizada" }
+    ],
+    "correct": 0,
+    "explanation": "O ouro é refúgio tradicional: não paga renda, mas tende a preservar valor e ser buscado em crises.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4b-q02",
+    "topicId": "m4b",
+    "stem": "Uma forma prática de ter exposição ao ouro sem guardar o metal físico é:",
+    "options": [
+      { "text": "Comprar contratos ou fundos/ETFs de ouro pela bolsa" },
+      { "text": "Comprar ações de bancos" },
+      { "text": "Aplicar no Tesouro Selic" },
+      { "text": "Abrir uma conta poupança" }
+    ],
+    "correct": 0,
+    "explanation": "Na bolsa há contratos e fundos que dão exposição ao ouro, evitando os custos e riscos de guardar o metal físico.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4b-q03",
+    "topicId": "m4b",
+    "stem": "Diferentemente de um aluguel de imóvel ou dos juros de um CDB, investir em ouro:",
+    "options": [
+      { "text": "Não gera fluxo de renda; o retorno vem apenas da variação do preço" },
+      { "text": "Paga juros mensais fixos" },
+      { "text": "Distribui dividendos trimestrais" },
+      { "text": "Garante rendimento acima da inflação todo ano" }
+    ],
+    "correct": 0,
+    "explanation": "O ouro não distribui renda; quem investe ganha (ou perde) apenas com a variação do preço, o que reforça seu papel de proteção, não de renda.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "conceitual",
+    "hints": ["O ouro paga algum rendimento periódico, ou só varia de preço?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4b-q04",
+    "topicId": "m4b",
+    "stem": "Para um investidor brasileiro, comprar ouro (cotado em dólar) costuma trazer, na prática, exposição:",
+    "options": [
+      { "text": "Tanto à variação do ouro quanto à variação do dólar frente ao real" },
+      { "text": "Apenas ao preço do ouro, sem nenhuma relação com o câmbio", "misconception": "ignora-cambio-no-ouro", "feedback": "Como o ouro é cotado em dólar, o brasileiro fica exposto também à variação do dólar/real — não só ao preço do metal." },
+      { "text": "Somente ao câmbio, independentemente do preço do ouro" },
+      { "text": "À taxa Selic" }
+    ],
+    "correct": 0,
+    "explanation": "Por ser precificado em dólar, o ouro embute para o brasileiro uma dupla exposição: ao metal e ao câmbio — o que reforça seu efeito protetor quando o real se desvaloriza.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "aplicacao",
+    "hints": ["Em que moeda o ouro é cotado, e como isso afeta um brasileiro?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4b-q05",
+    "topicId": "m4b",
+    "stem": "Em uma crise global de forte aversão a risco, o comportamento historicamente esperado do ouro é:",
+    "options": [
+      { "text": "Tender a se valorizar ou resistir melhor, atuando como refúgio enquanto ativos de risco caem" },
+      { "text": "Cair sempre mais que as ações" },
+      { "text": "Pagar dividendos extraordinários" },
+      { "text": "Ser garantido pelo Banco Central como renda fixa" }
+    ],
+    "correct": 0,
+    "explanation": "Em momentos de pânico, investidores buscam refúgio; o ouro costuma se valorizar ou cair menos, ajudando a proteger a carteira — embora não haja garantia.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "hints": ["Para onde o dinheiro costuma correr quando o medo domina o mercado?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4b-q06",
+    "topicId": "m4b",
+    "stem": "Ao decidir entre ouro físico e ouro via bolsa (contratos/fundos), um ponto importante a favor da bolsa é:",
+    "options": [
+      { "text": "Evitar custos e riscos de guarda, transporte e autenticidade do metal físico, com mais liquidez" },
+      { "text": "Garantir rendimento mensal em juros" },
+      { "text": "Isenção total de qualquer imposto sobre o ganho" },
+      { "text": "Eliminar a variação de preço do ouro" }
+    ],
+    "correct": 0,
+    "explanation": "O ouro em bolsa dispensa cofres, seguros e verificação de pureza, e oferece liquidez para comprar e vender — vantagens práticas frente ao metal físico.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Pense nos custos e dores de cabeça de guardar barras de ouro em casa."],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4c-q01",
+    "topicId": "m4c",
+    "stem": "A blockchain do Bitcoin é, em essência:",
+    "options": [
+      { "text": "Um registro distribuído e praticamente imutável de transações" },
+      { "text": "Um banco central digital controlado por um país" },
+      { "text": "Uma corretora de criptomoedas" },
+      { "text": "Um fundo de investimento tradicional" }
+    ],
+    "correct": 0,
+    "explanation": "É um livro-razão público, replicado em milhares de nós, em que os registros, uma vez confirmados, são extremamente difíceis de alterar.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4c-q02",
+    "topicId": "m4c",
+    "stem": "Uma característica central da tese do Bitcoin como reserva de valor é:",
+    "options": [
+      { "text": "A escassez programada, com oferta máxima limitada a 21 milhões de unidades" },
+      { "text": "A emissão ilimitada conforme a demanda" },
+      { "text": "A garantia de valor dada pelo FGC" },
+      { "text": "O rendimento fixo mensal pago aos holders" }
+    ],
+    "correct": 0,
+    "explanation": "A oferta é limitada por código (21 milhões), base da narrativa de escassez digital que sustenta a tese de reserva de valor.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4c-q03",
+    "topicId": "m4c",
+    "stem": "Dizer que o Bitcoin é descentralizado significa que:",
+    "options": [
+      { "text": "Nenhuma autoridade central (governo ou banco) controla sozinha a rede; ela é mantida por milhares de participantes" },
+      { "text": "Um único banco central emite e controla todas as moedas" },
+      { "text": "A rede é operada exclusivamente por uma corretora" },
+      { "text": "O governo brasileiro garante cada unidade" }
+    ],
+    "correct": 0,
+    "explanation": "A rede é distribuída entre muitos nós ao redor do mundo, sem um controlador central — o que é, ao mesmo tempo, sua força e parte do seu risco regulatório.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Quem está no comando: uma instituição central ou uma rede distribuída?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4c-q04",
+    "topicId": "m4c",
+    "stem": "Por que o Bitcoin NÃO é adequado como reserva de emergência?",
+    "options": [
+      { "text": "Por sua alta volatilidade: pode estar bem desvalorizado justamente quando você precisar do dinheiro" },
+      { "text": "Porque não pode ser vendido nunca" },
+      { "text": "Porque rende juros fixos como um CDB" },
+      { "text": "Porque é garantido pelo FGC e por isso rende pouco" }
+    ],
+    "correct": 0,
+    "explanation": "A reserva de emergência exige baixa oscilação e liquidez segura; o bitcoin, muito volátil, pode forçar um resgate no prejuízo no pior momento.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Reserva de emergência precisa de estabilidade; o bitcoin oferece isso?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4c-q05",
+    "topicId": "m4c",
+    "stem": "O halving do Bitcoin é o evento periódico que:",
+    "options": [
+      { "text": "Reduz pela metade a emissão de novas unidades, desacelerando o ritmo de criação de oferta" },
+      { "text": "Dobra a quantidade máxima de bitcoins que podem existir", "misconception": "halving-aumenta-oferta", "feedback": "O halving NÃO aumenta a oferta máxima; ele corta pela metade o ritmo de EMISSÃO de novas moedas, reforçando a escassez." },
+      { "text": "Distribui dividendos aos detentores" },
+      { "text": "Garante alta de preço imediata" }
+    ],
+    "correct": 0,
+    "explanation": "A cada halving, a recompensa por bloco cai pela metade, reduzindo a velocidade de criação de novos bitcoins e reforçando a narrativa de escassez.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Halving age sobre o ritmo de emissão, não sobre o teto de 21 milhões."],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4c-q06",
+    "topicId": "m4c",
+    "stem": "Um risco importante de tratar o Bitcoin como parte da carteira é que ele:",
+    "options": [
+      { "text": "Não tem garantia de nenhuma instituição (não há FGC nem banco central por trás), além de forte volatilidade" },
+      { "text": "Tem rendimento garantido pelo Tesouro Nacional" },
+      { "text": "É protegido pelo FGC até R$ 250 mil" },
+      { "text": "Nunca oscila de preço" }
+    ],
+    "correct": 0,
+    "explanation": "Não há garantidor: o valor depende inteiramente do mercado, e a volatilidade é alta. Por isso costuma entrar em proporção pequena e consciente do risco.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "hints": ["Existe algum FGC ou banco central garantindo o bitcoin?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4d-q01",
+    "topicId": "m4d",
+    "stem": "Uma cold wallet (carteira fria) se caracteriza por:",
+    "options": [
+      { "text": "Armazenar as chaves privadas offline, com mais segurança contra ataques remotos" },
+      { "text": "Estar sempre conectada à internet" },
+      { "text": "Ser administrada por um banco tradicional" },
+      { "text": "Pagar juros sobre os criptoativos" }
+    ],
+    "correct": 0,
+    "explanation": "Por ficar offline, a cold wallet reduz drasticamente a exposição a ataques remotos, sendo indicada para guardar valores por longo prazo.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4d-q02",
+    "topicId": "m4d",
+    "stem": "O lema not your keys, not your coins resume a ideia de que:",
+    "options": [
+      { "text": "Quem detém as chaves privadas é quem realmente controla os criptoativos" },
+      { "text": "As moedas pertencem sempre à corretora" },
+      { "text": "As chaves não têm importância nenhuma" },
+      { "text": "O governo controla todas as carteiras" }
+    ],
+    "correct": 0,
+    "explanation": "No mundo cripto, controlar as chaves privadas é controlar os ativos; deixá-los só na corretora significa depender da segurança dela.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4d-q03",
+    "topicId": "m4d",
+    "stem": "Comparada a uma cold wallet, uma hot wallet (carteira quente) oferece:",
+    "options": [
+      { "text": "Mais praticidade para transações frequentes, porém maior exposição a riscos por estar conectada à internet" },
+      { "text": "Mais segurança, por estar sempre offline" },
+      { "text": "Rendimento fixo garantido" },
+      { "text": "Cobertura do FGC" }
+    ],
+    "correct": 0,
+    "explanation": "A hot wallet é conveniente para o dia a dia, mas a conexão constante à internet aumenta a superfície de ataque — troca-se segurança por praticidade.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Conectada à internet: ganha-se praticidade e perde-se o quê?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4d-q04",
+    "topicId": "m4d",
+    "stem": "Deixar os criptoativos sob custódia de uma corretora (em vez de autocustódia) significa que:",
+    "options": [
+      { "text": "Você depende da segurança e da solvência da corretora, pois não controla diretamente as chaves" },
+      { "text": "Você passa a controlar pessoalmente as chaves privadas" },
+      { "text": "Os ativos ficam garantidos pelo FGC", "misconception": "cripto-em-corretora-tem-fgc", "feedback": "Criptoativos em corretora não são cobertos pelo FGC; você fica exposto ao risco da própria corretora." },
+      { "text": "É impossível sofrer qualquer perda" }
+    ],
+    "correct": 0,
+    "explanation": "Na custódia em corretora, as chaves ficam com ela; isso traz comodidade, mas você assume o risco de falhas ou insolvência da plataforma.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "interpretacao",
+    "hints": ["Se a corretora guarda as chaves, de quem é o risco?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4d-q05",
+    "topicId": "m4d",
+    "stem": "A seed phrase (frase de recuperação) de uma carteira de autocustódia deve ser:",
+    "options": [
+      { "text": "Guardada offline e em segredo, pois quem a possui consegue acessar todos os ativos da carteira" },
+      { "text": "Compartilhada com a corretora para segurança extra", "misconception": "compartilha-seed-phrase", "feedback": "Nunca compartilhe a seed phrase: quem a tem controla a carteira. Ela deve ser mantida offline e em sigilo absoluto." },
+      { "text": "Publicada para backup na nuvem pública" },
+      { "text": "Enviada por e-mail para você mesmo" }
+    ],
+    "correct": 0,
+    "explanation": "A seed phrase é a chave-mestra da carteira; mantê-la offline e secreta é essencial, pois qualquer pessoa com ela acessa todos os fundos.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Quem tiver a frase tem a carteira — então com quem você a compartilha?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4d-q06",
+    "topicId": "m4d",
+    "stem": "Na autocustódia, perder a chave privada/seed phrase sem backup costuma significar:",
+    "options": [
+      { "text": "Perda irreversível do acesso aos ativos, pois não há central de atendimento para recuperá-los" },
+      { "text": "Recuperação simples ligando para o banco" },
+      { "text": "Reembolso garantido pelo FGC" },
+      { "text": "Nenhum problema, pois a rede devolve os fundos automaticamente" }
+    ],
+    "correct": 0,
+    "explanation": "Sem intermediário para recuperar senhas, perder a chave sem backup torna os fundos inacessíveis para sempre — a responsabilidade é inteiramente do usuário.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "hints": ["Não há SAC nem banco central para recuperar a chave perdida."],
+    "source": "M4 · Reservas de Valor"
+  }
+]

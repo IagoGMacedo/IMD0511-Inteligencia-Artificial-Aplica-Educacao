@@ -1,19 +1,25 @@
 import { useCallback, useEffect, useState } from 'react'
-import { QUESTIONS } from '../data/questions'
+import { getQuestion } from '../data/questions'
+import { applyHintPenalty, DEFAULT_PT, updateBKT } from '../lib/bkt'
+import { selectNextQuestion } from '../lib/itemSelection'
 import { loadState, saveState } from '../lib/storage'
-import { DEFAULT_ALPHA, initialState, nextMastery } from '../lib/studentModel'
-import type { ProgressState } from '../types'
+import { initialState } from '../lib/studentModel'
+import type { ProgressState, Question } from '../types'
+
+/** Quantos itens recentes lembrar por tópico para evitar repetição imediata. */
+const RECENT_LIMIT = 3
 
 /**
- * Concentra todo o estado mutável da trilha (modelo do aluno, parâmetro α,
- * fila de questões e o tópico aberto no drawer) e as ações que o alteram —
- * o equivalente em React do estado global do protótipo original.
+ * Concentra todo o estado mutável da trilha (modelo do aluno BKT, ritmo de
+ * aprendizado P(T), a questão atualmente selecionada por tópico e o tópico
+ * aberto no drawer) e as ações que o alteram.
  */
 export function useTrilha() {
   const [progress, setProgress] = useState<ProgressState>(initialState)
-  const [alpha, setAlphaState] = useState<number>(DEFAULT_ALPHA)
-  const [qPos, setQPos] = useState<Record<string, number>>({})
+  const [pT, setPTState] = useState<number>(DEFAULT_PT)
   const [currentTopic, setCurrentTopic] = useState<string | null>(null)
+  const [currentQId, setCurrentQId] = useState<Record<string, string>>({})
+  const [recentIds, setRecentIds] = useState<Record<string, string[]>>({})
   const [answeredIdx, setAnsweredIdx] = useState<number | null>(null)
   const [loaded, setLoaded] = useState(false)
 
@@ -32,53 +38,67 @@ export function useTrilha() {
             return merged
           })
         }
-        if (typeof saved.alpha === 'number') setAlphaState(saved.alpha)
+        if (typeof saved.pT === 'number') setPTState(saved.pT)
       }
       setLoaded(true)
     })
     return () => { alive = false }
   }, [])
 
-  // Persiste o modelo do aluno e α sempre que mudam (após o carregamento inicial).
+  // Persiste o modelo do aluno e P(T) sempre que mudam (após o carregamento inicial).
   useEffect(() => {
     if (!loaded) return
-    saveState(progress, alpha)
-  }, [progress, alpha, loaded])
+    saveState(progress, pT)
+  }, [progress, pT, loaded])
+
+  /** Seleciona adaptativamente uma questão para o tópico e a registra. */
+  const pickQuestion = useCallback((id: string) => {
+    setCurrentQId((prev) => {
+      const q = selectNextQuestion(id, progress[id]?.m ?? 0, recentIds[id] ?? [])
+      return q ? { ...prev, [id]: q.id } : prev
+    })
+  }, [progress, recentIds])
 
   const openTopic = useCallback((id: string) => {
     setCurrentTopic(id)
     setAnsweredIdx(null)
-    setQPos((prev) => (prev[id] == null ? { ...prev, [id]: 0 } : prev))
-  }, [])
+    pickQuestion(id)
+  }, [pickQuestion])
 
   const closeDrawer = useCallback(() => setCurrentTopic(null), [])
 
-  const answer = useCallback((optIndex: number) => {
+  const answer = useCallback((optIndex: number, hintsUsed = 0) => {
     const id = currentTopic
     if (id == null || answeredIdx != null) return
-    const bank = QUESTIONS[id] || []
-    const item = bank[qPos[id] % bank.length]
-    const correct = optIndex === item.c
+    const qid = currentQId[id]
+    const item = qid ? getQuestion(qid) : undefined
+    if (!item) return
+    const correct = optIndex === item.correct
     setAnsweredIdx(optIndex)
-    setProgress((prev) => ({
-      ...prev,
-      [id]: { m: nextMastery(prev[id].m, correct, alpha), seen: prev[id].seen + 1 },
-    }))
-  }, [currentTopic, answeredIdx, qPos, alpha])
+    setProgress((prev) => {
+      const bkt = updateBKT(prev[id].m, correct, item.difficulty, pT)
+      const m = applyHintPenalty(prev[id].m, bkt, hintsUsed > 0)
+      return { ...prev, [id]: { m, seen: prev[id].seen + 1 } }
+    })
+    setRecentIds((prev) => {
+      const list = [item.id, ...(prev[id] ?? [])].slice(0, RECENT_LIMIT)
+      return { ...prev, [id]: list }
+    })
+  }, [currentTopic, currentQId, answeredIdx, pT])
 
   const nextQuestion = useCallback(() => {
     const id = currentTopic
     if (id == null) return
-    const bank = QUESTIONS[id] || []
-    setQPos((prev) => ({ ...prev, [id]: (prev[id] + 1) % bank.length }))
     setAnsweredIdx(null)
-  }, [currentTopic])
+    pickQuestion(id)
+  }, [currentTopic, pickQuestion])
 
-  const setAlpha = useCallback((value: number) => setAlphaState(value), [])
+  const setPT = useCallback((value: number) => setPTState(value), [])
 
   const reset = useCallback(() => {
     setProgress(initialState())
-    setQPos({})
+    setCurrentQId({})
+    setRecentIds({})
     setCurrentTopic(null)
     setAnsweredIdx(null)
   }, [])
@@ -90,8 +110,11 @@ export function useTrilha() {
     return () => document.removeEventListener('keydown', onKey)
   }, [closeDrawer])
 
+  const currentQuestion: Question | null =
+    (currentTopic && currentQId[currentTopic] ? getQuestion(currentQId[currentTopic]) : undefined) ?? null
+
   return {
-    progress, alpha, qPos, currentTopic, answeredIdx,
-    openTopic, closeDrawer, answer, nextQuestion, setAlpha, reset,
+    progress, pT, currentTopic, currentQuestion, answeredIdx,
+    openTopic, closeDrawer, answer, nextQuestion, setPT, reset,
   }
 }

@@ -137,7 +137,14 @@ input[type=range]{accent-color:var(--clay); width:96px}
 
 /* ---------- QUESTION ---------- */
 .qbox{margin-top:6px; border-top:1px solid var(--surface-2); padding-top:18px}
+.qhead{display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:10px}
 .qnum{font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-soft); margin-bottom:10px}
+.qhead .qnum{margin-bottom:0}
+.diff-badge{font-family:var(--mono); font-size:10px; letter-spacing:.1em; text-transform:uppercase;
+  padding:3px 9px; border-radius:99px; border:1px solid transparent; white-space:nowrap}
+.diff-badge.facil{background:rgba(63,125,78,.12); color:var(--green); border-color:rgba(63,125,78,.35)}
+.diff-badge.medio{background:rgba(214,162,60,.16); color:var(--gold-deep); border-color:rgba(214,162,60,.4)}
+.diff-badge.dificil{background:rgba(184,84,44,.12); color:var(--clay); border-color:rgba(184,84,44,.35)}
 .enun{font-size:14px; color:var(--ink); font-weight:500; line-height:1.5; margin-bottom:14px}
 .opt{display:flex; gap:11px; align-items:flex-start; width:100%; text-align:left; background:var(--surface);
   border:1px solid var(--sage-line); border-radius:11px; padding:11px 13px; margin-bottom:9px; cursor:pointer;
@@ -152,7 +159,20 @@ input[type=range]{accent-color:var(--clay); width:96px}
 .feedback{font-size:12.8px; line-height:1.5; padding:11px 13px; border-radius:11px; margin-top:6px}
 .feedback.ok{background:rgba(63,125,78,.10); color:#2f5d3a}
 .feedback.no{background:rgba(184,84,44,.08); color:#7a3a20}
+.feedback.misc{background:rgba(214,162,60,.14); color:#7a5a16; margin-bottom:8px}
 .feedback b{font-weight:600}
+
+/* dicas progressivas (scaffolding) */
+.hints{margin:0 0 12px}
+.hint{display:flex; gap:9px; font-size:12.8px; line-height:1.5; color:var(--ink-soft);
+  background:var(--surface-2); border-radius:10px; padding:9px 12px; margin-bottom:7px}
+.hint .hint-lt{font-family:var(--mono); font-size:10px; letter-spacing:.08em; text-transform:uppercase;
+  color:var(--gold-deep); flex:0 0 auto; padding-top:1px}
+.hint-btn{display:inline-flex; align-items:center; gap:7px; font-family:var(--body); font-size:12.5px;
+  font-weight:600; color:var(--gold-deep); background:rgba(214,162,60,.10);
+  border:1px dashed var(--gold); border-radius:10px; padding:8px 12px; cursor:pointer; transition:.12s}
+.hint-btn:hover{background:rgba(214,162,60,.18)}
+.hint-btn .hint-count{font-family:var(--mono); font-size:10.5px; color:var(--ink-soft)}
 .nextq{margin-top:14px; font-family:var(--body); font-weight:600; font-size:13.5px; background:var(--petrol);
   color:#F3EEE2; border:none; border-radius:11px; padding:12px 14px; cursor:pointer; width:100%}
 .nextq:hover{background:var(--petrol-2)}

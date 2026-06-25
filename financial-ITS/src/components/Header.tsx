@@ -1,12 +1,12 @@
 interface HeaderProps {
-  alpha: number
+  pT: number
   globalPct: number // 0–1
-  onAlphaChange: (value: number) => void
+  onPTChange: (value: number) => void
   onReset: () => void
 }
 
-/** Cabeçalho fixo: marca, controle do ganho α, reiniciar e domínio global. */
-export function Header({ alpha, globalPct, onAlphaChange, onReset }: HeaderProps) {
+/** Cabeçalho fixo: marca, controle do ritmo de aprendizado P(T), reiniciar e domínio global. */
+export function Header({ pT, globalPct, onPTChange, onReset }: HeaderProps) {
   const pct = Math.round(globalPct * 100)
   return (
     <header>
@@ -18,11 +18,11 @@ export function Header({ alpha, globalPct, onAlphaChange, onReset }: HeaderProps
         <div className="head-spacer" />
         <div className="alpha-box">
           <label>
-            ganho por acerto <code>α = {alpha.toFixed(2)}</code>
+            ritmo de aprendizado <code>P(T) = {pT.toFixed(2)}</code>
           </label>
           <input
-            type="range" min="0.1" max="0.5" step="0.05" value={alpha}
-            onChange={(e) => onAlphaChange(parseFloat(e.target.value))}
+            type="range" min="0.05" max="0.4" step="0.05" value={pT}
+            onChange={(e) => onPTChange(parseFloat(e.target.value))}
           />
         </div>
         <button className="ghost-btn" onClick={onReset}>Reiniciar progresso</button>

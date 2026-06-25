@@ -1,0 +1,426 @@
+[
+  {
+    "id": "m6a-q01",
+    "topicId": "m6a",
+    "stem": "Gerir a carteira significa, sobretudo:",
+    "options": [
+      { "text": "Acompanhar e manter os ativos fiéis à estratégia definida" },
+      { "text": "Comprar e vender ativos todos os dias" },
+      { "text": "Seguir cegamente dicas de redes sociais" },
+      { "text": "Nunca mais olhar a carteira depois de montá-la" }
+    ],
+    "correct": 0,
+    "explanation": "Gestão é manter a disciplina da estratégia, não girar a carteira a cada notícia.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6a-q02",
+    "topicId": "m6a",
+    "stem": "Acompanhar a carteira com regularidade serve principalmente para:",
+    "options": [
+      { "text": "Perceber desvios em relação à alocação-alvo e agir com critério" },
+      { "text": "Garantir lucro em todas as operações" },
+      { "text": "Eliminar impostos da carteira" },
+      { "text": "Prever exatamente o futuro do mercado" }
+    ],
+    "correct": 0,
+    "explanation": "O acompanhamento serve para notar quando os pesos saíram do alvo e decidir com critério, não para adivinhar o mercado.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6a-q03",
+    "topicId": "m6a",
+    "stem": "Por que girar a carteira em excesso (comprar e vender com muita frequência) costuma prejudicar o resultado?",
+    "options": [
+      { "text": "Porque acumula custos de operação e impostos, além de aumentar a chance de decisões emocionais" },
+      { "text": "Porque é proibido pela bolsa" },
+      { "text": "Porque reduz o número de ações disponíveis no mundo" },
+      { "text": "Porque sempre garante prejuízo imediato" }
+    ],
+    "correct": 0,
+    "explanation": "Operar demais gera corretagem, impostos e desgaste emocional; a disciplina de longo prazo tende a superar o excesso de movimentação.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "interpretacao",
+    "hints": ["Cada operação tem custo e imposto; muitas operações somam o quê?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6a-q04",
+    "topicId": "m6a",
+    "stem": "Diante de uma notícia ruim e de uma forte queda no dia, a postura de gestão mais coerente costuma ser:",
+    "options": [
+      { "text": "Avaliar com calma se algo mudou na estratégia ou nos fundamentos, em vez de vender no impulso" },
+      { "text": "Vender tudo imediatamente para estancar a dor", "misconception": "vende-no-panico", "feedback": "Vender no pânico cristaliza perdas e costuma destruir resultado de longo prazo; a gestão pede avaliar os fundamentos com calma." },
+      { "text": "Dobrar a aposta em um único ativo para recuperar rápido" },
+      { "text": "Ignorar a estratégia e seguir o que mais gente está fazendo" }
+    ],
+    "correct": 0,
+    "explanation": "Boa gestão separa ruído de mudança real de fundamentos; decisões devem seguir a estratégia, não o medo do dia.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["A pergunta é: algo mudou de verdade, ou é só o pânico do dia?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6a-q05",
+    "topicId": "m6a",
+    "stem": "Ter uma política de investimentos escrita (objetivos, alocação-alvo e regras) ajuda a gestão porque:",
+    "options": [
+      { "text": "Cria um critério objetivo que reduz decisões emocionais nos momentos de euforia ou pânico" },
+      { "text": "Garante que a carteira nunca terá perdas" },
+      { "text": "Elimina a necessidade de acompanhar a carteira" },
+      { "text": "Substitui o estudo dos ativos" }
+    ],
+    "correct": 0,
+    "explanation": "Regras definidas com a cabeça fria orientam a ação quando a emoção aperta, dando consistência às decisões ao longo do tempo.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Um plano escrito serve de âncora quando a emoção tenta decidir por você."],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6a-q06",
+    "topicId": "m6a",
+    "stem": "Qual afirmação melhor descreve o papel do gestor de uma carteira pessoal de longo prazo?",
+    "options": [
+      { "text": "Manter a disciplina da estratégia, ajustando apenas quando objetivos, perfil ou fundamentos realmente mudam" },
+      { "text": "Acertar o topo e o fundo do mercado todos os meses" },
+      { "text": "Trocar de estratégia a cada nova manchete" },
+      { "text": "Buscar o ativo da moda independentemente do plano" }
+    ],
+    "correct": 0,
+    "explanation": "A gestão de longo prazo é mais sobre consistência e disciplina do que sobre acertar o timing; mudanças ocorrem por razões estruturais, não por ruído.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "hints": ["Disciplina e consistência valem mais que tentar adivinhar topos e fundos."],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6b-q01",
+    "topicId": "m6b",
+    "stem": "A alocação de ativos define:",
+    "options": [
+      { "text": "Quanto do patrimônio vai em cada classe (renda fixa, ações, FIIs, exterior...)" },
+      { "text": "Qual ação vai subir amanhã" },
+      { "text": "O melhor dia para comprar" },
+      { "text": "A taxa exata do próximo CDB" }
+    ],
+    "correct": 0,
+    "explanation": "É a decisão mais importante da carteira: como dividir o patrimônio entre as classes de ativos.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6b-q02",
+    "topicId": "m6b",
+    "stem": "A alocação ideal depende principalmente de:",
+    "options": [
+      { "text": "Perfil de risco, horizonte e objetivos do investidor" },
+      { "text": "Da moda do momento no mercado" },
+      { "text": "Da opinião de influenciadores" },
+      { "text": "Do signo do investidor" }
+    ],
+    "correct": 0,
+    "explanation": "Não existe alocação única: ela se ajusta ao perfil, ao horizonte e aos objetivos de cada pessoa.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6b-q03",
+    "topicId": "m6b",
+    "stem": "Estudos clássicos sugerem que, no longo prazo, a maior parte da variação de resultado entre carteiras vem:",
+    "options": [
+      { "text": "Da alocação entre classes de ativos, mais do que da escolha de um papel específico" },
+      { "text": "De acertar o dia exato da compra de cada ação", "misconception": "timing-explica-resultado", "feedback": "Acertar o timing tem peso muito menor; é a alocação entre classes que mais explica a diferença de resultado no longo prazo." },
+      { "text": "Da cor do home broker utilizado" },
+      { "text": "Do número de operações realizadas por dia" }
+    ],
+    "correct": 0,
+    "explanation": "A decisão de como dividir entre classes (a alocação) costuma explicar a maior parte do resultado de longo prazo — por isso ela vem antes da escolha de ativos.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["O que pesa mais: dividir bem entre classes ou acertar uma ação específica?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6b-q04",
+    "topicId": "m6b",
+    "stem": "Comparado a um investidor arrojado, um investidor conservador tende a ter, na alocação-alvo:",
+    "options": [
+      { "text": "Maior peso em renda fixa e menor peso em renda variável" },
+      { "text": "Todo o patrimônio em ações de small caps" },
+      { "text": "Peso maior em criptomoedas voláteis" },
+      { "text": "Exatamente a mesma alocação do arrojado" }
+    ],
+    "correct": 0,
+    "explanation": "O perfil conservador prioriza estabilidade, com mais renda fixa e menos exposição à volatilidade das ações — o oposto do arrojado.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Conservador busca estabilidade: mais de qual classe e menos de qual?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6b-q05",
+    "topicId": "m6b",
+    "stem": "Diversificar entre CLASSES de ativos (e não apenas dentro de uma) é importante porque:",
+    "options": [
+      { "text": "Classes diferentes reagem de formas distintas aos cenários, reduzindo a oscilação total da carteira" },
+      { "text": "Garante que todas as classes subam ao mesmo tempo" },
+      { "text": "Dispensa qualquer análise de perfil de risco" },
+      { "text": "Elimina completamente o risco de mercado" }
+    ],
+    "correct": 0,
+    "explanation": "Ter só ações, ainda que de vários setores, mantém a carteira refém do mercado de ações; combinar classes com comportamentos distintos suaviza os resultados.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Diversificar dentro de uma só classe basta, ou é preciso combinar classes?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6b-q06",
+    "topicId": "m6b",
+    "stem": "Ao combinar classes com baixa correlação entre si, o efeito esperado sobre a carteira é:",
+    "options": [
+      { "text": "Reduzir a oscilação total para um dado nível de retorno, melhorando a relação risco-retorno" },
+      { "text": "Aumentar o risco sem nenhum benefício" },
+      { "text": "Garantir retorno fixo todo mês" },
+      { "text": "Eliminar a necessidade de rebalancear" }
+    ],
+    "correct": 0,
+    "explanation": "Ativos que não sobem e descem juntos se compensam parcialmente; isso reduz a volatilidade do conjunto e melhora a relação entre risco e retorno.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "conceitual",
+    "hints": ["Baixa correlação = os ativos não se movem juntos; o que isso faz com a oscilação total?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6c-q01",
+    "topicId": "m6c",
+    "stem": "Uma metodologia de decisão de aporte serve para responder:",
+    "options": [
+      { "text": "Onde investir o próximo real, de forma coerente com a estratégia" },
+      { "text": "Qual criptomoeda vai explodir nesta semana" },
+      { "text": "O momento exato de sair da bolsa" },
+      { "text": "O preço futuro do dólar" }
+    ],
+    "correct": 0,
+    "explanation": "Ela organiza, a cada aporte, para qual ativo direcionar o dinheiro sem improviso nem achismo.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6c-q02",
+    "topicId": "m6c",
+    "stem": "Direcionar o novo aporte para a classe que está ABAIXO do peso-alvo ajuda a:",
+    "options": [
+      { "text": "Reequilibrar a carteira comprando o que está relativamente mais barato" },
+      { "text": "Concentrar ainda mais o risco" },
+      { "text": "Pagar mais imposto sempre" },
+      { "text": "Aumentar custos sem nenhum motivo" }
+    ],
+    "correct": 0,
+    "explanation": "Aportar no que ficou leve reequilibra a carteira e, na prática, faz comprar o que está relativamente mais barato.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6c-q03",
+    "topicId": "m6c",
+    "stem": "Ter um método claro de decisão de aporte ajuda principalmente a:",
+    "options": [
+      { "text": "Evitar o improviso e as decisões emocionais a cada novo dinheiro disponível" },
+      { "text": "Garantir o maior retorno possível em todos os aportes" },
+      { "text": "Acertar sempre o fundo do mercado" },
+      { "text": "Dispensar a definição de uma alocação-alvo" }
+    ],
+    "correct": 0,
+    "explanation": "Um método transforma cada aporte em uma decisão consistente com o plano, reduzindo o peso da emoção e do palpite.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["O ganho está em ter um critério fixo em vez de decidir no impulso."],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6c-q04",
+    "topicId": "m6c",
+    "stem": "Fazer aportes regulares ao longo do tempo (ex.: todo mês), independentemente do humor do mercado, é uma estratégia que:",
+    "options": [
+      { "text": "Suaviza o preço médio de compra e reduz a necessidade de acertar o momento exato (timing)" },
+      { "text": "Garante comprar sempre no fundo" },
+      { "text": "Elimina o risco de mercado" },
+      { "text": "Só funciona para quem investe grandes quantias de uma vez" }
+    ],
+    "correct": 0,
+    "explanation": "Aportes constantes compram mais quando está barato e menos quando está caro, suavizando o preço médio e diminuindo a pressão de acertar o timing.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Comprar um pouco todo mês ajuda a média de preço de que forma?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6c-q05",
+    "topicId": "m6c",
+    "stem": "Por que aportar na classe subponderada tende a ser, ao mesmo tempo, disciplina e oportunidade?",
+    "options": [
+      { "text": "Porque ela costuma estar relativamente mais barata, e comprá-la reequilibra a carteira sem precisar vender nada" },
+      { "text": "Porque obriga a vender as melhores posições" },
+      { "text": "Porque sempre será a classe com maior retorno futuro garantido" },
+      { "text": "Porque elimina a necessidade de uma alocação-alvo" }
+    ],
+    "correct": 0,
+    "explanation": "A classe abaixo do alvo geralmente subiu menos (ou caiu); aportar nela rebalanceia a carteira usando dinheiro novo, evitando custos de venda.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "aplicacao",
+    "hints": ["Rebalancear com aporte novo evita ter que vender posições."],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6c-q06",
+    "topicId": "m6c",
+    "stem": "Para o investidor de longo prazo, o que tende a importar mais na construção de patrimônio?",
+    "options": [
+      { "text": "A consistência dos aportes e o tempo investido, mais do que tentar acertar o momento perfeito de entrada" },
+      { "text": "Acertar o dia exato de cada compra", "misconception": "timing-acima-da-consistencia", "feedback": "Tentar cronometrar o mercado é difícil e arriscado; consistência de aportes e tempo costumam pesar muito mais no resultado." },
+      { "text": "Concentrar todo o dinheiro de uma vez no ativo da moda" },
+      { "text": "Parar de aportar sempre que o mercado cai" }
+    ],
+    "correct": 0,
+    "explanation": "Aportes consistentes ao longo de muito tempo, somados aos juros compostos, costumam construir mais patrimônio do que a tentativa de cronometrar o mercado.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "hints": ["O que constrói patrimônio: consistência e tempo, ou acertar o timing?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q01",
+    "topicId": "m6d",
+    "stem": "Rebalancear a carteira consiste em:",
+    "options": [
+      { "text": "Ajustar os pesos das classes de volta aos alvos definidos" },
+      { "text": "Vender tudo em momentos de pânico" },
+      { "text": "Comprar apenas o que mais subiu" },
+      { "text": "Parar de aportar para sempre" }
+    ],
+    "correct": 0,
+    "explanation": "O rebalanceamento devolve a carteira à alocação planejada, controlando o risco que se desviou com o tempo.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q02",
+    "topicId": "m6d",
+    "stem": "Na prática, o rebalanceamento tende a induzir o investidor a:",
+    "options": [
+      { "text": "Comprar o que caiu e reduzir parte do que subiu muito" },
+      { "text": "Comprar o que subiu e vender o que caiu", "misconception": "rebalanceia-ao-contrario", "feedback": "É o inverso: rebalancear devolve os pesos ao alvo, o que leva a comprar o que ficou barato e reduzir o que ficou caro." },
+      { "text": "Ignorar completamente a estratégia" },
+      { "text": "Fazer day trade diariamente" }
+    ],
+    "correct": 0,
+    "explanation": "Por construção, voltar aos pesos-alvo faz comprar o que ficou barato e realizar parte do que subiu muito — disciplina contra a emoção.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q03",
+    "topicId": "m6d",
+    "stem": "Por que deixar de rebalancear pode aumentar o risco da carteira ao longo do tempo?",
+    "options": [
+      { "text": "Porque a classe que mais sobe vai ganhando peso e pode dominar a carteira, elevando a exposição além do planejado" },
+      { "text": "Porque os pesos nunca mudam sozinhos" },
+      { "text": "Porque rebalancear é proibido pela bolsa" },
+      { "text": "Porque a alocação-alvo deixa de existir" }
+    ],
+    "correct": 0,
+    "explanation": "Sem rebalancear, a classe vencedora cresce de peso e a carteira fica mais arriscada do que o perfil do investidor permite — o oposto do planejado.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "aplicacao",
+    "hints": ["Se uma classe dispara e você não ajusta, o que acontece com o peso dela?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q04",
+    "topicId": "m6d",
+    "stem": "Uma forma comum de definir QUANDO rebalancear é:",
+    "options": [
+      { "text": "Em datas periódicas (ex.: anualmente) ou quando um peso desvia além de uma banda definida (ex.: 5 pontos)" },
+      { "text": "Somente quando o mercado está em alta histórica" },
+      { "text": "A cada notícia negativa que aparecer" },
+      { "text": "Nunca, pois rebalancear não tem critério possível" }
+    ],
+    "correct": 0,
+    "explanation": "Critérios objetivos — por tempo (calendário) ou por banda de desvio — evitam rebalancear no impulso e mantêm a disciplina.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Pense em dois gatilhos objetivos: calendário ou desvio do alvo."],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q05",
+    "topicId": "m6d",
+    "stem": "O rebalanceamento funciona como disciplina contra a emoção porque obriga, na prática, a:",
+    "options": [
+      { "text": "Comprar barato e vender caro de forma sistemática, o contrário do impulso de seguir a manada" },
+      { "text": "Seguir sempre o que a maioria está comprando" },
+      { "text": "Concentrar na classe que mais subiu" },
+      { "text": "Vender no pânico e comprar na euforia" }
+    ],
+    "correct": 0,
+    "explanation": "Voltar aos pesos-alvo institucionaliza o comprar barato/vender caro, justamente o oposto do comportamento emocional típico do mercado.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "hints": ["Rebalancear te faz fazer o contrário do que a emoção pede."],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q06",
+    "topicId": "m6d",
+    "stem": "Para reduzir custos e impostos do rebalanceamento, uma boa prática é:",
+    "options": [
+      { "text": "Usar preferencialmente os novos aportes para reforçar as classes abaixo do alvo, evitando vendas desnecessárias" },
+      { "text": "Vender e recomprar tudo todo mês para manter o alvo perfeito" },
+      { "text": "Rebalancear apenas vendendo, nunca aportando" },
+      { "text": "Ignorar os custos, pois eles não afetam o resultado" }
+    ],
+    "correct": 0,
+    "explanation": "Direcionar aportes para as classes subponderadas rebalanceia sem gerar vendas (e impostos); reserva-se a venda para quando o desvio é grande demais para o aporte corrigir.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Dá para rebalancear comprando com dinheiro novo, sem precisar vender?"],
+    "source": "M6 · O começo — Gestão"
+  }
+]

@@ -1,0 +1,638 @@
+[
+  {
+    "id": "m5a-q01",
+    "topicId": "m5a",
+    "stem": "Um motivo central para investir no exterior é:",
+    "options": [
+      { "text": "Diversificar moeda e reduzir o risco-Brasil" },
+      { "text": "Fugir totalmente de qualquer imposto" },
+      { "text": "Garantir lucro certo em dólar" },
+      { "text": "Eliminar o risco de mercado por completo" }
+    ],
+    "correct": 0,
+    "explanation": "Investir lá fora dilui a dependência de uma única economia e moeda, reduzindo o chamado risco-Brasil.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5a-q02",
+    "topicId": "m5a",
+    "stem": "Manter parte do patrimônio em dólar ajuda a proteger contra:",
+    "options": [
+      { "text": "A desvalorização do real" },
+      { "text": "A valorização do real", "misconception": "inverte-protecao-cambial", "feedback": "Ativos em dólar protegem quando o real PERDE valor; se o real se valoriza, eles tendem a render menos em reais." },
+      { "text": "Apenas a inflação americana" },
+      { "text": "Somente o risco da bolsa dos EUA" }
+    ],
+    "correct": 0,
+    "explanation": "Quando o real perde valor, ativos em dólar tendem a subir em reais, compensando parte da perda de poder de compra.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5a-q03",
+    "topicId": "m5a",
+    "stem": "O que se entende por risco-Brasil ao discutir internacionalização da carteira?",
+    "options": [
+      { "text": "A concentração do patrimônio em uma única economia e moeda, sujeita a fatores políticos e econômicos locais" },
+      { "text": "O risco de o investidor viajar para o exterior" },
+      { "text": "A garantia de retorno dada pelo governo brasileiro" },
+      { "text": "Um imposto cobrado sobre investimentos no exterior" }
+    ],
+    "correct": 0,
+    "explanation": "Ter tudo no Brasil concentra o patrimônio em uma só economia, moeda e ambiente político; internacionalizar reduz essa dependência.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Pense no perigo de depender de uma única economia e moeda."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5a-q04",
+    "topicId": "m5a",
+    "stem": "A diversificação geográfica é benéfica principalmente porque:",
+    "options": [
+      { "text": "Economias e moedas diferentes nem sempre andam juntas, reduzindo o impacto de uma crise local" },
+      { "text": "Garante que todos os países cresçam ao mesmo tempo" },
+      { "text": "Elimina a necessidade de diversificar entre classes de ativos" },
+      { "text": "Faz o real sempre se valorizar" }
+    ],
+    "correct": 0,
+    "explanation": "Quando uma economia vai mal, outras podem ir bem; espalhar o patrimônio entre regiões suaviza o efeito de choques locais.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Se uma economia tropeça, as outras seguram a carteira."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5a-q05",
+    "topicId": "m5a",
+    "stem": "Investir no exterior reduz o risco-Brasil, mas é importante lembrar que:",
+    "options": [
+      { "text": "Não elimina o risco de mercado global: crises mundiais podem afetar ações em qualquer país" },
+      { "text": "Garante retorno positivo em qualquer cenário" },
+      { "text": "Elimina toda a volatilidade da carteira" },
+      { "text": "Acaba com o risco cambial" }
+    ],
+    "correct": 0,
+    "explanation": "Diversificar geograficamente dilui o risco específico de um país, mas crises globais e o risco de mercado continuam presentes.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "interpretacao",
+    "hints": ["Há um risco que atravessa fronteiras mesmo com diversificação geográfica."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5a-q06",
+    "topicId": "m5a",
+    "stem": "Sobre a exposição cambial ao internacionalizar, é correto dizer que ela:",
+    "options": [
+      { "text": "Adiciona a variação do dólar ao resultado, o que aumenta a oscilação no curto prazo mas oferece proteção quando o real cai" },
+      { "text": "Não tem nenhum efeito sobre o resultado em reais" },
+      { "text": "Garante ganho fixo independentemente do câmbio" },
+      { "text": "Só existe para quem mora fora do Brasil" }
+    ],
+    "correct": 0,
+    "explanation": "O câmbio é uma faca de dois gumes: aumenta a volatilidade no curto prazo, mas funciona como hedge (proteção) quando o real se desvaloriza.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["O dólar adiciona oscilação, mas também protege em certo cenário."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5b-q01",
+    "topicId": "m5b",
+    "stem": "Comparado ao Brasil, o mercado americano costuma ter:",
+    "options": [
+      { "text": "Mais empresas listadas e maior liquidez" },
+      { "text": "Menos opções de ETFs" },
+      { "text": "Apenas produtos de renda fixa" },
+      { "text": "Nenhuma regulação" }
+    ],
+    "correct": 0,
+    "explanation": "É o maior mercado do mundo, com enorme variedade de ações e ETFs e alta liquidez.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5b-q02",
+    "topicId": "m5b",
+    "stem": "Para investir diretamente nos EUA, normalmente é preciso:",
+    "options": [
+      { "text": "Abrir conta em uma corretora com acesso ao mercado internacional" },
+      { "text": "Ter dupla cidadania" },
+      { "text": "Morar nos Estados Unidos" },
+      { "text": "Comprar ouro físico antes" }
+    ],
+    "correct": 0,
+    "explanation": "Basta uma corretora que ofereça acesso ao mercado americano — não é preciso morar fora nem ter cidadania.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5b-q03",
+    "topicId": "m5b",
+    "stem": "Um investidor brasileiro que quer exposição a empresas dos EUA sem abrir conta no exterior pode, alternativamente:",
+    "options": [
+      { "text": "Comprar BDRs na bolsa brasileira, que representam ações ou ETFs estrangeiros" },
+      { "text": "Comprar somente Tesouro Selic" },
+      { "text": "Abrir uma cold wallet de cripto" },
+      { "text": "Investir apenas na poupança" }
+    ],
+    "correct": 0,
+    "explanation": "BDRs são certificados negociados na B3 que representam ativos estrangeiros — uma forma de ter exposição internacional sem conta no exterior.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Existe um certificado negociado na B3 que representa ativos lá fora."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5b-q04",
+    "topicId": "m5b",
+    "stem": "Sobre acessar o mercado dos EUA, é correto afirmar que:",
+    "options": [
+      { "text": "Não é necessário morar fora; basta uma corretora com acesso internacional e cumprir as regras de câmbio e declaração" },
+      { "text": "É obrigatório ter green card", "misconception": "exige-residencia-para-investir-eua", "feedback": "Não é preciso residir nos EUA nem ter green card: o acesso se dá por corretoras com mercado internacional, respeitando câmbio e declaração." },
+      { "text": "Apenas grandes bancos podem operar lá" },
+      { "text": "É proibido para residentes no Brasil" }
+    ],
+    "correct": 0,
+    "explanation": "O acesso é aberto a residentes no Brasil via corretoras internacionais; o que muda são os trâmites de câmbio e as obrigações de declaração.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Morar fora é mesmo um requisito para investir nos EUA?"],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5b-q05",
+    "topicId": "m5b",
+    "stem": "Ao enviar dinheiro para investir no exterior, o investidor brasileiro deve estar atento a custos como:",
+    "options": [
+      { "text": "Spread de câmbio e IOF sobre a remessa, que afetam o valor efetivamente investido" },
+      { "text": "Come-cotas semestral do Tesouro" },
+      { "text": "Taxa de vacância dos imóveis" },
+      { "text": "Dividend yield das ações" }
+    ],
+    "correct": 0,
+    "explanation": "A conversão de reais em dólares envolve spread cambial e IOF; conhecer esses custos evita surpresas no montante que chega a ser investido.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "aplicacao",
+    "hints": ["Pense nos custos de converter reais em dólares e enviar lá para fora."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5b-q06",
+    "topicId": "m5b",
+    "stem": "Uma vantagem estrutural relevante do mercado americano para o investidor de longo prazo é:",
+    "options": [
+      { "text": "A enorme variedade de ativos e a alta liquidez, que facilitam montar carteiras diversificadas a baixo custo" },
+      { "text": "A ausência total de regulação, que reduz custos" },
+      { "text": "A garantia de retorno pelo governo dos EUA" },
+      { "text": "A isenção de qualquer imposto para estrangeiros" }
+    ],
+    "correct": 0,
+    "explanation": "Profundidade, liquidez e variedade permitem montar carteiras globais diversificadas de forma eficiente — um dos grandes atrativos do mercado dos EUA.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["O diferencial está em tamanho, liquidez e variedade de ativos."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5c-q01",
+    "topicId": "m5c",
+    "stem": "Stocks são:",
+    "options": [
+      { "text": "Ações de empresas listadas, por exemplo nas bolsas dos EUA" },
+      { "text": "Títulos públicos americanos" },
+      { "text": "Fundos imobiliários brasileiros" },
+      { "text": "Criptomoedas estrangeiras" }
+    ],
+    "correct": 0,
+    "explanation": "Stock é o termo em inglês para ação — participação em empresas negociadas em bolsa.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5c-q02",
+    "topicId": "m5c",
+    "stem": "Comprar stocks de uma única empresa, em vez de um ETF amplo, implica:",
+    "options": [
+      { "text": "Mais risco específico daquela empresa" },
+      { "text": "Menos risco específico" },
+      { "text": "Isenção de imposto sobre o ganho" },
+      { "text": "Rendimento fixo garantido" }
+    ],
+    "correct": 0,
+    "explanation": "Concentrar em uma empresa expõe você ao risco particular dela; o ETF dilui esse risco entre muitas companhias.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5c-q03",
+    "topicId": "m5c",
+    "stem": "A diferença entre uma blue chip e uma small cap está, principalmente, em que a blue chip é:",
+    "options": [
+      { "text": "Uma empresa grande, consolidada e geralmente menos volátil; a small cap é menor e costuma oscilar mais" },
+      { "text": "Sempre mais arriscada que a small cap" },
+      { "text": "Um título de renda fixa do governo" },
+      { "text": "Uma criptomoeda de grande capitalização" }
+    ],
+    "correct": 0,
+    "explanation": "Blue chips são companhias grandes e maduras, tipicamente mais estáveis; small caps têm maior potencial de crescimento, mas também maior risco e volatilidade.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Pense no tamanho e na maturidade da empresa."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5c-q04",
+    "topicId": "m5c",
+    "stem": "Um BDR de uma empresa americana negociado na B3 é, de forma simplificada:",
+    "options": [
+      { "text": "Um certificado negociado no Brasil que representa, indiretamente, uma ação estrangeira" },
+      { "text": "A própria ação americana custodiada nos EUA em nome do investidor" },
+      { "text": "Um título de renda fixa do Tesouro americano" },
+      { "text": "Uma criptomoeda lastreada em ações" }
+    ],
+    "correct": 0,
+    "explanation": "O BDR é um recibo emitido no Brasil com lastro em ativos estrangeiros; o investidor tem exposição à empresa sem negociar diretamente na bolsa americana.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "conceitual",
+    "hints": ["É um recibo brasileiro que espelha um ativo lá de fora."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5c-q05",
+    "topicId": "m5c",
+    "stem": "Sobre dividendos de stocks americanos recebidos por um investidor brasileiro (conta no exterior), é comum que:",
+    "options": [
+      { "text": "Haja retenção de imposto na fonte nos EUA antes de o valor chegar ao investidor" },
+      { "text": "Sejam totalmente isentos em qualquer hipótese", "misconception": "dividendo-eua-isento", "feedback": "Dividendos de ações americanas costumam sofrer retenção de imposto na fonte nos EUA; não são isentos para o investidor estrangeiro." },
+      { "text": "Sejam pagos sempre em reais, sem câmbio" },
+      { "text": "Sejam garantidos pelo FGC brasileiro" }
+    ],
+    "correct": 0,
+    "explanation": "Os EUA costumam reter imposto na fonte sobre dividendos pagos a estrangeiros; é um custo a considerar em estratégias focadas em proventos lá fora.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["O imposto sobre o dividendo costuma ser cobrado antes de ele chegar a você."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5c-q06",
+    "topicId": "m5c",
+    "stem": "Para um investidor que não quer (ou não sabe) selecionar empresas individuais nos EUA, a alternativa mais coerente costuma ser:",
+    "options": [
+      { "text": "Optar por ETFs amplos, obtendo diversificação em vez de concentrar em poucas stocks" },
+      { "text": "Comprar uma única stock e concentrar tudo nela" },
+      { "text": "Fazer day trade de small caps desconhecidas" },
+      { "text": "Aplicar somente em criptomoedas" }
+    ],
+    "correct": 0,
+    "explanation": "Quem não quer analisar empresas individuais ganha em segurança e simplicidade usando ETFs amplos, que diluem o risco específico.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Sem escolher empresas uma a uma, qual veículo entrega diversificação pronta?"],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5d-q01",
+    "topicId": "m5d",
+    "stem": "Um ETF que replica o S&P 500 oferece:",
+    "options": [
+      { "text": "Exposição diversificada às maiores empresas americanas" },
+      { "text": "Garantia de retorno fixo" },
+      { "text": "Exposição a apenas uma ação" },
+      { "text": "Isenção total de risco de mercado" }
+    ],
+    "correct": 0,
+    "explanation": "Em um único ativo, você fica sócio das cerca de 500 maiores companhias listadas nos EUA.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5d-q02",
+    "topicId": "m5d",
+    "stem": "ETFs internacionais são especialmente úteis para o investidor que quer:",
+    "options": [
+      { "text": "Diversificar globalmente com simplicidade e baixo custo" },
+      { "text": "Concentrar tudo em um único papel" },
+      { "text": "Fazer day trade de alta frequência" },
+      { "text": "Evitar a bolsa por completo" }
+    ],
+    "correct": 0,
+    "explanation": "Eles entregam diversificação geográfica e setorial de forma prática e barata, em um único ativo.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5d-q03",
+    "topicId": "m5d",
+    "stem": "Para obter exposição às ações do mundo inteiro (não só dos EUA) em um único produto, o investidor pode buscar:",
+    "options": [
+      { "text": "Um ETF global, que reúne empresas de diversos países desenvolvidos e emergentes" },
+      { "text": "Um ETF que replica apenas o Ibovespa" },
+      { "text": "Um CDB de banco brasileiro" },
+      { "text": "Uma única ação de tecnologia" }
+    ],
+    "correct": 0,
+    "explanation": "ETFs globais (de índices amplos do mundo) entregam, em um só ativo, exposição a milhares de empresas de muitos países — máxima diversificação geográfica.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Procure um ETF que vá além dos EUA e cubra o mundo."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5d-q04",
+    "topicId": "m5d",
+    "stem": "Os ETFs de índice costumam ter custos baixos porque:",
+    "options": [
+      { "text": "Adotam gestão passiva, apenas replicando o índice, sem uma equipe selecionando ativos ativamente" },
+      { "text": "São subsidiados pelo governo americano" },
+      { "text": "Não cobram nenhuma taxa em hipótese alguma" },
+      { "text": "Compram e vendem ações o dia inteiro" }
+    ],
+    "correct": 0,
+    "explanation": "A replicação passiva reduz os custos de pesquisa e operação; por isso ETFs de índice costumam ter taxas bem menores que fundos ativos.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Replicar um índice custa menos do que gerir ativamente."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5d-q05",
+    "topicId": "m5d",
+    "stem": "Ao comprar um ETF internacional de ações, o investidor brasileiro assume, ao mesmo tempo:",
+    "options": [
+      { "text": "O risco das ações que compõem o ETF e a variação do dólar frente ao real" },
+      { "text": "Apenas o risco cambial, sem exposição às ações" },
+      { "text": "Somente o risco das ações, sem efeito do câmbio", "misconception": "ignora-cambio-no-etf-internacional", "feedback": "Investindo em dólar, o brasileiro também fica exposto à variação cambial, além do risco das ações do ETF." },
+      { "text": "Nenhum risco, pois ETF é renda fixa" }
+    ],
+    "correct": 0,
+    "explanation": "O resultado em reais combina o desempenho das ações do ETF com a variação do dólar — duas fontes de oscilação (e de proteção cambial).",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "aplicacao",
+    "hints": ["Em que moeda o ETF é negociado, e como isso chega ao seu resultado em reais?"],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5d-q06",
+    "topicId": "m5d",
+    "stem": "Comparado a montar uma carteira com dezenas de ações estrangeiras individuais, usar um ETF amplo tende a ser:",
+    "options": [
+      { "text": "Mais simples e barato, com diversificação automática e menos esforço de acompanhamento" },
+      { "text": "Mais arriscado, por concentrar em uma só empresa" },
+      { "text": "Isento de qualquer custo e imposto" },
+      { "text": "Impossível para investidores brasileiros" }
+    ],
+    "correct": 0,
+    "explanation": "Para a maioria, o ETF amplo resolve diversificação, custo e acompanhamento de uma vez, sendo mais eficiente que selecionar e monitorar muitas ações.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Um único ETF substitui o trabalho de acompanhar dezenas de papéis."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5e-q01",
+    "topicId": "m5e",
+    "stem": "REITs são, de forma simplificada:",
+    "options": [
+      { "text": "Os fundos imobiliários do mercado americano" },
+      { "text": "Títulos do Tesouro dos EUA" },
+      { "text": "Ações de empresas de tecnologia" },
+      { "text": "Criptomoedas lastreadas em imóveis" }
+    ],
+    "correct": 0,
+    "explanation": "REITs são veículos que investem em imóveis e distribuem boa parte dos lucros, semelhantes aos FIIs brasileiros.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5e-q02",
+    "topicId": "m5e",
+    "stem": "REITs costumam ser buscados por investidores que querem:",
+    "options": [
+      { "text": "Renda em dólar, via exposição ao setor imobiliário americano" },
+      { "text": "Não receber nenhum rendimento" },
+      { "text": "Renda fixa garantida pelo FGC" },
+      { "text": "Especulação de curtíssimo prazo apenas" }
+    ],
+    "correct": 0,
+    "explanation": "São conhecidos pela distribuição de proventos em dólar, com exposição a imóveis nos EUA — uma forma de renda imobiliária internacional.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5e-q03",
+    "topicId": "m5e",
+    "stem": "Uma característica marcante dos REITs é que, para manter o regime especial, eles costumam:",
+    "options": [
+      { "text": "Distribuir a maior parte do lucro tributável aos acionistas, o que sustenta dividendos relevantes" },
+      { "text": "Reter todo o lucro sem nunca distribuir" },
+      { "text": "Pagar juros fixos como um título de renda fixa" },
+      { "text": "Investir somente em ações de tecnologia" }
+    ],
+    "correct": 0,
+    "explanation": "REITs são obrigados a repassar a maior parte dos lucros como dividendos para usufruir do regime tributário especial — daí sua fama de pagadores de renda.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["O regime especial exige distribuir a maior parte do lucro."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5e-q04",
+    "topicId": "m5e",
+    "stem": "Assim como nos FIIs, dentro do universo de REITs existem os de tijolo (equity) e os de papel (mortgage). Os de papel investem principalmente em:",
+    "options": [
+      { "text": "Financiamentos e títulos ligados ao crédito imobiliário, em vez de imóveis físicos" },
+      { "text": "Imóveis físicos como shoppings e galpões" },
+      { "text": "Ações de bancos" },
+      { "text": "Ouro e commodities" }
+    ],
+    "correct": 0,
+    "explanation": "Mortgage REITs (de papel) lucram com juros de financiamentos e títulos imobiliários; equity REITs (de tijolo) possuem e alugam imóveis físicos.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "conceitual",
+    "hints": ["Papel = crédito imobiliário; tijolo = imóvel físico."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5e-q05",
+    "topicId": "m5e",
+    "stem": "Sobre a tributação dos dividendos de REITs para um investidor brasileiro com conta nos EUA, é comum haver:",
+    "options": [
+      { "text": "Retenção de imposto na fonte nos EUA sobre os proventos distribuídos" },
+      { "text": "Isenção total, como nos FIIs brasileiros", "misconception": "reit-isento-como-fii", "feedback": "Diferente dos FIIs brasileiros (rendimentos isentos para PF), os dividendos de REITs costumam sofrer retenção na fonte nos EUA." },
+      { "text": "Garantia do FGC sobre os dividendos" },
+      { "text": "Pagamento de come-cotas semestral" }
+    ],
+    "correct": 0,
+    "explanation": "Ao contrário da isenção dos FIIs brasileiros, os proventos de REITs normalmente sofrem retenção de imposto na fonte nos EUA — um ponto a considerar.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["A isenção dos FIIs vale para REITs americanos?"],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5e-q06",
+    "topicId": "m5e",
+    "stem": "Incluir REITs em uma carteira que já tem FIIs brasileiros pode fazer sentido porque:",
+    "options": [
+      { "text": "Adiciona exposição imobiliária em outra moeda e em outra economia, diversificando geograficamente a renda de imóveis" },
+      { "text": "Elimina por completo o risco do setor imobiliário" },
+      { "text": "Garante rendimento fixo em reais" },
+      { "text": "Substitui a necessidade de reserva de emergência" }
+    ],
+    "correct": 0,
+    "explanation": "REITs trazem renda imobiliária em dólar e exposição ao mercado dos EUA, complementando os FIIs e reduzindo a concentração no setor imobiliário brasileiro.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["O ganho é diversificar a renda imobiliária por moeda e por país."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5f-q01",
+    "topicId": "m5f",
+    "stem": "As Treasuries são:",
+    "options": [
+      { "text": "Títulos de dívida do governo dos Estados Unidos" },
+      { "text": "Ações de empresas americanas" },
+      { "text": "Fundos imobiliários (REITs)" },
+      { "text": "ETFs de criptomoedas" }
+    ],
+    "correct": 0,
+    "explanation": "São os títulos públicos do Tesouro americano, referência de renda fixa em dólar.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5f-q02",
+    "topicId": "m5f",
+    "stem": "Na carteira, bonds e Treasuries cumprem tipicamente o papel de:",
+    "options": [
+      { "text": "Renda fixa em dólar, com menor risco relativo, equilibrando a parte mais arriscada" },
+      { "text": "Renda variável agressiva de alto risco" },
+      { "text": "Reserva de valor em ouro" },
+      { "text": "Especulação de curtíssimo prazo" }
+    ],
+    "correct": 0,
+    "explanation": "Trazem estabilidade e renda em dólar, equilibrando a parcela mais volátil (ações) de uma carteira global.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5f-q03",
+    "topicId": "m5f",
+    "stem": "A diferença entre uma Treasury e um corporate bond (bond corporativo) está em que o corporate bond é:",
+    "options": [
+      { "text": "Uma dívida emitida por uma empresa, com risco de crédito maior e, por isso, costuma pagar mais que a Treasury" },
+      { "text": "Sempre mais seguro que a Treasury" },
+      { "text": "Um título emitido pelo governo brasileiro" },
+      { "text": "Uma ação preferencial" }
+    ],
+    "correct": 0,
+    "explanation": "Treasuries são dívida do governo dos EUA (risco mínimo); bonds corporativos são dívida de empresas, com mais risco de crédito e, portanto, juros maiores.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Quem emite cada um: governo ou empresa? E como isso afeta o risco?"],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5f-q04",
+    "topicId": "m5f",
+    "stem": "Um investidor com carteira global muito concentrada em ações dos EUA poderia reduzir a oscilação total adicionando:",
+    "options": [
+      { "text": "Treasuries ou bonds de boa qualidade, que tendem a oscilar menos e equilibram a carteira" },
+      { "text": "Mais ações de tecnologia da mesma região" },
+      { "text": "Somente criptomoedas voláteis" },
+      { "text": "Apenas small caps" }
+    ],
+    "correct": 0,
+    "explanation": "Renda fixa de qualidade em dólar costuma amortecer a volatilidade das ações; é a função clássica dos bonds na alocação de uma carteira.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Para equilibrar muitas ações, adiciona-se que classe de ativo?"],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5f-q05",
+    "topicId": "m5f",
+    "stem": "As Treasuries de curto prazo dos EUA são frequentemente usadas no mundo financeiro como referência de:",
+    "options": [
+      { "text": "Ativo de baixíssimo risco (próximo do livre de risco), base para precificar outros ativos" },
+      { "text": "Ativo de maior risco do mercado global" },
+      { "text": "Renda variável de alto retorno garantido" },
+      { "text": "Investimento isento de qualquer oscilação de preço em qualquer prazo" }
+    ],
+    "correct": 0,
+    "explanation": "Por serem dívida do governo dos EUA, as Treasuries curtas são tratadas como referência próxima do ativo livre de risco, parâmetro para comparar outros investimentos.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["São tão seguras que viram a régua para medir o risco dos demais ativos."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5f-q06",
+    "topicId": "m5f",
+    "stem": "Mesmo sendo de baixo risco de crédito, um bond longo pode dar prejuízo a quem vende antes do vencimento se:",
+    "options": [
+      { "text": "Os juros de mercado subirem, derrubando o preço do título (marcação a mercado)" },
+      { "text": "A empresa pagar dividendos extras" },
+      { "text": "O investidor levar o título até o vencimento" },
+      { "text": "O dólar se valorizar frente ao real" }
+    ],
+    "correct": 0,
+    "explanation": "Bonds também sofrem marcação a mercado: se os juros sobem, o preço cai, e vender antes do vencimento pode gerar perda mesmo sem risco de calote.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Renda fixa também tem marcação a mercado quando os juros mudam."],
+    "source": "M5 · Investindo no Exterior"
+  }
+]

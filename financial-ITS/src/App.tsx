@@ -13,8 +13,8 @@ import { globalProgress, recommend } from './lib/studentModel'
  */
 function App() {
   const {
-    progress, alpha, qPos, currentTopic, answeredIdx,
-    openTopic, closeDrawer, answer, nextQuestion, setAlpha, reset,
+    progress, pT, currentTopic, currentQuestion, answeredIdx,
+    openTopic, closeDrawer, answer, nextQuestion, setPT, reset,
   } = useTrilha()
 
   const recommendation = recommend(progress)
@@ -22,9 +22,9 @@ function App() {
   return (
     <>
       <Header
-        alpha={alpha}
+        pT={pT}
         globalPct={globalProgress(progress)}
-        onAlphaChange={setAlpha}
+        onPTChange={setPT}
         onReset={reset}
       />
 
@@ -41,8 +41,8 @@ function App() {
       <Drawer
         currentTopic={currentTopic}
         progress={progress}
-        alpha={alpha}
-        qPos={qPos}
+        pT={pT}
+        currentQuestion={currentQuestion}
         answeredIdx={answeredIdx}
         onClose={closeDrawer}
         onAnswer={answer}

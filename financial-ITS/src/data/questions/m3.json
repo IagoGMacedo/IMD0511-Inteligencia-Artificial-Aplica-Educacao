@@ -1,0 +1,744 @@
+[
+  {
+    "id": "m3a-q01",
+    "topicId": "m3a",
+    "stem": "Comprar uma ação significa, essencialmente:",
+    "options": [
+      { "text": "Tornar-se sócio de uma fração da empresa" },
+      { "text": "Emprestar dinheiro à empresa com juros fixos", "misconception": "acao-como-emprestimo", "feedback": "Emprestar com juros fixos descreve renda fixa (dívida). Ação é participação societária: você vira dono de parte do negócio." },
+      { "text": "Comprar um título do governo" },
+      { "text": "Adquirir um imóvel da empresa" }
+    ],
+    "correct": 0,
+    "explanation": "Ação é participação societária: você passa a ser dono de um pedaço do negócio e dos seus resultados.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3a-q02",
+    "topicId": "m3a",
+    "stem": "No longo prazo, o principal motor de retorno das ações é:",
+    "options": [
+      { "text": "O crescimento dos lucros e a distribuição de resultados das empresas" },
+      { "text": "A oscilação de preço de um único dia" },
+      { "text": "As notícias de manchete da semana" },
+      { "text": "A análise gráfica de curtíssimo prazo" }
+    ],
+    "correct": 0,
+    "explanation": "No longo prazo, o preço tende a seguir os lucros; é o desempenho do negócio que constrói retorno consistente.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3a-q03",
+    "topicId": "m3a",
+    "stem": "A principal diferença entre ações ordinárias (ON) e preferenciais (PN) está em que as ordinárias:",
+    "options": [
+      { "text": "Dão direito a voto nas assembleias, enquanto as preferenciais costumam ter prioridade na distribuição de proventos" },
+      { "text": "São isentas de risco, ao contrário das preferenciais" },
+      { "text": "Pagam juros fixos garantidos" },
+      { "text": "Pertencem ao governo" }
+    ],
+    "correct": 0,
+    "explanation": "ON dão voto (poder de decisão); PN geralmente abrem mão do voto em troca de preferência no recebimento de dividendos. Ambas têm risco de sócio.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Pense em dois benefícios distintos: poder de voto e preferência nos proventos."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3a-q04",
+    "topicId": "m3a",
+    "stem": "Ao se tornar sócio via ações, o investidor deve aceitar que:",
+    "options": [
+      { "text": "Não há garantia de retorno: ele participa dos lucros, mas também dos prejuízos e da volatilidade" },
+      { "text": "O valor investido é garantido pelo FGC", "misconception": "acoes-tem-fgc", "feedback": "Ações não têm cobertura do FGC. Como sócio, você assume o risco do negócio, sem garantia de devolução do capital." },
+      { "text": "A empresa é obrigada a recomprar suas ações pelo preço pago" },
+      { "text": "O rendimento é fixo e conhecido na compra" }
+    ],
+    "correct": 0,
+    "explanation": "Ser sócio significa correr o risco do negócio: há potencial de ganho, mas sem garantia de retorno nem de devolução do capital.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "interpretacao",
+    "hints": ["Sócio ganha quando a empresa vai bem — e perde quando vai mal."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3a-q05",
+    "topicId": "m3a",
+    "stem": "A ideia de que, no longo prazo, o preço de uma ação tende a acompanhar o desempenho do negócio significa que:",
+    "options": [
+      { "text": "Empresas que crescem lucros de forma consistente tendem a valer mais com o tempo, apesar das oscilações de curto prazo" },
+      { "text": "O preço sobe todo dia, sem exceções" },
+      { "text": "Lucros não têm relação com o preço da ação" },
+      { "text": "A ação mais barata é sempre a melhor compra" }
+    ],
+    "correct": 0,
+    "explanation": "No curto prazo o preço oscila com humor e notícias; no longo prazo, ele converge para o valor gerado pelo negócio — daí a importância dos lucros.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "interpretacao",
+    "hints": ["Separe o ruído de curto prazo da trajetória de lucros de longo prazo."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3a-q06",
+    "topicId": "m3a",
+    "stem": "Por que, historicamente, as ações tendem a superar a renda fixa no longo prazo, apesar de oscilarem muito mais?",
+    "options": [
+      { "text": "Porque o investidor é remunerado por assumir mais risco — o chamado prêmio de risco das ações" },
+      { "text": "Porque ações nunca caem no longo prazo", "misconception": "longo-prazo-elimina-risco", "feedback": "O longo prazo reduz a importância das oscilações, mas não elimina o risco; o retorno maior é justamente a compensação por correr esse risco." },
+      { "text": "Porque ações têm rendimento fixo garantido" },
+      { "text": "Porque a renda fixa é proibida no longo prazo" }
+    ],
+    "correct": 0,
+    "explanation": "O maior retorno potencial das ações é a recompensa por suportar mais risco e volatilidade — o prêmio de risco. Não há garantia, mas há tendência histórica.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "conceitual",
+    "hints": ["Mais retorno potencial costuma ser pagamento por suportar mais o quê?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3b-q01",
+    "topicId": "m3b",
+    "stem": "Para ter direito a um dividendo anunciado, o investidor precisa possuir a ação:",
+    "options": [
+      { "text": "Na data-com (até o último dia antes da data-ex)" },
+      { "text": "Apenas depois da data-ex" },
+      { "text": "Por pelo menos 10 anos seguidos" },
+      { "text": "Em qualquer momento do ano seguinte" }
+    ],
+    "correct": 0,
+    "explanation": "Quem detém a ação na data-com recebe o provento; quem compra a partir da data-ex já não tem direito a ele.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3b-q02",
+    "topicId": "m3b",
+    "stem": "Qual destes é uma forma de provento que as empresas pagam aos acionistas?",
+    "options": [
+      { "text": "Dividendos e Juros sobre Capital Próprio (JCP)" },
+      { "text": "Cupom de desconto em produtos" },
+      { "text": "Taxa de administração" },
+      { "text": "Marcação a mercado" }
+    ],
+    "correct": 0,
+    "explanation": "Dividendos e JCP são as principais formas de distribuir lucro aos acionistas; bonificações também ocorrem. Cada uma tem regras tributárias próprias.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3b-q03",
+    "topicId": "m3b",
+    "stem": "Na data-ex, o preço da ação tende a:",
+    "options": [
+      { "text": "Cair aproximadamente pelo valor do provento distribuído" },
+      { "text": "Subir pelo valor do provento", "misconception": "preco-sobe-na-data-ex", "feedback": "É o contrário: como o dinheiro do provento sai da empresa, o preço se ajusta para BAIXO em valor aproximado ao provento." },
+      { "text": "Ficar sempre exatamente igual" },
+      { "text": "Dobrar de valor" }
+    ],
+    "correct": 0,
+    "explanation": "O valor distribuído sai do caixa da empresa, e o preço se ajusta para baixo de forma equivalente — por isso provento não é dinheiro de graça.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Se a empresa distribui caixa, o que acontece com o valor que ficou nela?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3b-q04",
+    "topicId": "m3b",
+    "stem": "O dividend yield (DY) de uma ação mede:",
+    "options": [
+      { "text": "Os proventos pagos em um período divididos pelo preço da ação" },
+      { "text": "O quanto o preço da ação subiu no ano" },
+      { "text": "O lucro total da empresa em reais" },
+      { "text": "A quantidade de ações em circulação" }
+    ],
+    "correct": 0,
+    "explanation": "DY = proventos / preço. Ele indica o retorno em proventos relativo ao preço pago — útil para comparar empresas pagadoras de dividendos.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["É uma razão entre o que a ação paga e quanto ela custa."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3b-q05",
+    "topicId": "m3b",
+    "stem": "Uma ação custa R$ 40 e pagou R$ 2,00 de proventos no ano. Qual é o dividend yield aproximado?",
+    "options": [
+      { "text": "5%" },
+      { "text": "20%", "misconception": "inverte-razao-do-dy", "feedback": "20% seria preço dividido por dividendo (40/2 = 20). O DY é dividendo/preço = 2/40 = 5%." },
+      { "text": "2%" },
+      { "text": "40%" }
+    ],
+    "correct": 0,
+    "explanation": "DY = 2 / 40 = 0,05 = 5%. Para cada R$ 100 investidos, a ação devolveu cerca de R$ 5 em proventos no ano.",
+    "difficulty": "dificil",
+    "bloom": "aplicar",
+    "type": "calculo",
+    "hints": ["DY = provento ÷ preço.", "Divida 2 por 40."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3b-q06",
+    "topicId": "m3b",
+    "stem": "Sobre a tributação dos proventos no Brasil (regra geral atual), é correto afirmar que:",
+    "options": [
+      { "text": "Os dividendos costumam ser isentos de IR para a PF, enquanto o JCP sofre retenção de IR na fonte" },
+      { "text": "Dividendos e JCP são sempre isentos de qualquer imposto" },
+      { "text": "Apenas os dividendos sofrem retenção e o JCP é isento", "misconception": "inverte-tributacao-dividendo-jcp", "feedback": "Está invertido: na regra geral atual, os dividendos são isentos para PF e o JCP é que sofre IR retido na fonte." },
+      { "text": "Os dois são tributados pela tabela do Tesouro" }
+    ],
+    "correct": 0,
+    "explanation": "Na regra geral atual, dividendos são isentos de IR para a PF e o JCP tem IR retido na fonte (tipicamente 15%). Por isso a forma do provento importa.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Um deles é isento para PF; o outro tem imposto retido na fonte."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3c-q01",
+    "topicId": "m3c",
+    "stem": "Em um desdobramento (split), o investidor passa a ter:",
+    "options": [
+      { "text": "Mais ações, cada uma com preço proporcionalmente menor" },
+      { "text": "Menos ações, porém mais caras" },
+      { "text": "Mais patrimônio automaticamente", "misconception": "split-aumenta-patrimonio", "feedback": "O split não cria valor: aumenta a quantidade e reduz o preço na mesma proporção; o patrimônio total fica igual." },
+      { "text": "Direito a dividendos extras garantidos" }
+    ],
+    "correct": 0,
+    "explanation": "O split divide a ação em mais papéis; a quantidade sobe e o preço cai na mesma proporção — o patrimônio não muda.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3c-q02",
+    "topicId": "m3c",
+    "stem": "Um grupamento (inplit) tipicamente:",
+    "options": [
+      { "text": "Reduz a quantidade de ações e eleva o preço unitário" },
+      { "text": "Aumenta o patrimônio do investidor" },
+      { "text": "Distribui dividendos extraordinários" },
+      { "text": "Cria uma empresa nova" }
+    ],
+    "correct": 0,
+    "explanation": "O inplit faz o caminho inverso do split: menos ações, cada uma com preço maior, com o patrimônio constante.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3c-q03",
+    "topicId": "m3c",
+    "stem": "Um investidor tem 100 ações a R$ 50 cada (total R$ 5.000). Após um desdobramento na proporção 1:2 (cada ação vira duas), ele passa a ter:",
+    "options": [
+      { "text": "200 ações a R$ 25, totalizando os mesmos R$ 5.000" },
+      { "text": "200 ações a R$ 50, totalizando R$ 10.000", "misconception": "split-mantem-preco", "feedback": "No split o preço cai proporcionalmente: 100×50 = 5.000 deve continuar 5.000, logo 200 ações valem R$ 25 cada." },
+      { "text": "50 ações a R$ 100, totalizando R$ 5.000" },
+      { "text": "100 ações a R$ 25, totalizando R$ 2.500" }
+    ],
+    "correct": 0,
+    "explanation": "A quantidade dobra (100→200) e o preço cai pela metade (50→25); o total permanece R$ 5.000.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "calculo",
+    "hints": ["O valor total deve permanecer R$ 5.000 antes e depois.", "Dobrou a quantidade, o preço faz o quê?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3c-q04",
+    "topicId": "m3c",
+    "stem": "Por que uma empresa decide desdobrar (split) suas ações?",
+    "options": [
+      { "text": "Para reduzir o preço unitário e tornar a ação mais acessível e líquida" },
+      { "text": "Para aumentar magicamente o valor da empresa" },
+      { "text": "Para pagar menos impostos sobre o lucro" },
+      { "text": "Para reduzir o número total de acionistas" }
+    ],
+    "correct": 0,
+    "explanation": "Preço unitário menor amplia o número de potenciais compradores e melhora a liquidez do papel, sem alterar o valor da companhia.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "interpretacao",
+    "hints": ["Pense no efeito sobre quem consegue comprar a ação."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3c-q05",
+    "topicId": "m3c",
+    "stem": "Tanto no split quanto no inplit, o que permanece inalterado para o investidor?",
+    "options": [
+      { "text": "O valor total da posição (patrimônio), pois preço e quantidade se ajustam em sentidos opostos" },
+      { "text": "A quantidade de ações" },
+      { "text": "O preço unitário de cada ação" },
+      { "text": "O número de empresas das quais ele é sócio" }
+    ],
+    "correct": 0,
+    "explanation": "Split e inplit são apenas reorganizações da quantidade e do preço; o valor total da posição não muda em nenhum dos casos.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Se preço e quantidade andam em sentidos opostos, o que sobra constante?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3c-q06",
+    "topicId": "m3c",
+    "stem": "Uma razão comum para uma empresa fazer um grupamento (inplit) é:",
+    "options": [
+      { "text": "Elevar o preço unitário muito baixo, reduzindo distorções e atendendo a requisitos de listagem" },
+      { "text": "Distribuir lucro extra aos acionistas" },
+      { "text": "Aumentar o patrimônio dos investidores", "misconception": "inplit-aumenta-patrimonio", "feedback": "Como o split, o inplit não muda o patrimônio: apenas reduz a quantidade e eleva o preço unitário na mesma proporção." },
+      { "text": "Transformar a ação em renda fixa" }
+    ],
+    "correct": 0,
+    "explanation": "Ações com preço muito baixo (centavos) sofrem distorções de negociação; o inplit eleva o preço unitário para corrigir isso e cumprir exigências da bolsa.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "hints": ["O inplit costuma resolver problemas de ações com preço muito baixo."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3d-q01",
+    "topicId": "m3d",
+    "stem": "A análise fundamentalista avalia principalmente:",
+    "options": [
+      { "text": "A saúde do negócio: lucros, dívida, governança e se o preço é justo" },
+      { "text": "Padrões de gráfico de curtíssimo prazo" },
+      { "text": "O humor do mercado em um único dia" },
+      { "text": "A popularidade da empresa nas redes sociais" }
+    ],
+    "correct": 0,
+    "explanation": "Ela analisa os fundamentos do negócio e compara com o preço para decidir se vale a pena ser sócio.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3d-q02",
+    "topicId": "m3d",
+    "stem": "O índice P/L (Preço/Lucro) indica, de forma simplificada:",
+    "options": [
+      { "text": "Quantos anos de lucro atual seriam necessários para pagar o preço da ação" },
+      { "text": "O lucro total da empresa em reais" },
+      { "text": "A quantidade de dividendos pagos" },
+      { "text": "O número de funcionários da empresa" }
+    ],
+    "correct": 0,
+    "explanation": "P/L = preço por ação ÷ lucro por ação. Um P/L de 10 sugere que, mantido o lucro atual, levaria 10 anos para recuperar o preço pago.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3d-q03",
+    "topicId": "m3d",
+    "stem": "Por que comprar uma boa empresa a um preço caro demais pode ser um problema?",
+    "options": [
+      { "text": "Porque o preço pago afeta diretamente o retorno futuro: pagar caro reduz a margem de segurança" },
+      { "text": "Porque empresas boas nunca caem de preço", "misconception": "empresa-boa-nao-cai", "feedback": "Mesmo ótimas empresas podem cair, e pagar caro por elas reduz o retorno potencial — qualidade não dispensa preço justo." },
+      { "text": "Porque preço não importa na bolsa" },
+      { "text": "Porque empresas caras não pagam dividendos" }
+    ],
+    "correct": 0,
+    "explanation": "Qualidade do negócio e preço de compra são coisas diferentes; pagar caro mesmo por uma boa empresa diminui o retorno e a proteção contra erros.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Empresa boa e preço bom não são a mesma coisa."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3d-q04",
+    "topicId": "m3d",
+    "stem": "Ao analisar os fundamentos, um nível de endividamento muito alto em relação à geração de caixa costuma ser:",
+    "options": [
+      { "text": "Um sinal de risco, pois aumenta a vulnerabilidade da empresa em momentos ruins" },
+      { "text": "Sempre positivo, pois dívida é sinônimo de crescimento" },
+      { "text": "Irrelevante para a saúde da empresa" },
+      { "text": "Uma garantia de pagamento de dividendos" }
+    ],
+    "correct": 0,
+    "explanation": "Dívida em excesso eleva o risco: juros consomem caixa e, em crises, podem ameaçar a continuidade. É um dos pontos centrais da análise fundamentalista.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "aplicacao",
+    "hints": ["Muita dívida ajuda ou atrapalha quando o cenário piora?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3d-q05",
+    "topicId": "m3d",
+    "stem": "Uma ação custa R$ 20 e a empresa tem lucro por ação de R$ 2,00 no ano. Qual é o P/L?",
+    "options": [
+      { "text": "10" },
+      { "text": "40", "misconception": "multiplica-preco-por-lucro", "feedback": "40 seria preço × lucro. O P/L é preço ÷ lucro por ação = 20 / 2 = 10." },
+      { "text": "0,1" },
+      { "text": "2" }
+    ],
+    "correct": 0,
+    "explanation": "P/L = preço ÷ lucro por ação = 20 / 2 = 10. Esse múltiplo ajuda a comparar o quão cara está a ação frente ao lucro que gera.",
+    "difficulty": "dificil",
+    "bloom": "aplicar",
+    "type": "calculo",
+    "hints": ["P/L = preço ÷ lucro por ação.", "Divida 20 por 2."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3d-q06",
+    "topicId": "m3d",
+    "stem": "O conceito de margem de segurança na análise fundamentalista se refere a:",
+    "options": [
+      { "text": "Comprar com desconto relevante em relação ao valor estimado do negócio, para proteger contra erros e imprevistos" },
+      { "text": "Investir apenas em ações que já subiram muito" },
+      { "text": "Comprar somente a ação mais cara do setor" },
+      { "text": "Garantir lucro sem nenhum risco" }
+    ],
+    "correct": 0,
+    "explanation": "Margem de segurança é a diferença entre o preço pago e o valor estimado: quanto maior o desconto, menor o impacto de erros de análise ou de cenários adversos.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "conceitual",
+    "hints": ["É um colchão entre o preço pago e o valor que você estima para o negócio."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3e-q01",
+    "topicId": "m3e",
+    "stem": "Um ETF que replica o Ibovespa permite ao investidor:",
+    "options": [
+      { "text": "Comprar uma cesta diversificada de ações em um único ativo" },
+      { "text": "Garantir lucro em qualquer cenário" },
+      { "text": "Receber juros fixos como na renda fixa" },
+      { "text": "Eliminar completamente o risco de mercado", "misconception": "etf-elimina-risco", "feedback": "Diversificar reduz o risco específico de uma empresa, mas o ETF de ações continua exposto ao risco de mercado (sistêmico)." }
+    ],
+    "correct": 0,
+    "explanation": "O ETF entrega diversificação instantânea ao espelhar a composição de um índice, mas mantém a exposição ao risco do mercado.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3e-q02",
+    "topicId": "m3e",
+    "stem": "O Ibovespa é:",
+    "options": [
+      { "text": "Um índice que mede o desempenho de uma carteira teórica de ações" },
+      { "text": "Um título do Tesouro Nacional" },
+      { "text": "Uma corretora de valores" },
+      { "text": "Uma criptomoeda brasileira" }
+    ],
+    "correct": 0,
+    "explanation": "É o principal índice da bolsa brasileira, referência do desempenho do mercado acionário local.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3e-q03",
+    "topicId": "m3e",
+    "stem": "ETFs de índice costumam ter custos baixos porque adotam uma gestão:",
+    "options": [
+      { "text": "Passiva, apenas replicando a composição de um índice, sem seleção ativa de ações" },
+      { "text": "Ativa, com uma grande equipe escolhendo ações diariamente" },
+      { "text": "Garantida pelo FGC" },
+      { "text": "Baseada em day trade do gestor" }
+    ],
+    "correct": 0,
+    "explanation": "A gestão passiva só segue o índice, o que reduz custos de pesquisa e operação — uma das razões de os ETFs terem taxas baixas.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Replicar um índice exige menos trabalho que escolher ações ativamente."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3e-q04",
+    "topicId": "m3e",
+    "stem": "Um investidor iniciante quer exposição ampla à bolsa brasileira sem ter que escolher ações individuais. Uma opção simples é:",
+    "options": [
+      { "text": "Comprar um ETF que replica o Ibovespa, como o BOVA11" },
+      { "text": "Comprar a ação de uma única empresa" },
+      { "text": "Aplicar somente no Tesouro Selic" },
+      { "text": "Abrir uma cold wallet de cripto" }
+    ],
+    "correct": 0,
+    "explanation": "Um ETF de Ibovespa dá, em um único ativo, exposição diversificada às principais ações da bolsa — ideal para quem não quer selecionar papéis.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Procure um único ativo que represente a bolsa inteira."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3e-q05",
+    "topicId": "m3e",
+    "stem": "Uma diferença prática entre um ETF e um fundo de investimento tradicional de ações é que o ETF:",
+    "options": [
+      { "text": "É negociado em bolsa como uma ação, podendo ser comprado e vendido ao longo do pregão" },
+      { "text": "Só pode ser resgatado uma vez por ano" },
+      { "text": "É garantido pelo governo federal" },
+      { "text": "Não tem nenhuma taxa de administração" }
+    ],
+    "correct": 0,
+    "explanation": "O ETF é cotado e negociado em bolsa em tempo real, com liquidez intradiária; o fundo tradicional usa cotas com aplicação/resgate por D+ definido em regulamento.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Pense em como e quando você compra/vende cada um."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3e-q06",
+    "topicId": "m3e",
+    "stem": "Mesmo bem diversificado em um ETF de Ibovespa, o investidor ainda está exposto a:",
+    "options": [
+      { "text": "Risco de mercado (sistêmico), que afeta as ações como um todo em crises gerais" },
+      { "text": "Nenhum risco, pois a diversificação elimina tudo" },
+      { "text": "Apenas o risco de uma única empresa" },
+      { "text": "Risco de crédito do Tesouro Nacional" }
+    ],
+    "correct": 0,
+    "explanation": "A diversificação dilui o risco específico de cada empresa, mas não o risco sistêmico, que move o mercado inteiro em momentos de crise.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "conceitual",
+    "hints": ["Há um risco que atinge quase todas as ações ao mesmo tempo."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3f-q01",
+    "topicId": "m3f",
+    "stem": "Os fundos imobiliários (FIIs) são conhecidos por:",
+    "options": [
+      { "text": "Distribuir rendimentos mensais, em geral isentos de IR para a PF que cumpre as regras" },
+      { "text": "Nunca pagar rendimentos aos cotistas" },
+      { "text": "Serem renda fixa garantida pelo FGC" },
+      { "text": "Não terem nenhum tipo de risco" }
+    ],
+    "correct": 0,
+    "explanation": "FIIs costumam pagar rendimentos mensais, com isenção de IR para PF que cumpre as regras — mas têm risco de mercado e de vacância.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3f-q02",
+    "topicId": "m3f",
+    "stem": "Um FII de papel investe principalmente em:",
+    "options": [
+      { "text": "Títulos de crédito imobiliário, como CRIs" },
+      { "text": "Imóveis físicos, como shoppings e galpões" },
+      { "text": "Ações estrangeiras de tecnologia" },
+      { "text": "Ouro e outras commodities" }
+    ],
+    "correct": 0,
+    "explanation": "FIIs de papel aplicam em recebíveis imobiliários (ex.: CRIs); os de tijolo compram imóveis físicos para alugar.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3f-q03",
+    "topicId": "m3f",
+    "stem": "Em um FII de tijolo (imóveis físicos), um aumento da vacância (imóveis desocupados) tende a:",
+    "options": [
+      { "text": "Reduzir a receita de aluguéis e, com isso, os rendimentos distribuídos" },
+      { "text": "Aumentar os rendimentos distribuídos" },
+      { "text": "Não ter nenhum efeito sobre os rendimentos" },
+      { "text": "Transformar o FII em renda fixa" }
+    ],
+    "correct": 0,
+    "explanation": "Imóveis vazios não geram aluguel; mais vacância significa menos receita e, normalmente, menor distribuição aos cotistas.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Sem inquilino, o imóvel gera aluguel?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3f-q04",
+    "topicId": "m3f",
+    "stem": "O indicador P/VP de um FII compara:",
+    "options": [
+      { "text": "O preço de mercado da cota com o valor patrimonial por cota" },
+      { "text": "O preço da cota com o número de imóveis" },
+      { "text": "Os rendimentos com a taxa de administração" },
+      { "text": "A vacância com a inflação" }
+    ],
+    "correct": 0,
+    "explanation": "P/VP = preço de mercado ÷ valor patrimonial por cota. Abaixo de 1 sugere cota negociada com desconto sobre o patrimônio; acima de 1, com ágio — sempre exige análise do porquê.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Compara o preço que o mercado paga com o valor contábil da cota."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3f-q05",
+    "topicId": "m3f",
+    "stem": "Sobre a isenção de IR dos rendimentos de FIIs para a pessoa física, é correto afirmar que:",
+    "options": [
+      { "text": "Vale para os rendimentos mensais sob certas condições, mas o ganho de capital na VENDA de cotas é tributado" },
+      { "text": "Tudo no FII é isento, inclusive o lucro na venda das cotas", "misconception": "fii-totalmente-isento", "feedback": "A isenção é dos rendimentos mensais (com condições); o ganho de capital ao vender cotas com lucro é tributado (tipicamente 20%)." },
+      { "text": "Nada no FII é isento de imposto" },
+      { "text": "A isenção vale apenas para pessoas jurídicas" }
+    ],
+    "correct": 0,
+    "explanation": "Os rendimentos distribuídos costumam ser isentos para PF que cumpre as regras; já o lucro na venda das cotas é tributado — são situações diferentes.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Separe rendimento mensal de ganho na venda da cota."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3f-q06",
+    "topicId": "m3f",
+    "stem": "Um investidor vê um FII com dividend yield muito acima dos pares e decide entender o motivo. Qual atitude é mais prudente?",
+    "options": [
+      { "text": "Investigar a sustentabilidade dos rendimentos (rendas não recorrentes, alavancagem, vacância) antes de comprar só pelo yield alto" },
+      { "text": "Comprar imediatamente, pois yield alto é sempre sinal de boa oportunidade", "misconception": "yield-alto-sempre-bom", "feedback": "Yield muito acima dos pares pode esconder rendimentos não recorrentes ou risco elevado; é preciso analisar a sustentabilidade antes de comprar." },
+      { "text": "Ignorar o FII por completo sem análise" },
+      { "text": "Assumir que o yield se manterá para sempre" }
+    ],
+    "correct": 0,
+    "explanation": "Yield muito alto pode refletir distribuições não recorrentes, risco de crédito ou queda de preço por problemas; a análise da sustentabilidade vem antes da decisão.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Pergunte-se por que o yield está tão acima da média."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3g-q01",
+    "topicId": "m3g",
+    "stem": "A diversificação em uma carteira de ações busca, principalmente:",
+    "options": [
+      { "text": "Reduzir o risco específico distribuindo o capital entre setores e empresas" },
+      { "text": "Concentrar tudo no melhor papel do momento" },
+      { "text": "Garantir o mesmo retorno para todos os investidores" },
+      { "text": "Eliminar o imposto de renda" }
+    ],
+    "correct": 0,
+    "explanation": "Distribuir o risco entre vários bons negócios reduz o impacto de um problema isolado em uma empresa ou setor.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3g-q02",
+    "topicId": "m3g",
+    "stem": "Um erro comum ao montar uma carteira de ações é:",
+    "options": [
+      { "text": "Concentrar demais em um único setor ou na modinha do momento" },
+      { "text": "Diversificar entre bons negócios de setores diferentes" },
+      { "text": "Reinvestir os dividendos recebidos" },
+      { "text": "Estudar os fundamentos antes de comprar" }
+    ],
+    "correct": 0,
+    "explanation": "Concentração excessiva amplia o risco; modas costumam terminar mal para quem entra no topo do entusiasmo.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3g-q03",
+    "topicId": "m3g",
+    "stem": "Diversificar entre setores diferentes (bancos, energia, varejo, etc.) ajuda porque:",
+    "options": [
+      { "text": "Problemas que afetam um setor específico têm impacto menor no conjunto da carteira" },
+      { "text": "Garante que todos os setores subirão ao mesmo tempo" },
+      { "text": "Elimina o risco de mercado por completo" },
+      { "text": "Faz a carteira render sempre o mesmo que o Ibovespa" }
+    ],
+    "correct": 0,
+    "explanation": "Setores reagem de formas distintas a juros, câmbio e ciclo econômico; espalhar entre eles reduz a chance de um único choque setorial derrubar tudo.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Se um setor sofre, os demais amortecem o golpe."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3g-q04",
+    "topicId": "m3g",
+    "stem": "Espalhar o capital por dezenas e dezenas de ações, sem critério, pode levar a um problema conhecido como:",
+    "options": [
+      { "text": "Pulverização excessiva, em que acompanhar tudo fica inviável e os melhores casos perdem relevância" },
+      { "text": "Concentração de risco em um único papel" },
+      { "text": "Isenção automática de imposto" },
+      { "text": "Eliminação total do risco específico e do sistêmico" }
+    ],
+    "correct": 0,
+    "explanation": "Há um ponto a partir do qual diversificar mais traz pouco benefício e muito custo de acompanhamento — diversificar bem é diferente de diversificar demais.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "interpretacao",
+    "hints": ["Existe um excesso de diversificação que atrapalha o acompanhamento."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3g-q05",
+    "topicId": "m3g",
+    "stem": "A diversificação consegue reduzir o risco específico (de uma empresa), mas NÃO elimina:",
+    "options": [
+      { "text": "O risco sistêmico, que afeta o mercado como um todo" },
+      { "text": "O risco de a empresa específica ir mal" },
+      { "text": "O custo de corretagem de cada ordem" },
+      { "text": "A necessidade de uma conta em corretora" }
+    ],
+    "correct": 0,
+    "explanation": "Por mais diversificada que seja, a carteira de ações continua exposta ao risco sistêmico (crises gerais, juros, recessão), que move o mercado inteiro.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Há um risco que a diversificação não alcança porque atinge todos os papéis."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3g-q06",
+    "topicId": "m3g",
+    "stem": "Ao selecionar ações para a carteira, a abordagem mais coerente com o investimento de longo prazo combina:",
+    "options": [
+      { "text": "Qualidade do negócio (fundamentos sólidos) com um preço de entrada razoável e diversificação setorial" },
+      { "text": "Apenas comprar o que mais subiu na semana" },
+      { "text": "Seguir dicas de redes sociais sem analisar" },
+      { "text": "Concentrar tudo na ação com o maior número de citações no momento" }
+    ],
+    "correct": 0,
+    "explanation": "Boas empresas, compradas a preços razoáveis e distribuídas entre setores, formam a base de uma carteira resiliente de longo prazo.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Junte três pilares: qualidade, preço e diversificação."],
+    "source": "M3 · Renda Variável"
+  }
+]

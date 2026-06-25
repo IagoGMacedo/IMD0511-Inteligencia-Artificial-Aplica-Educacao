@@ -1,0 +1,638 @@
+[
+  {
+    "id": "m2a-q01",
+    "topicId": "m2a",
+    "stem": "Um título prefixado de renda fixa se caracteriza por:",
+    "options": [
+      { "text": "Ter a taxa de retorno conhecida já no momento da compra" },
+      { "text": "Render sempre a inflação mais um spread" },
+      { "text": "Acompanhar a Selic diariamente" },
+      { "text": "Não possuir data de vencimento" }
+    ],
+    "correct": 0,
+    "explanation": "No prefixado a taxa é travada na compra, então você sabe exatamente o valor de resgate no vencimento.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2a-q02",
+    "topicId": "m2a",
+    "stem": "Um título pós-fixado atrelado ao CDI:",
+    "options": [
+      { "text": "Rende acompanhando a variação do indexador ao longo do tempo" },
+      { "text": "Tem o valor final conhecido na compra, como o prefixado", "misconception": "pos-fixado-com-valor-conhecido", "feedback": "No pós-fixado o valor final NÃO é conhecido na compra: ele depende de como o indexador (CDI) variar até o vencimento." },
+      { "text": "Nunca varia de rendimento" },
+      { "text": "É sempre isento de imposto de renda" }
+    ],
+    "correct": 0,
+    "explanation": "No pós-fixado o rendimento segue um indexador (CDI/Selic); o valor exato só é conhecido no resgate.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2a-q03",
+    "topicId": "m2a",
+    "stem": "Em um cenário de inflação alta e persistente, qual título protege melhor o poder de compra do investidor?",
+    "options": [
+      { "text": "Pós-fixado atrelado à inflação (IPCA+)" },
+      { "text": "Prefixado de longo prazo", "misconception": "prefixado-protege-inflacao", "feedback": "O prefixado trava uma taxa nominal; se a inflação sobe acima do esperado, o ganho real diminui — ele não protege do avanço inflacionário." },
+      { "text": "Poupança" },
+      { "text": "CDB prefixado curto" }
+    ],
+    "correct": 0,
+    "explanation": "O IPCA+ paga a inflação mais um juro real, preservando o poder de compra independentemente de quanto a inflação suba.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Procure o título cuja remuneração inclui a própria inflação."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2a-q04",
+    "topicId": "m2a",
+    "stem": "Um investidor acredita fortemente que os juros vão CAIR nos próximos anos e quer travar uma taxa alta hoje. A escolha mais coerente com essa visão é:",
+    "options": [
+      { "text": "Comprar um prefixado, travando a taxa atual antes da queda" },
+      { "text": "Comprar um pós-fixado ao CDI, que cairá junto com os juros" },
+      { "text": "Deixar tudo na poupança" },
+      { "text": "Comprar apenas Tesouro Selic" }
+    ],
+    "correct": 0,
+    "explanation": "Quem aposta na queda dos juros prefere o prefixado: trava a taxa alta de hoje, enquanto o pós-fixado renderia cada vez menos conforme a Selic cai.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Se os juros vão cair, vale travar a taxa de hoje ou deixá-la flutuar para baixo?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2a-q05",
+    "topicId": "m2a",
+    "stem": "Em um título IPCA+ 6% ao ano, o que representa o componente de 6%?",
+    "options": [
+      { "text": "O juro real, pago acima da inflação do período" },
+      { "text": "A inflação esperada para o ano" },
+      { "text": "A taxa total nominal, já incluindo a inflação", "misconception": "confunde-juro-real-com-taxa-nominal", "feedback": "Os 6% são o juro REAL, somado à inflação. A taxa nominal será aproximadamente inflação + 6%." },
+      { "text": "A taxa de administração do título" }
+    ],
+    "correct": 0,
+    "explanation": "No IPCA+, o retorno é inflação (IPCA) mais um juro real fixo (aqui 6% a.a.). É essa parcela real que garante ganho acima da inflação.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["A remuneração tem duas partes: a inflação e um ganho acima dela."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2a-q06",
+    "topicId": "m2a",
+    "stem": "Diante de muita incerteza sobre o rumo dos juros e da inflação, qual estratégia de renda fixa tende a ser mais robusta?",
+    "options": [
+      { "text": "Diversificar entre pós-fixado, prefixado e IPCA+ conforme os objetivos e prazos" },
+      { "text": "Concentrar 100% em um único prefixado longo" },
+      { "text": "Aplicar tudo na poupança para não pensar mais no assunto" },
+      { "text": "Escolher o título com a maior taxa nominal, sem olhar o tipo" }
+    ],
+    "correct": 0,
+    "explanation": "Cada tipo de título se beneficia de um cenário diferente; diversificar entre eles, alinhado a prazos e metas, reduz o risco de errar a aposta de juros.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Quando não se sabe o cenário, evitar uma aposta única costuma ser mais seguro."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2b-q01",
+    "topicId": "m2b",
+    "stem": "Quem é o emissor dos títulos do Tesouro Direto?",
+    "options": [
+      { "text": "O Governo Federal (Tesouro Nacional)" },
+      { "text": "Os bancos privados" },
+      { "text": "A B3 (bolsa de valores)" },
+      { "text": "As corretoras de valores" }
+    ],
+    "correct": 0,
+    "explanation": "São títulos da dívida pública federal; o emissor é o Tesouro Nacional, o que os torna o investimento de menor risco de crédito do país.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2b-q02",
+    "topicId": "m2b",
+    "stem": "O Tesouro Selic é mais indicado para:",
+    "options": [
+      { "text": "Reserva de emergência e objetivos de curto prazo, por liquidez e baixa oscilação" },
+      { "text": "Especulação de curtíssimo prazo na bolsa" },
+      { "text": "Substituir uma carteira de ações" },
+      { "text": "Apenas para a aposentadoria daqui a 30 anos" }
+    ],
+    "correct": 0,
+    "explanation": "Por seguir a Selic e oscilar pouco, é um dos ativos preferidos para reserva e metas de curto prazo.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2b-q03",
+    "topicId": "m2b",
+    "stem": "Para uma meta de aposentadoria daqui a 25 anos, protegendo o poder de compra, o título do Tesouro mais adequado costuma ser:",
+    "options": [
+      { "text": "Tesouro IPCA+ (com vencimento longo)" },
+      { "text": "Tesouro Selic" },
+      { "text": "Tesouro Prefixado de 6 meses" },
+      { "text": "Poupança do Tesouro", "misconception": "inventa-produto-inexistente", "feedback": "Não existe poupança do Tesouro. Para o longo prazo com proteção da inflação, o indicado é o Tesouro IPCA+." }
+    ],
+    "correct": 0,
+    "explanation": "Para horizontes longos com proteção inflacionária, o Tesouro IPCA+ garante a inflação mais um juro real até o vencimento.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Longo prazo + proteção da inflação aponta para qual indexador?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2b-q04",
+    "topicId": "m2b",
+    "stem": "Sobre o Tesouro Prefixado, é correto afirmar que:",
+    "options": [
+      { "text": "Você conhece o valor bruto que receberá no vencimento já na compra" },
+      { "text": "Seu rendimento acompanha a Selic dia a dia" },
+      { "text": "Ele paga sempre a inflação mais um juro real" },
+      { "text": "Não pode ser vendido antes do vencimento" }
+    ],
+    "correct": 0,
+    "explanation": "No prefixado a taxa é fixada na compra; levando até o vencimento, o valor bruto de resgate é conhecido desde o início.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Prefixado = taxa travada; o que isso permite saber de antemão?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2b-q05",
+    "topicId": "m2b",
+    "stem": "Sobre custos do Tesouro Direto, é correto dizer que:",
+    "options": [
+      { "text": "Há uma taxa de custódia da B3, com isenção para o Tesouro Selic até um certo valor investido" },
+      { "text": "Não existe nenhum custo em hipótese alguma" },
+      { "text": "Há come-cotas semestral, como nos fundos", "misconception": "come-cotas-no-tesouro", "feedback": "O come-cotas é de fundos abertos; no Tesouro Direto o IR é cobrado só no resgate/vencimento, não semestralmente." },
+      { "text": "A corretora sempre cobra 2% de entrada" }
+    ],
+    "correct": 0,
+    "explanation": "Existe a taxa de custódia da B3 (e o IR no resgate), mas o Tesouro Selic tem isenção dessa taxa até determinado valor — e não há come-cotas.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Pense em taxa de custódia da B3 e em quando o IR é cobrado."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2b-q06",
+    "topicId": "m2b",
+    "stem": "Um investidor quer guardar dinheiro por 2 anos para a entrada de um imóvel, com previsibilidade total do valor final e baixa exposição a oscilações de juros se levar até o fim. A melhor escolha tende a ser:",
+    "options": [
+      { "text": "Um Tesouro Prefixado com vencimento próximo dos 2 anos, mantido até o vencimento" },
+      { "text": "Tesouro IPCA+ 2045, vendido em 2 anos" },
+      { "text": "Tesouro Selic resgatado todo mês" },
+      { "text": "Um prefixado de 15 anos, vendido em 2 anos" }
+    ],
+    "correct": 0,
+    "explanation": "Casar o vencimento do prefixado com o prazo da meta dá previsibilidade do valor final e evita o risco de marcação a mercado de vender antes.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Casar o vencimento do título com o prazo da meta evita surpresas de preço."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2c-q01",
+    "topicId": "m2c",
+    "stem": "A marcação a mercado explica por que:",
+    "options": [
+      { "text": "O preço de um título pode oscilar antes do vencimento" },
+      { "text": "A Selic nunca muda" },
+      { "text": "Ações pagam dividendos" },
+      { "text": "O FGC garante todos os investimentos" }
+    ],
+    "correct": 0,
+    "explanation": "O preço do título é atualizado às condições atuais de juros, gerando oscilação no caminho até o vencimento.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2c-q02",
+    "topicId": "m2c",
+    "stem": "Se um investidor leva um título prefixado até o vencimento, a marcação a mercado:",
+    "options": [
+      { "text": "Não altera o resultado: ele recebe exatamente a taxa contratada na compra" },
+      { "text": "Faz ele perder dinheiro garantidamente" },
+      { "text": "Dobra o rendimento contratado" },
+      { "text": "Anula o pagamento dos juros" }
+    ],
+    "correct": 0,
+    "explanation": "A oscilação de preço só importa para quem vende antes; mantendo até o vencimento, o investidor recebe a taxa combinada na compra.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2c-q03",
+    "topicId": "m2c",
+    "stem": "Se os juros de mercado SOBEM, o preço de um título prefixado já emitido tende a:",
+    "options": [
+      { "text": "Cair" },
+      { "text": "Subir", "misconception": "relacao-direta-juros-preco", "feedback": "A relação é inversa: quando os juros sobem, os títulos antigos (de taxa menor) ficam menos atraentes e seu preço cai." },
+      { "text": "Ficar exatamente igual" },
+      { "text": "Dobrar de valor" }
+    ],
+    "correct": 0,
+    "explanation": "Juros novos mais altos tornam o título antigo (de taxa menor) menos atraente, derrubando seu preço de mercado. Preço e juros caminham em sentidos opostos.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Pense: um título antigo com taxa menor vale mais ou menos quando surgem títulos novos com taxa maior?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2c-q04",
+    "topicId": "m2c",
+    "stem": "Quem realmente é afetado pelas oscilações da marcação a mercado?",
+    "options": [
+      { "text": "Quem precisa (ou decide) vender o título antes do vencimento" },
+      { "text": "Apenas quem leva o título até o vencimento" },
+      { "text": "Somente investidores de ações" },
+      { "text": "Ninguém, pois o preço é sempre fixo" }
+    ],
+    "correct": 0,
+    "explanation": "A marcação a mercado define o preço de venda antecipada; quem carrega até o vencimento recebe a taxa contratada e não sofre essa oscilação.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "interpretacao",
+    "hints": ["O preço de mercado só vira resultado concreto se você fizer o quê?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2c-q05",
+    "topicId": "m2c",
+    "stem": "Entre dois títulos IPCA+, por que o de vencimento mais LONGO costuma oscilar mais com mudanças de juros?",
+    "options": [
+      { "text": "Porque prazos mais longos têm maior sensibilidade (duration) a variações na taxa" },
+      { "text": "Porque títulos longos não têm marcação a mercado" },
+      { "text": "Porque o longo paga sempre menos juros", "misconception": "ignora-duration", "feedback": "Não é questão de pagar menos: quanto maior o prazo, maior a sensibilidade do preço às mudanças de juros (duration)." },
+      { "text": "Porque o curto é mais arriscado que o longo" }
+    ],
+    "correct": 0,
+    "explanation": "Quanto mais distante o vencimento, maior a duration e, portanto, maior a oscilação de preço para uma mesma variação de juros.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Quanto mais longo o título, mais sensível seu preço a mudanças na taxa."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2c-q06",
+    "topicId": "m2c",
+    "stem": "Um investidor comprou um prefixado longo e, meses depois, os juros de mercado caíram bastante. Que oportunidade a marcação a mercado abre para ele?",
+    "options": [
+      { "text": "Vender o título antes do vencimento com ganho de capital, pois seu preço subiu" },
+      { "text": "Nenhuma: o preço de títulos nunca muda" },
+      { "text": "Receber dividendos extras do Tesouro" },
+      { "text": "Converter o título em ações automaticamente" }
+    ],
+    "correct": 0,
+    "explanation": "Com a queda dos juros, o título antigo (taxa maior) valoriza; vender antes do vencimento pode antecipar lucro via ganho de capital.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Se juros caem, o preço do prefixado antigo sobe — e aí?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2d-q01",
+    "topicId": "m2d",
+    "stem": "O FGC garante aplicações como CDBs até o limite de:",
+    "options": [
+      { "text": "R$ 250 mil por CPF e por instituição, com teto de R$ 1 milhão a cada 4 anos" },
+      { "text": "Valor ilimitado" },
+      { "text": "R$ 20 mil por aplicação" },
+      { "text": "Apenas títulos públicos" }
+    ],
+    "correct": 0,
+    "explanation": "O FGC cobre até R$ 250 mil por CPF e instituição, com teto global de R$ 1 milhão renovável a cada 4 anos.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2d-q02",
+    "topicId": "m2d",
+    "stem": "Um CDB pós-fixado que paga 100% do CDI significa que ele:",
+    "options": [
+      { "text": "Rende praticamente o mesmo que a variação do CDI no período" },
+      { "text": "Rende 100% ao ano, ou seja, dobra o dinheiro", "misconception": "confunde-percentual-do-cdi-com-rentabilidade", "feedback": "100% do CDI não é 100% ao ano: significa render o equivalente ao CDI do período, que fica próximo da Selic." },
+      { "text": "É isento de imposto de renda" },
+      { "text": "Tem rendimento fixo, independentemente do CDI" }
+    ],
+    "correct": 0,
+    "explanation": "100% do CDI quer dizer acompanhar o CDI (próximo da Selic). É um percentual do indexador, não uma taxa anual de 100%.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2d-q03",
+    "topicId": "m2d",
+    "stem": "Considerando o mesmo prazo e ambos dentro do limite do FGC, como avaliar um CDB de banco grande a 100% do CDI versus um de banco menor a 120% do CDI?",
+    "options": [
+      { "text": "A taxa maior pode compensar o risco extra do emissor menor, já que o FGC cobre a aplicação" },
+      { "text": "O de banco grande é sempre melhor, independentemente da taxa" },
+      { "text": "A taxa não importa, só o tamanho do banco" },
+      { "text": "Ambos rendem exatamente igual" }
+    ],
+    "correct": 0,
+    "explanation": "Dentro da cobertura do FGC, o risco adicional do emissor menor é mitigado, então a taxa de 120% do CDI tende a valer a pena.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Se o FGC cobre, o que sobra para comparar entre os dois?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2d-q04",
+    "topicId": "m2d",
+    "stem": "Uma diferença típica entre RDB e CDB é que o RDB:",
+    "options": [
+      { "text": "Em geral não pode ser negociado/transferido antes do vencimento (sem liquidez no mercado secundário)" },
+      { "text": "É emitido pelo governo, não por instituições financeiras" },
+      { "text": "É sempre isento de imposto de renda" },
+      { "text": "Não conta com a cobertura do FGC" }
+    ],
+    "correct": 0,
+    "explanation": "O RDB (Recibo de Depósito Bancário) costuma ser inegociável antes do vencimento, ao contrário do CDB, que pode ter liquidez ou recompra; ambos têm FGC.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["A diferença principal está na possibilidade de negociar o papel antes do vencimento."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2d-q05",
+    "topicId": "m2d",
+    "stem": "Com o CDI em torno de 10% ao ano, qual o rendimento bruto aproximado de um CDB que paga 120% do CDI em um ano?",
+    "options": [
+      { "text": "Cerca de 12% ao ano" },
+      { "text": "Cerca de 120% ao ano", "misconception": "confunde-percentual-do-cdi-com-rentabilidade", "feedback": "120% do CDI com CDI de 10% dá ~12% ao ano, não 120%. O percentual incide SOBRE o CDI." },
+      { "text": "Cerca de 10% ao ano" },
+      { "text": "Cerca de 22% ao ano" }
+    ],
+    "correct": 0,
+    "explanation": "120% de 10% = 12% ao ano bruto. O percentual do CDI multiplica a taxa do indexador.",
+    "difficulty": "dificil",
+    "bloom": "aplicar",
+    "type": "calculo",
+    "hints": ["Multiplique o CDI (10%) por 1,20."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2d-q06",
+    "topicId": "m2d",
+    "stem": "Um investidor tem R$ 600 mil para aplicar em CDBs com segurança do FGC. A forma mais prudente de usar a garantia é:",
+    "options": [
+      { "text": "Distribuir entre instituições diferentes, respeitando o limite de R$ 250 mil por CPF e por instituição" },
+      { "text": "Concentrar tudo no CDB de um único banco menor com a maior taxa" },
+      { "text": "Aplicar os R$ 600 mil em um só banco, pois o FGC cobre qualquer valor" },
+      { "text": "Dividir em duas aplicações no mesmo banco para dobrar a cobertura", "misconception": "limite-fgc-por-aplicacao", "feedback": "O limite do FGC é por CPF e por instituição, não por aplicação; ter duas contas no mesmo banco não dobra a cobertura." }
+    ],
+    "correct": 0,
+    "explanation": "Como a garantia é por CPF e instituição (até R$ 250 mil), diversificar emissores mantém todo o valor dentro da cobertura do FGC.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["O limite é por instituição; como cobrir R$ 600 mil respeitando R$ 250 mil cada?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2e-q01",
+    "topicId": "m2e",
+    "stem": "Uma vantagem tributária de LCI e LCA para a pessoa física é que elas:",
+    "options": [
+      { "text": "São isentas de imposto de renda sobre os rendimentos" },
+      { "text": "Têm IR maior que o das ações" },
+      { "text": "Não possuem nenhum risco de crédito" },
+      { "text": "São emitidas pelo governo federal" }
+    ],
+    "correct": 0,
+    "explanation": "LCI e LCA são isentas de IR para PF, o que eleva o rendimento líquido frente a um CDB de taxa parecida.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2e-q02",
+    "topicId": "m2e",
+    "stem": "Debêntures são, essencialmente:",
+    "options": [
+      { "text": "Títulos de dívida emitidos por empresas" },
+      { "text": "Ações preferenciais de bancos" },
+      { "text": "Cotas de fundos imobiliários" },
+      { "text": "Títulos emitidos pelo Tesouro Nacional" }
+    ],
+    "correct": 0,
+    "explanation": "Ao comprar uma debênture, você empresta para a empresa e assume o risco de crédito dela — por isso normalmente paga mais que títulos públicos.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2e-q03",
+    "topicId": "m2e",
+    "stem": "Para comparar de forma justa um CDB tributado e uma LCI isenta, o investidor deve olhar:",
+    "options": [
+      { "text": "A rentabilidade líquida (após o IR no CDB), e não apenas a taxa bruta" },
+      { "text": "Apenas a taxa bruta de cada um", "misconception": "compara-bruto-com-isento", "feedback": "Comparar a taxa bruta do CDB com a da LCI isenta é injusto: é preciso descontar o IR do CDB para chegar ao líquido." },
+      { "text": "Somente o nome do banco emissor" },
+      { "text": "A cor do aplicativo da corretora" }
+    ],
+    "correct": 0,
+    "explanation": "Como a LCI é isenta, uma taxa bruta menor pode resultar em líquido maior que um CDB tributado; a comparação correta é sempre líquida.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Desconte o IR do CDB antes de comparar com a LCI isenta."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2e-q04",
+    "topicId": "m2e",
+    "stem": "Sobre CRI e CRA, é correto afirmar que:",
+    "options": [
+      { "text": "São lastreados em crédito imobiliário e do agronegócio, isentos de IR para PF, e NÃO contam com FGC" },
+      { "text": "São garantidos pelo FGC, como os CDBs" },
+      { "text": "São emitidos pelo Tesouro Nacional" },
+      { "text": "Têm a mesma tributação das ações" }
+    ],
+    "correct": 0,
+    "explanation": "CRI/CRA são títulos de crédito privado (imobiliário/agro), isentos de IR para PF, porém sem a cobertura do FGC — o risco de crédito do emissor precisa ser avaliado.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Têm isenção como LCI/LCA, mas e quanto à garantia do FGC?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2e-q05",
+    "topicId": "m2e",
+    "stem": "Por que algumas debêntures (incentivadas) são isentas de IR para a pessoa física, enquanto as comuns são tributadas?",
+    "options": [
+      { "text": "Porque as incentivadas financiam projetos de infraestrutura e recebem isenção como incentivo" },
+      { "text": "Porque toda debênture é isenta de IR", "misconception": "toda-debenture-e-isenta", "feedback": "Nem toda debênture é isenta: apenas as incentivadas (de infraestrutura) têm isenção para PF; as comuns seguem a tabela regressiva." },
+      { "text": "Porque as comuns são emitidas pelo governo" },
+      { "text": "Porque as incentivadas não têm risco de crédito" }
+    ],
+    "correct": 0,
+    "explanation": "As debêntures incentivadas financiam infraestrutura e, por isso, têm isenção de IR para PF; as comuns são tributadas pela tabela regressiva. Ambas têm risco de crédito.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["A isenção está ligada ao tipo de projeto que a debênture financia."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2e-q06",
+    "topicId": "m2e",
+    "stem": "Ao avaliar uma debênture de crédito privado que paga bem acima do Tesouro, o ponto de atenção mais importante é:",
+    "options": [
+      { "text": "O risco de crédito do emissor, já que não há FGC e a empresa pode não honrar a dívida" },
+      { "text": "Apenas a marca da corretora que oferece o papel" },
+      { "text": "O fato de que rendimento alto significa ausência de risco", "misconception": "premio-de-risco-sem-risco", "feedback": "Rendimento mais alto normalmente é prêmio por MAIS risco; em crédito privado sem FGC, o risco de calote é central." },
+      { "text": "A cor do gráfico de rentabilidade" }
+    ],
+    "correct": 0,
+    "explanation": "Sem FGC, a segurança depende da saúde da empresa emissora; o prêmio extra de retorno é a remuneração pelo maior risco de crédito.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Retorno acima do Tesouro costuma vir acompanhado de quê?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2f-q01",
+    "topicId": "m2f",
+    "stem": "O chamado come-cotas é:",
+    "options": [
+      { "text": "A antecipação semestral do imposto de renda em certos fundos" },
+      { "text": "Uma taxa de corretagem cobrada na compra" },
+      { "text": "Um tipo de dividendo pago pelo fundo" },
+      { "text": "Uma garantia oferecida pelo FGC" }
+    ],
+    "correct": 0,
+    "explanation": "Em fundos abertos de renda fixa e multimercado, o IR é antecipado a cada semestre reduzindo a quantidade de cotas do investidor.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2f-q02",
+    "topicId": "m2f",
+    "stem": "A taxa de administração de um fundo de renda fixa:",
+    "options": [
+      { "text": "Reduz a rentabilidade líquida do investidor, pois é cobrada sobre o patrimônio" },
+      { "text": "Aumenta o rendimento do investidor" },
+      { "text": "É devolvida ao cotista no fim do ano" },
+      { "text": "Só é cobrada se o fundo tiver lucro" }
+    ],
+    "correct": 0,
+    "explanation": "A taxa de administração incide sobre o patrimônio independentemente do resultado e corrói o rendimento — por isso precisa ser comparada com o ganho que o fundo entrega.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2f-q03",
+    "topicId": "m2f",
+    "stem": "Antes de escolher um fundo de renda fixa, é essencial comparar:",
+    "options": [
+      { "text": "A taxa de administração e a rentabilidade líquida frente ao mesmo título comprado diretamente" },
+      { "text": "Apenas o número de cotistas do fundo" },
+      { "text": "Somente o nome do gestor" },
+      { "text": "A cor do aplicativo da instituição" }
+    ],
+    "correct": 0,
+    "explanation": "Taxas altas podem fazer o fundo render menos que o mesmo título comprado diretamente; a comparação relevante é o líquido entregue.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["O que importa é quanto sobra no seu bolso depois das taxas."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2f-q04",
+    "topicId": "m2f",
+    "stem": "Em qual situação um fundo de renda fixa faz mais sentido do que comprar títulos diretamente?",
+    "options": [
+      { "text": "Quando oferece gestão profissional e diversificação que o investidor não conseguiria sozinho, a um custo justo" },
+      { "text": "Sempre, porque fundo é melhor que título direto em qualquer caso" },
+      { "text": "Nunca, porque fundos não têm utilidade" },
+      { "text": "Apenas quando a taxa de administração é a mais alta possível" }
+    ],
+    "correct": 0,
+    "explanation": "O fundo agrega valor quando a gestão e a diversificação compensam a taxa; se a taxa é alta e a estratégia é simples, o título direto tende a ser melhor.",
+    "difficulty": "medio",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["O fundo precisa entregar algo (gestão, diversificação) que justifique a taxa."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2f-q05",
+    "topicId": "m2f",
+    "stem": "Um fundo DI cobra 2% de taxa de administração ao ano e investe basicamente em Tesouro Selic. Comparado a comprar o Tesouro Selic diretamente, esse fundo provavelmente:",
+    "options": [
+      { "text": "Renderá menos, pois a taxa alta consome boa parte do rendimento de um ativo simples" },
+      { "text": "Renderá mais, porque fundo sempre rende mais que título direto", "misconception": "fundo-sempre-rende-mais", "feedback": "Não é verdade que fundo sempre rende mais; uma taxa de 2% sobre um ativo simples como o Selic costuma deixar o líquido abaixo do título direto." },
+      { "text": "Renderá exatamente igual, pois a taxa não afeta nada" },
+      { "text": "Será isento de imposto de renda" }
+    ],
+    "correct": 0,
+    "explanation": "Para algo simples como replicar o Selic, uma taxa de 2% é cara e tende a deixar o fundo abaixo do Tesouro Selic comprado diretamente.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "aplicacao",
+    "hints": ["Se o fundo só copia o Selic, o que justifica pagar 2% ao ano?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2f-q06",
+    "topicId": "m2f",
+    "stem": "Ao analisar um fundo que cobra taxa de performance, o investidor deve entender que ela:",
+    "options": [
+      { "text": "É cobrada sobre o que excede um índice de referência (benchmark), alinhando o ganho do gestor ao do cotista" },
+      { "text": "É cobrada todo mês, independentemente do resultado" },
+      { "text": "Substitui completamente a taxa de administração" },
+      { "text": "Garante que o fundo nunca terá prejuízo" }
+    ],
+    "correct": 0,
+    "explanation": "A taxa de performance incide apenas sobre o retorno acima do benchmark (ex.: CDI), premiando o gestor quando ele entrega resultado superior — mas não elimina a taxa de administração.",
+    "difficulty": "dificil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Ela depende de superar um índice de referência."],
+    "source": "M2 · Renda Fixa"
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://financial-its/schema/question.schema.json",
+  "title": "Question",
+  "description": "Item do banco de questões do ITS Trilha do Investidor. Cada arquivo do banco (src/data/questions/*.json) é um array destes objetos.",
+  "type": "array",
+  "items": { "$ref": "#/definitions/question" },
+  "definitions": {
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "topicId", "stem", "options", "correct", "explanation", "difficulty", "bloom"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Id estável e único. Convenção: '<topicId>-q<NN>', ex.: 'm2b-q07'.",
+          "pattern": "^[a-zA-Z0-9_-]+$"
+        },
+        "topicId": {
+          "type": "string",
+          "description": "Knowledge component = id do tópico (ver src/data/topics.ts). Ex.: 'm2b' (Tesouro Direto)."
+        },
+        "stem": {
+          "type": "string",
+          "description": "Enunciado da questão.",
+          "minLength": 1
+        },
+        "options": {
+          "type": "array",
+          "description": "Alternativas (2 a 6). Apenas UMA é a correta (índice em 'correct').",
+          "minItems": 2,
+          "maxItems": 6,
+          "items": { "$ref": "#/definitions/option" }
+        },
+        "correct": {
+          "type": "integer",
+          "description": "Índice 0-based da alternativa correta dentro de 'options'.",
+          "minimum": 0
+        },
+        "explanation": {
+          "type": "string",
+          "description": "Explicação mostrada no feedback após responder; deve ensinar o porquê.",
+          "minLength": 1
+        },
+        "difficulty": {
+          "type": "string",
+          "description": "Calibra slip/guess do BKT e a seleção adaptativa.",
+          "enum": ["facil", "medio", "dificil"]
+        },
+        "bloom": {
+          "type": "string",
+          "description": "Nível cognitivo (taxonomia de Bloom revisada).",
+          "enum": ["lembrar", "entender", "aplicar", "analisar", "avaliar", "criar"]
+        },
+        "type": {
+          "type": "string",
+          "description": "Natureza da tarefa (opcional).",
+          "enum": ["conceitual", "calculo", "aplicacao", "interpretacao"]
+        },
+        "hints": {
+          "type": "array",
+          "description": "Dicas progressivas, da mais geral à mais específica (opcional).",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "source": {
+          "type": "string",
+          "description": "Procedência (aula/módulo de origem) — opcional."
+        },
+        "tags": {
+          "type": "array",
+          "description": "Tags livres extras (opcional).",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "option": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text"],
+      "properties": {
+        "text": { "type": "string", "minLength": 1, "description": "Texto da alternativa." },
+        "misconception": {
+          "type": "string",
+          "description": "Id curto e estável do equívoco que esta alternativa (errada) representa. Opcional, forward-compat. Ex.: 'confunde-protecao-inflacao-com-liquidez'."
+        },
+        "feedback": {
+          "type": "string",
+          "description": "Feedback direcionado caso o aluno escolha esta alternativa. Opcional."
+        }
+      }
+    }
+  }
+}
