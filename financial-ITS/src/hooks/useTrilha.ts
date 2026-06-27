@@ -1,7 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
-import { getQuestion } from '../data/questions'
-import { applyHintPenalty, DEFAULT_PT, updateBKT } from '../lib/bkt'
-import { selectNextQuestion } from '../lib/itemSelection'
+import { selectNextQuestion, selectSimilarQuestion } from '../lib/itemSelection'
+import { updateMastery } from '../lib/overlayModel'
 import { loadState, saveState } from '../lib/storage'
 import { initialState } from '../lib/studentModel'
 import type { ProgressState, Question } from '../types'
@@ -10,15 +9,33 @@ import type { ProgressState, Question } from '../types'
 const RECENT_LIMIT = 3
 
 /**
- * Concentra todo o estado mutável da trilha (modelo do aluno BKT, ritmo de
- * aprendizado P(T), a questão atualmente selecionada por tópico e o tópico
- * aberto no modal) e as ações que o alteram.
+ * Apresenta a questão com as alternativas em ordem ALEATÓRIA (Fisher–Yates),
+ * remapeando o índice da correta. Sem isso a posição carregaria sinal: no banco
+ * a correta tende a ficar fixa, e o aluno acertaria pela posição, não pelo
+ * conteúdo. Embaralhar a cada apresentação remove esse viés.
+ */
+function shuffleOptions(q: Question): Question {
+  const order = q.options.map((_, i) => i)
+  for (let i = order.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[order[i], order[j]] = [order[j], order[i]]
+  }
+  return {
+    ...q,
+    options: order.map((i) => q.options[i]),
+    correct: order.indexOf(q.correct),
+  }
+}
+
+/**
+ * Concentra todo o estado mutável da trilha (modelo do aluno — domínio p por
+ * conceito, a questão atualmente apresentada e o tópico aberto no modal) e as
+ * ações que o alteram.
  */
 export function useTrilha() {
   const [progress, setProgress] = useState<ProgressState>(initialState)
-  const [pT, setPTState] = useState<number>(DEFAULT_PT)
   const [currentTopic, setCurrentTopic] = useState<string | null>(null)
-  const [currentQId, setCurrentQId] = useState<Record<string, string>>({})
+  const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null)
   const [recentIds, setRecentIds] = useState<Record<string, string[]>>({})
   const [answeredIdx, setAnsweredIdx] = useState<number | null>(null)
   const [loaded, setLoaded] = useState(false)
@@ -28,78 +45,72 @@ export function useTrilha() {
     let alive = true
     loadState().then((saved) => {
       if (!alive) return
-      if (saved) {
-        if (saved.state) {
-          setProgress((prev) => {
-            const merged = { ...prev }
-            Object.keys(merged).forEach((k) => {
-              if (saved.state![k]) merged[k] = saved.state![k]
-            })
-            return merged
+      if (saved?.state) {
+        setProgress((prev) => {
+          const merged = { ...prev }
+          Object.keys(merged).forEach((k) => {
+            if (saved.state![k]) merged[k] = saved.state![k]
           })
-        }
-        if (typeof saved.pT === 'number') setPTState(saved.pT)
+          return merged
+        })
       }
       setLoaded(true)
     })
     return () => { alive = false }
   }, [])
 
-  // Persiste o modelo do aluno e P(T) sempre que mudam (após o carregamento inicial).
+  // Persiste o modelo do aluno sempre que muda (após o carregamento inicial).
   useEffect(() => {
     if (!loaded) return
-    saveState(progress, pT)
-  }, [progress, pT, loaded])
-
-  /** Seleciona adaptativamente uma questão para o tópico e a registra. */
-  const pickQuestion = useCallback((id: string) => {
-    setCurrentQId((prev) => {
-      const q = selectNextQuestion(id, progress[id]?.m ?? 0, recentIds[id] ?? [])
-      return q ? { ...prev, [id]: q.id } : prev
-    })
-  }, [progress, recentIds])
+    saveState(progress)
+  }, [progress, loaded])
 
   const openTopic = useCallback((id: string) => {
     setCurrentTopic(id)
     setAnsweredIdx(null)
-    pickQuestion(id)
-  }, [pickQuestion])
+    const q = selectNextQuestion(id, progress[id]?.m ?? 0, recentIds[id] ?? [])
+    setCurrentQuestion(q ? shuffleOptions(q) : null)
+  }, [progress, recentIds])
 
   const closeModal = useCallback(() => setCurrentTopic(null), [])
 
-  const answer = useCallback((optIndex: number, hintsUsed = 0) => {
+  const answer = useCallback((optIndex: number) => {
     const id = currentTopic
-    if (id == null || answeredIdx != null) return
-    const qid = currentQId[id]
-    const item = qid ? getQuestion(qid) : undefined
-    if (!item) return
-    const correct = optIndex === item.correct
+    if (id == null || answeredIdx != null || currentQuestion == null) return
+    const correct = optIndex === currentQuestion.correct
     setAnsweredIdx(optIndex)
     setProgress((prev) => {
-      const bkt = updateBKT(prev[id].m, correct, item.difficulty, pT)
-      const m = applyHintPenalty(prev[id].m, bkt, hintsUsed > 0)
-      return { ...prev, [id]: { m, seen: prev[id].seen + 1 } }
+      const cur = prev[id]
+      const m = updateMastery(cur.m, correct, cur.seen) // cur.seen = vistas antes desta
+      return { ...prev, [id]: { m, seen: cur.seen + 1 } }
     })
     setRecentIds((prev) => {
-      const list = [item.id, ...(prev[id] ?? [])].slice(0, RECENT_LIMIT)
+      const list = [currentQuestion.id, ...(prev[id] ?? [])].slice(0, RECENT_LIMIT)
       return { ...prev, [id]: list }
     })
-  }, [currentTopic, currentQId, answeredIdx, pT])
+  }, [currentTopic, currentQuestion, answeredIdx])
 
+  /**
+   * Avança a questão de forma contextual: após um ERRO, oferece uma questão
+   * SEMELHANTE (mesmo tópico e dificuldade, quando houver) para re-testar o
+   * equívoco; após um ACERTO, segue a seleção adaptativa (ZDP).
+   */
   const nextQuestion = useCallback(() => {
     const id = currentTopic
-    if (id == null) return
+    if (id == null || currentQuestion == null) return
+    const wasCorrect = answeredIdx === currentQuestion.correct
     setAnsweredIdx(null)
-    pickQuestion(id)
-  }, [currentTopic, pickQuestion])
-
-  const setPT = useCallback((value: number) => setPTState(value), [])
+    const q = wasCorrect
+      ? selectNextQuestion(id, progress[id]?.m ?? 0, recentIds[id] ?? [])
+      : selectSimilarQuestion(id, currentQuestion.difficulty, recentIds[id] ?? [])
+    setCurrentQuestion(q ? shuffleOptions(q) : currentQuestion)
+  }, [currentTopic, currentQuestion, answeredIdx, progress, recentIds])
 
   const reset = useCallback(() => {
     setProgress(initialState())
-    setCurrentQId({})
     setRecentIds({})
     setCurrentTopic(null)
+    setCurrentQuestion(null)
     setAnsweredIdx(null)
   }, [])
 
@@ -110,11 +121,8 @@ export function useTrilha() {
     return () => document.removeEventListener('keydown', onKey)
   }, [closeModal])
 
-  const currentQuestion: Question | null =
-    (currentTopic && currentQId[currentTopic] ? getQuestion(currentQId[currentTopic]) : undefined) ?? null
-
   return {
-    progress, pT, currentTopic, currentQuestion, answeredIdx,
-    openTopic, closeModal, answer, nextQuestion, setPT, reset,
+    progress, currentTopic, currentQuestion, answeredIdx,
+    openTopic, closeModal, answer, nextQuestion, reset,
   }
 }

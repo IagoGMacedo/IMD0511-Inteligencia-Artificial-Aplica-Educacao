@@ -1,27 +1,28 @@
 import { MODULES } from '../data/modules'
-import { P_L0 } from './bkt'
+import { MASTER, P_INIT } from './overlayModel'
 import type { Module, ProgressState, Recommendation, Topic, TopicStatus } from '../types'
 
 /* =========================================================================
    MODELO DO DOMÍNIO + ÍNDICES DO MODELO DO ALUNO
 
-   O modelo do aluno propriamente dito (atualização de P(domínio)) vive em
-   `bkt.ts`. Aqui ficam o limiar de maestria, os índices de tópicos/módulos e
-   a lógica de domínio (desbloqueio por pré-requisitos e recomendação).
+   O modelo do aluno propriamente dito (atualização de p e o limiar de
+   maestria MASTER) vive em `overlayModel.ts`. Aqui ficam os índices de
+   tópicos/módulos e a lógica de domínio (desbloqueio por pré-requisitos e
+   recomendação). MASTER é reexportado por conveniência dos consumidores.
    ========================================================================= */
 
-export const MASTER = 0.8 // limiar de domínio (mastery learning)
-export const STORE_KEY = 'its_auvp_state_v4'
+export { MASTER }
+export const STORE_KEY = 'its_auvp_state_v5'
 
 /** Índices auxiliares: tópico por id e módulo de cada tópico. */
 export const TOPIC: Record<string, Topic> = {}
 export const TOPIC_MOD: Record<string, Module> = {}
 MODULES.forEach((m) => m.topics.forEach((t) => { TOPIC[t.id] = t; TOPIC_MOD[t.id] = m }))
 
-/** Estado inicial: P(domínio) de cada KC no prior do BKT, nenhuma questão vista. */
+/** Estado inicial: domínio de cada conceito em P_INIT (0), nenhuma questão vista. */
 export function initialState(): ProgressState {
   const state: ProgressState = {}
-  MODULES.forEach((m) => m.topics.forEach((t) => { state[t.id] = { m: P_L0, seen: 0 } }))
+  MODULES.forEach((m) => m.topics.forEach((t) => { state[t.id] = { m: P_INIT, seen: 0 } }))
   return state
 }
 

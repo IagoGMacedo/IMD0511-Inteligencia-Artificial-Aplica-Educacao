@@ -18,8 +18,6 @@ declare global {
 
 export interface SavedState {
   state: ProgressState
-  /** ritmo de aprendizado P(T) do BKT. */
-  pT: number
 }
 
 function hostStorage() {
@@ -44,9 +42,9 @@ export async function loadState(): Promise<Partial<SavedState> | null> {
   return null
 }
 
-/** Salva o modelo do aluno e o parâmetro P(T). */
-export async function saveState(state: ProgressState, pT: number): Promise<void> {
-  const payload = JSON.stringify({ state, pT })
+/** Salva o modelo do aluno (domínio p por conceito). */
+export async function saveState(state: ProgressState): Promise<void> {
+  const payload = JSON.stringify({ state })
   try {
     const host = hostStorage()
     if (host) await host.set(STORE_KEY, payload)

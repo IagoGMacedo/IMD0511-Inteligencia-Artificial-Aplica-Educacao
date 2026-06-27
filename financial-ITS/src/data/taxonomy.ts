@@ -1,6 +1,6 @@
 /* =========================================================================
    TAXONOMIA DAS QUESTÕES — "enums" de metadados que enriquecem cada item do
-   banco e alimentam o modelo do aluno (BKT) e a seleção adaptativa.
+   banco e alimentam a seleção adaptativa de questões.
 
    Implementados como objetos `as const` (e não `enum`) por causa do modo
    `erasableSyntaxOnly` do projeto — o uso é idêntico ao de um enum:
@@ -10,10 +10,10 @@
    ========================================================================= */
 
 /**
- * Dificuldade do item. Calibra os parâmetros de slip/guess do BKT
- * (ver `lib/bkt.ts`) e é o eixo principal da seleção adaptativa: o tutor
- * escolhe a próxima questão cuja probabilidade de acerto prevista cai na
- * zona de desenvolvimento proximal do aluno.
+ * Dificuldade do item. É o eixo principal da seleção adaptativa
+ * (ver `lib/itemSelection.ts`): o tutor escolhe a próxima questão cuja
+ * probabilidade de acerto estimada cai na zona de desenvolvimento proximal
+ * do aluno.
  */
 export const Difficulty = {
   Facil: 'facil',

@@ -39,11 +39,6 @@ header{position:sticky; top:0; z-index:40; backdrop-filter:saturate(1.1) blur(8p
 .bar > i{display:block; height:100%; width:0%;
   background:linear-gradient(90deg, var(--petrol-2), var(--gold)); transition:width .5s ease}
 .stat .pct{font-family:var(--mono); font-size:12px; color:var(--petrol)}
-.alpha-box{display:flex; align-items:center; gap:10px; background:var(--surface);
-  border:1px solid var(--surface-2); border-radius:12px; padding:8px 12px; box-shadow:var(--shadow)}
-.alpha-box label{font-family:var(--mono); font-size:11px; color:var(--ink-soft); white-space:nowrap}
-.alpha-box code{font-family:var(--mono); font-size:12px; color:var(--clay); font-weight:500}
-input[type=range]{accent-color:var(--clay); width:96px}
 .ghost-btn{font-family:var(--mono); font-size:11px; letter-spacing:.06em; background:transparent;
   border:1px solid var(--sage-line); color:var(--ink-soft); border-radius:9px; padding:7px 11px; cursor:pointer; transition:.15s}
 .ghost-btn:hover{border-color:var(--clay); color:var(--clay)}

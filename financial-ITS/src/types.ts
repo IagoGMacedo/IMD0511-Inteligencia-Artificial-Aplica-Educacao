@@ -38,7 +38,7 @@ export interface QuestionOption {
 export interface Question {
   /** id estável e único, ex.: "m2b-q07" (usado para evitar repetição) */
   id: string
-  /** assunto = knowledge component rastreada pelo BKT (valor de TopicId) */
+  /** assunto = conceito (tópico do grafo) ao qual a questão pertence (valor de TopicId) */
   topicId: string
   /** enunciado */
   stem: string
@@ -48,7 +48,7 @@ export interface Question {
   correct: number
   /** explicação exibida no feedback após responder */
   explanation: string
-  /** dificuldade — calibra slip/guess do BKT e a seleção adaptativa */
+  /** dificuldade — calibra a seleção adaptativa de questões (ZDP) */
   difficulty: Difficulty
   /** nível de Bloom — variedade cognitiva e analytics */
   bloom: Bloom

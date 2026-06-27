@@ -1,7 +1,7 @@
-import { BktExplainer } from './components/BktExplainer'
 import { Header } from './components/Header'
 import { Legend } from './components/Legend'
 import { Modal } from './components/Modal'
+import { ModelExplainer } from './components/ModelExplainer'
 import { RecommendationCard } from './components/RecommendationCard'
 import { TrilhaMap } from './components/TrilhaMap'
 import { useTrilha } from './hooks/useTrilha'
@@ -14,8 +14,8 @@ import { globalProgress, recommend } from './lib/studentModel'
  */
 function App() {
   const {
-    progress, pT, currentTopic, currentQuestion, answeredIdx,
-    openTopic, closeModal, answer, nextQuestion, setPT, reset,
+    progress, currentTopic, currentQuestion, answeredIdx,
+    openTopic, closeModal, answer, nextQuestion, reset,
   } = useTrilha()
 
   const recommendation = recommend(progress)
@@ -23,9 +23,7 @@ function App() {
   return (
     <>
       <Header
-        pT={pT}
         globalPct={globalProgress(progress)}
-        onPTChange={setPT}
         onReset={reset}
       />
 
@@ -40,14 +38,13 @@ function App() {
       <Legend />
 
       <details className="explainer">
-        <summary>Como o tutor pensa · BKT</summary>
-        <BktExplainer pT={pT} />
+        <summary>Como o tutor pensa · Modelo de sobreposição</summary>
+        <ModelExplainer />
       </details>
 
       <Modal
         currentTopic={currentTopic}
         progress={progress}
-        pT={pT}
         currentQuestion={currentQuestion}
         answeredIdx={answeredIdx}
         onClose={closeModal}

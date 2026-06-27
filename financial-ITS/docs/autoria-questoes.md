@@ -8,12 +8,12 @@ verificado por `npm run validate:questions`.
 
 Por que esses metadados existem (ligação com a matéria de IA na Educação):
 
-- **`topicId`** identifica a *knowledge component* (KC) rastreada pelo modelo do
-  aluno (Bayesian Knowledge Tracing). Cada tópico = uma KC.
-- **`difficulty`** calibra os parâmetros de *slip/guess* do BKT e é o eixo da
-  **seleção adaptativa**: o tutor escolhe a próxima questão cuja probabilidade de
-  acerto prevista cai na zona de desenvolvimento proximal do aluno. **Varie a
-  dificuldade dentro de cada tópico** — sem variação, não há o que adaptar.
+- **`topicId`** identifica o conceito (tópico do grafo) cujo domínio `p` o modelo
+  de sobreposição rastreia. Cada tópico = um conceito.
+- **`difficulty`** é o eixo da **seleção adaptativa**: o tutor escolhe a próxima
+  questão cuja probabilidade de acerto estimada cai na zona de desenvolvimento
+  proximal do aluno. **Varie a dificuldade dentro de cada tópico** — sem
+  variação, não há o que adaptar.
 - **`bloom`** garante variedade cognitiva e alimenta analytics.
 - **`misconception`/`feedback`/`hints`** são opcionais e reservados para recursos
   futuros (feedback por equívoco e dicas/scaffolding). Gerá-los agora não custa e
@@ -29,7 +29,7 @@ Por que esses metadados existem (ligação com a matéria de IA na Educação):
 | `options` | sim | array de `{ text, misconception?, feedback? }` (2–6) | só **uma** correta |
 | `correct` | sim | inteiro | índice 0-based da correta em `options` |
 | `explanation` | sim | string | feedback que **ensina o porquê** |
-| `difficulty` | sim | `facil` \| `medio` \| `dificil` | calibra BKT + adaptação |
+| `difficulty` | sim | `facil` \| `medio` \| `dificil` | calibra a seleção adaptativa |
 | `bloom` | sim | `lembrar` \| `entender` \| `aplicar` \| `analisar` \| `avaliar` \| `criar` | Bloom revisada |
 | `type` | não | `conceitual` \| `calculo` \| `aplicacao` \| `interpretacao` | natureza da tarefa |
 | `hints` | não | array de strings | da dica mais geral à mais específica |

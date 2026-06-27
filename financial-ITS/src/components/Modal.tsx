@@ -1,23 +1,21 @@
 import { MODULES } from '../data/modules'
-import { predictCorrect } from '../lib/bkt'
 import { modComplete, topicState, TOPIC, TOPIC_MOD } from '../lib/studentModel'
 import type { ProgressState, Question } from '../types'
-import { BktExplainer } from './BktExplainer'
+import { ModelExplainer } from './ModelExplainer'
 import { QuestionBox } from './QuestionBox'
 
 interface ModalProps {
   currentTopic: string | null
   progress: ProgressState
-  pT: number
   currentQuestion: Question | null
   answeredIdx: number | null
   onClose: () => void
-  onAnswer: (optIndex: number, hintsUsed: number) => void
+  onAnswer: (optIndex: number) => void
   onNext: () => void
 }
 
-/** Modal central (modelo aberto do aluno): P(domínio) BKT, pré-requisitos e a questão. */
-export function Modal({ currentTopic, progress, pT, currentQuestion, answeredIdx, onClose, onAnswer, onNext }: ModalProps) {
+/** Modal central (modelo aberto do aluno): domínio p, pré-requisitos e a questão. */
+export function Modal({ currentTopic, progress, currentQuestion, answeredIdx, onClose, onAnswer, onNext }: ModalProps) {
   const open = currentTopic != null
 
   let content = null
@@ -30,7 +28,6 @@ export function Modal({ currentTopic, progress, pT, currentQuestion, answeredIdx
 
     const stLabel = s === 'master' ? 'dominado' : s === 'learning' ? 'em aprendizado' : s === 'locked' ? 'bloqueado' : 'não iniciado'
     const stCls = s === 'master' ? 'master' : s === 'learning' ? 'learning' : 'locked'
-    const pAcerto = currentQuestion ? Math.round(predictCorrect(st.m, currentQuestion.difficulty) * 100) : null
 
     content = (
       <>
@@ -72,8 +69,8 @@ export function Modal({ currentTopic, progress, pT, currentQuestion, answeredIdx
           </div>
 
           <div className="field">
-            <div className="h">Como o tutor pensa · BKT</div>
-            <BktExplainer pT={pT} seen={st.seen} pAcerto={pAcerto} />
+            <div className="h">Como o tutor pensa · Modelo de sobreposição</div>
+            <ModelExplainer seen={st.seen} />
           </div>
 
           <QuestionBox

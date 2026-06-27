@@ -14,7 +14,7 @@ interface QuestionBoxProps {
   question: Question | null
   status: TopicStatus
   answeredIdx: number | null
-  onAnswer: (optIndex: number, hintsUsed: number) => void
+  onAnswer: (optIndex: number) => void
   onNext: () => void
 }
 
@@ -79,7 +79,7 @@ export function QuestionBox({ question, status, answeredIdx, onAnswer, onNext }:
           else if (i === answeredIdx) cls += ' wrong'
         }
         return (
-          <button key={i} className={cls} disabled={answered} onClick={() => onAnswer(i, revealed)}>
+          <button key={i} className={cls} disabled={answered} onClick={() => onAnswer(i)}>
             <span className="lt">{LETTERS[i]}</span><span>{opt.text}</span>
           </button>
         )
@@ -93,7 +93,9 @@ export function QuestionBox({ question, status, answeredIdx, onAnswer, onNext }:
           <div className={`feedback ${correct ? 'ok' : 'no'}`}>
             <b>{correct ? (revealed > 0 ? 'Correto (com ajuda de dica).' : 'Correto.') : `Resposta correta: ${LETTERS[question.correct]}.`}</b> {question.explanation}
           </div>
-          <button className="nextq" onClick={onNext}>Próxima questão →</button>
+          <button className="nextq" onClick={onNext}>
+            {correct ? 'Próxima questão →' : '🔁 Tentar questão semelhante →'}
+          </button>
         </>
       )}
     </div>
