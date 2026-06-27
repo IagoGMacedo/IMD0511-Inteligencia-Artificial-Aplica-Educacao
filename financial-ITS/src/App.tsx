@@ -1,9 +1,9 @@
+import { GraphMap } from './components/GraphMap'
 import { Header } from './components/Header'
 import { Legend } from './components/Legend'
 import { Modal } from './components/Modal'
 import { ModelExplainer } from './components/ModelExplainer'
 import { RecommendationCard } from './components/RecommendationCard'
-import { TrilhaMap } from './components/TrilhaMap'
 import { useTrilha } from './hooks/useTrilha'
 import { globalProgress, recommend } from './lib/studentModel'
 
@@ -33,7 +33,7 @@ function App() {
         onOpen={() => openTopic(recommendation.topic.id)}
       />
 
-      <TrilhaMap progress={progress} onOpenTopic={openTopic} />
+      <GraphMap progress={progress} onOpenTopic={openTopic} />
 
       <Legend />
 

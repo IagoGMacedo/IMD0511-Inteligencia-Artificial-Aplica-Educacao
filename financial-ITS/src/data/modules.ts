@@ -39,7 +39,7 @@ export const MODULES: Module[] = [
     ],
   },
   {
-    id: ModuleId.M4, code: 'M4', alt: '3.6 km', title: 'Reservas de Valor', sub: 'Ouro · Bitcoin', prereq: [ModuleId.M3],
+    id: ModuleId.M4, code: 'M4', alt: '3.6 km', title: 'Reservas de Valor', sub: 'Ouro · Bitcoin', prereq: [ModuleId.M2],
     topics: [
       { id: M4Topic.OQueEReservaDeValor, name: 'O que é reserva de valor', desc: 'Proteção contra inflação e crises na carteira.' },
       { id: M4Topic.Ouro, name: 'Ouro (físico, bolsa e fundos)', desc: 'As formas de ter ouro e seu papel histórico.' },
@@ -48,7 +48,7 @@ export const MODULES: Module[] = [
     ],
   },
   {
-    id: ModuleId.M5, code: 'M5', alt: '4.8 km', title: 'Investindo no Exterior', sub: 'Mercado global', prereq: [ModuleId.M4],
+    id: ModuleId.M5, code: 'M5', alt: '4.8 km', title: 'Investindo no Exterior', sub: 'Mercado global', prereq: [ModuleId.M3],
     topics: [
       { id: M5Topic.PorQueInternacionalizar, name: 'Por que internacionalizar', desc: 'Diversificar moeda e reduzir o risco-Brasil.' },
       { id: M5Topic.MercadoDosEuaECorretoras, name: 'Mercado dos EUA e corretoras', desc: 'Como acessar, custos e diferenças vs. o Brasil.' },
@@ -59,7 +59,7 @@ export const MODULES: Module[] = [
     ],
   },
   {
-    id: ModuleId.M6, code: 'M6', alt: '6.0 km', title: 'O começo — Gestão', sub: 'Carteira · decisão', prereq: [ModuleId.M5],
+    id: ModuleId.M6, code: 'M6', alt: '6.0 km', title: 'O começo — Gestão', sub: 'Carteira · decisão', prereq: [ModuleId.M4, ModuleId.M5],
     topics: [
       { id: M6Topic.GestaoDeCarteira, name: 'Gestão de carteira', desc: 'Manter os ativos fiéis à estratégia definida.' },
       { id: M6Topic.DiversificacaoEAlocacao, name: 'Diversificação e alocação', desc: 'Quanto colocar em cada classe segundo perfil e objetivo.' },
