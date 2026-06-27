@@ -103,19 +103,20 @@ input[type=range]{accent-color:var(--clay); width:96px}
 .col-left .chip::after{right:-26px}
 .col-right .chip::before{left:-26px}
 
-/* ---------- DRAWER ---------- */
-.scrim{position:fixed; inset:0; background:rgba(20,32,30,.42); opacity:0; pointer-events:none; transition:opacity .25s; z-index:50}
+/* ---------- MODAL ---------- */
+.scrim{position:fixed; inset:0; background:rgba(20,32,30,.48); opacity:0; pointer-events:none; transition:opacity .25s; z-index:50}
 .scrim.open{opacity:1; pointer-events:auto}
-.drawer{position:fixed; top:0; right:0; height:100%; width:440px; max-width:94vw; background:var(--surface);
-  box-shadow:-12px 0 40px rgba(18,64,62,.18); transform:translateX(102%);
-  transition:transform .28s cubic-bezier(.4,.1,.2,1); z-index:60; display:flex; flex-direction:column; overflow:hidden}
-.drawer.open{transform:translateX(0)}
-.dr-head{padding:22px 24px 16px; border-bottom:1px solid var(--surface-2); position:relative}
-.dr-head .kicker{font-family:var(--mono); font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--petrol-2)}
-.dr-head h2{font-family:var(--display); font-weight:600; font-size:23px; margin:6px 0 0; line-height:1.12; font-optical-sizing:auto}
-.dr-close{position:absolute; top:18px; right:18px; background:none; border:none; font-size:22px; color:var(--ink-soft); cursor:pointer; line-height:1}
-.dr-body{padding:20px 24px 28px; overflow-y:auto; flex:1}
-.dr-body p.desc{font-size:14px; color:var(--ink-soft); margin:0 0 18px}
+.modal{position:fixed; top:50%; left:50%; width:760px; max-width:94vw; max-height:90vh; background:var(--surface);
+  border-radius:18px; box-shadow:0 24px 64px rgba(18,64,62,.28);
+  opacity:0; pointer-events:none; transform:translate(-50%,-50%) scale(.96);
+  transition:opacity .22s, transform .24s cubic-bezier(.4,.1,.2,1); z-index:60; display:flex; flex-direction:column; overflow:hidden}
+.modal.open{opacity:1; pointer-events:auto; transform:translate(-50%,-50%) scale(1)}
+.modal-head{padding:22px 24px 16px; border-bottom:1px solid var(--surface-2); position:relative}
+.modal-head .kicker{font-family:var(--mono); font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--petrol-2)}
+.modal-head h2{font-family:var(--display); font-weight:600; font-size:23px; margin:6px 0 0; line-height:1.12; font-optical-sizing:auto}
+.modal-close{position:absolute; top:18px; right:18px; background:none; border:none; font-size:22px; color:var(--ink-soft); cursor:pointer; line-height:1}
+.modal-body{padding:20px 24px 28px; overflow-y:auto; flex:1}
+.modal-body p.desc{font-size:14px; color:var(--ink-soft); margin:0 0 18px}
 .field{margin-bottom:18px}
 .field .h{font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-soft); margin-bottom:7px}
 .prereq-list{display:flex; flex-wrap:wrap; gap:7px}
@@ -183,6 +184,17 @@ input[type=range]{accent-color:var(--clay); width:96px}
 .legend span{display:inline-flex; align-items:center; gap:7px}
 .legend i{width:10px; height:10px; border-radius:50%; display:inline-block}
 
+/* ---------- DISCLOSURE (home) ---------- */
+.explainer{max-width:1120px; margin:0 auto 60px; padding:0 20px}
+.explainer > summary{list-style:none; cursor:pointer; display:flex; align-items:center; gap:10px;
+  font-family:var(--mono); font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-soft);
+  padding:13px 16px; background:var(--surface); border:1px solid var(--surface-2); border-radius:12px; user-select:none}
+.explainer > summary::-webkit-details-marker{display:none}
+.explainer > summary::before{content:'▸'; color:var(--petrol-2); transition:transform .2s}
+.explainer[open] > summary::before{transform:rotate(90deg)}
+.explainer[open] > summary{border-bottom:none; border-bottom-left-radius:0; border-bottom-right-radius:0}
+.explainer[open] .formula{border-top-left-radius:0; border-top-right-radius:0}
+
 @media (max-width:760px){
   .row{grid-template-columns:1fr; gap:12px}
   .col-left,.col-right{align-items:stretch; padding:0; justify-self:stretch}
@@ -191,6 +203,6 @@ input[type=range]{accent-color:var(--clay); width:96px}
   .col-left .chip::after, .col-right .chip::before{display:none}
   .chip{max-width:none}
   .stat{align-items:flex-start}
-  .drawer{width:100%}
+  .modal{width:94vw}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}

@@ -1,10 +1,11 @@
 import { MODULES } from '../data/modules'
-import { predictCorrect, P_L0 } from '../lib/bkt'
+import { predictCorrect } from '../lib/bkt'
 import { modComplete, topicState, TOPIC, TOPIC_MOD } from '../lib/studentModel'
 import type { ProgressState, Question } from '../types'
+import { BktExplainer } from './BktExplainer'
 import { QuestionBox } from './QuestionBox'
 
-interface DrawerProps {
+interface ModalProps {
   currentTopic: string | null
   progress: ProgressState
   pT: number
@@ -15,8 +16,8 @@ interface DrawerProps {
   onNext: () => void
 }
 
-/** Painel lateral (modelo aberto do aluno): P(domínio) BKT, pré-requisitos e a questão. */
-export function Drawer({ currentTopic, progress, pT, currentQuestion, answeredIdx, onClose, onAnswer, onNext }: DrawerProps) {
+/** Modal central (modelo aberto do aluno): P(domínio) BKT, pré-requisitos e a questão. */
+export function Modal({ currentTopic, progress, pT, currentQuestion, answeredIdx, onClose, onAnswer, onNext }: ModalProps) {
   const open = currentTopic != null
 
   let content = null
@@ -33,12 +34,12 @@ export function Drawer({ currentTopic, progress, pT, currentQuestion, answeredId
 
     content = (
       <>
-        <div className="dr-head">
-          <button className="dr-close" aria-label="Fechar" onClick={onClose}>×</button>
+        <div className="modal-head">
+          <button className="modal-close" aria-label="Fechar" onClick={onClose}>×</button>
           <span className="kicker">{mod.code} · {mod.title}</span>
           <h2>{t.name}</h2>
         </div>
-        <div className="dr-body">
+        <div className="modal-body">
           <p className="desc">{t.desc}</p>
 
           <div className="field">
@@ -72,19 +73,7 @@ export function Drawer({ currentTopic, progress, pT, currentQuestion, answeredId
 
           <div className="field">
             <div className="h">Como o tutor pensa · BKT</div>
-            <div className="formula">
-              P(domínio) atualiza por <span className="hl">Bayesian Knowledge Tracing</span>:<br />
-              acerto / erro → <span className="hl">posterior</span> (slip · guess)<br />
-              depois → aprendizado <span className="hl">P(T)</span>·(1 − posterior)<br />
-              <span className="cmt"># prior P(L0) = {P_L0.toFixed(2)} · P(T) = {pT.toFixed(2)} · oportunidades: {st.seen}</span><br />
-              <span className="cmt"># pedir dica (scaffolding) reduz o crédito de domínio do acerto</span>
-              {pAcerto != null && (
-                <>
-                  <br />
-                  <span className="cmt"># P(acerto) prevista nesta questão: {pAcerto}%</span>
-                </>
-              )}
-            </div>
+            <BktExplainer pT={pT} seen={st.seen} pAcerto={pAcerto} />
           </div>
 
           <QuestionBox
@@ -103,9 +92,9 @@ export function Drawer({ currentTopic, progress, pT, currentQuestion, answeredId
   return (
     <>
       <div className={`scrim ${open ? 'open' : ''}`} onClick={onClose} />
-      <aside className={`drawer ${open ? 'open' : ''}`} aria-hidden={!open}>
+      <div className={`modal ${open ? 'open' : ''}`} role="dialog" aria-modal="true" aria-hidden={!open}>
         {content}
-      </aside>
+      </div>
     </>
   )
 }

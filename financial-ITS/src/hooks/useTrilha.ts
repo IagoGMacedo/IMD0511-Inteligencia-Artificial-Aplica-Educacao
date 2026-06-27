@@ -12,7 +12,7 @@ const RECENT_LIMIT = 3
 /**
  * Concentra todo o estado mutável da trilha (modelo do aluno BKT, ritmo de
  * aprendizado P(T), a questão atualmente selecionada por tópico e o tópico
- * aberto no drawer) e as ações que o alteram.
+ * aberto no modal) e as ações que o alteram.
  */
 export function useTrilha() {
   const [progress, setProgress] = useState<ProgressState>(initialState)
@@ -65,7 +65,7 @@ export function useTrilha() {
     pickQuestion(id)
   }, [pickQuestion])
 
-  const closeDrawer = useCallback(() => setCurrentTopic(null), [])
+  const closeModal = useCallback(() => setCurrentTopic(null), [])
 
   const answer = useCallback((optIndex: number, hintsUsed = 0) => {
     const id = currentTopic
@@ -103,18 +103,18 @@ export function useTrilha() {
     setAnsweredIdx(null)
   }, [])
 
-  // Fecha o drawer ao pressionar Escape.
+  // Fecha o modal ao pressionar Escape.
   useEffect(() => {
-    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') closeDrawer() }
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') closeModal() }
     document.addEventListener('keydown', onKey)
     return () => document.removeEventListener('keydown', onKey)
-  }, [closeDrawer])
+  }, [closeModal])
 
   const currentQuestion: Question | null =
     (currentTopic && currentQId[currentTopic] ? getQuestion(currentQId[currentTopic]) : undefined) ?? null
 
   return {
     progress, pT, currentTopic, currentQuestion, answeredIdx,
-    openTopic, closeDrawer, answer, nextQuestion, setPT, reset,
+    openTopic, closeModal, answer, nextQuestion, setPT, reset,
   }
 }

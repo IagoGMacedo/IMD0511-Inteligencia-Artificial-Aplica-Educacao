@@ -1,6 +1,7 @@
-import { Drawer } from './components/Drawer'
+import { BktExplainer } from './components/BktExplainer'
 import { Header } from './components/Header'
 import { Legend } from './components/Legend'
+import { Modal } from './components/Modal'
 import { RecommendationCard } from './components/RecommendationCard'
 import { TrilhaMap } from './components/TrilhaMap'
 import { useTrilha } from './hooks/useTrilha'
@@ -14,7 +15,7 @@ import { globalProgress, recommend } from './lib/studentModel'
 function App() {
   const {
     progress, pT, currentTopic, currentQuestion, answeredIdx,
-    openTopic, closeDrawer, answer, nextQuestion, setPT, reset,
+    openTopic, closeModal, answer, nextQuestion, setPT, reset,
   } = useTrilha()
 
   const recommendation = recommend(progress)
@@ -38,13 +39,18 @@ function App() {
 
       <Legend />
 
-      <Drawer
+      <details className="explainer">
+        <summary>Como o tutor pensa · BKT</summary>
+        <BktExplainer pT={pT} />
+      </details>
+
+      <Modal
         currentTopic={currentTopic}
         progress={progress}
         pT={pT}
         currentQuestion={currentQuestion}
         answeredIdx={answeredIdx}
-        onClose={closeDrawer}
+        onClose={closeModal}
         onAnswer={answer}
         onNext={nextQuestion}
       />

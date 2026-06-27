@@ -18,10 +18,10 @@ interface QuestionBoxProps {
   onNext: () => void
 }
 
-/** Bloco de questão do drawer: bloqueio, ou pergunta + dicas (scaffolding) + feedback. */
+/** Bloco de questão do modal: bloqueio, ou pergunta + dicas (scaffolding) + feedback. */
 export function QuestionBox({ question, status, answeredIdx, onAnswer, onNext }: QuestionBoxProps) {
   // Quantas dicas o aluno revelou nesta questão. O componente é remontado a
-  // cada nova questão (key=question.id no Drawer), então este estado zera só.
+  // cada nova questão (key=question.id no Modal), então este estado zera só.
   const [revealed, setRevealed] = useState(0)
 
   if (status === 'locked') {
