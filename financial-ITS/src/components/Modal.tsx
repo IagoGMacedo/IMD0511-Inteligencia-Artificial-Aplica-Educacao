@@ -70,7 +70,7 @@ export function Modal({ currentTopic, progress, currentQuestion, answeredIdx, on
 
           <div className="field">
             <div className="h">Como o tutor pensa · Modelo de sobreposição</div>
-            <ModelExplainer seen={st.seen} />
+            <ModelExplainer mastery={st.m} seen={st.seen} />
           </div>
 
           <QuestionBox
