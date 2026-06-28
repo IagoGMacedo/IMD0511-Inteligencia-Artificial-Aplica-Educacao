@@ -634,5 +634,329 @@
     "type": "conceitual",
     "hints": ["Ela depende de superar um índice de referência."],
     "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2a-q07",
+    "topicId": "m2a",
+    "stem": "O que define um investimento de renda fixa?",
+    "options": [
+      { "text": "As regras de remuneração são definidas na aplicação (pré, pós ou IPCA+), como um empréstimo ao emissor" },
+      { "text": "A cota muda livremente conforme oferta e demanda, como em ações", "misconception": "confunde-renda-fixa-com-variavel", "feedback": "Isso descreve renda variável; na renda fixa a regra de remuneração é conhecida desde o início." },
+      { "text": "A garantia de que nunca há risco de perda" },
+      { "text": "A isenção de imposto de renda em todos os casos" }
+    ],
+    "correct": 0,
+    "explanation": "Na renda fixa você empresta ao emissor (governo, banco, empresa) e as regras de remuneração são conhecidas desde o início — o que não elimina risco de crédito nem a oscilação de preço (marcação a mercado).",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "hints": ["Renda fixa = regra de remuneração definida desde o início."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2a-q08",
+    "topicId": "m2a",
+    "stem": "Um investidor acredita que a Selic vai SUBIR bastante nos próximos meses. Qual tipo de título tende a se beneficiar mais desse cenário?",
+    "options": [
+      { "text": "Pós-fixado atrelado à Selic/CDI" },
+      { "text": "Prefixado longo", "misconception": "escolhe-prefixado-em-alta-de-juros", "feedback": "O prefixado trava a taxa de hoje; se os juros sobem, ele fica para trás (e sofre marcação negativa se vendido antes)." },
+      { "text": "Poupança" },
+      { "text": "Um CDB prefixado de 5 anos" }
+    ],
+    "correct": 0,
+    "explanation": "O pós-fixado acompanha a Selic/CDI: se a taxa sobe, o rendimento sobe junto. O prefixado trava a taxa atual e perde atratividade na alta.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Quem 'acompanha' a Selic se beneficia quando ela sobe."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2a-q09",
+    "topicId": "m2a",
+    "stem": "Levando ambos até o vencimento, qual é a diferença central de risco entre um pós-fixado (Selic) e um prefixado?",
+    "options": [
+      { "text": "O prefixado trava uma taxa nominal e corre o risco de a inflação corroer o ganho real; o pós acompanha a taxa básica" },
+      { "text": "O pós-fixado pode dar prejuízo nominal no vencimento, o prefixado não", "misconception": "inverte-risco-pos-prefixado" },
+      { "text": "Nenhum, pois rendem exatamente igual" },
+      { "text": "O prefixado é sempre isento de IR" }
+    ],
+    "correct": 0,
+    "explanation": "Carregado até o fim, o pós entrega a variação da taxa básica; o prefixado entrega a taxa nominal contratada — cujo ganho REAL depende da inflação do período. Daí o risco de inflação no prefixado.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Pense no ganho REAL (descontada a inflação) de uma taxa travada."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2b-q07",
+    "topicId": "m2b",
+    "stem": "O Tesouro Direto é:",
+    "options": [
+      { "text": "Um programa que vende títulos públicos federais à pessoa física pela internet" },
+      { "text": "Um banco estatal que empresta dinheiro a empresas", "misconception": "confunde-tesouro-direto-com-banco" },
+      { "text": "Um tipo de ação do governo" },
+      { "text": "Um fundo imobiliário público" }
+    ],
+    "correct": 0,
+    "explanation": "O Tesouro Direto é o programa do Tesouro Nacional para a PF comprar títulos públicos (Selic, Prefixado, IPCA+) de forma simples e com baixo valor inicial.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "hints": ["É a forma de a pessoa física emprestar ao governo."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2b-q08",
+    "topicId": "m2b",
+    "stem": "Uma vantagem do Tesouro Direto para quem está começando com pouco dinheiro é que:",
+    "options": [
+      { "text": "É possível comprar frações de um título, com aportes iniciais baixos" },
+      { "text": "Exige no mínimo R$ 50 mil por título", "misconception": "acredita-tesouro-exige-muito-dinheiro", "feedback": "Dá para comprar frações de título, a partir de poucas dezenas de reais." },
+      { "text": "Só aceita aplicações de bancos, não de pessoas" },
+      { "text": "Garante o dobro do CDI" }
+    ],
+    "correct": 0,
+    "explanation": "Dá para comprar frações de título (a partir de poucas dezenas de reais), o que torna o Tesouro acessível a iniciantes — sem exigir grandes valores.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Você precisa comprar o título inteiro?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2b-q09",
+    "topicId": "m2b",
+    "stem": "Por que o Tesouro Selic quase não apresenta marcação a mercado negativa, ao contrário de um Tesouro Prefixado longo?",
+    "options": [
+      { "text": "Porque seu rendimento acompanha a taxa Selic do dia a dia, então o preço varia muito pouco quando os juros mudam" },
+      { "text": "Porque o governo recompra o Selic sempre com lucro garantido" },
+      { "text": "Porque ele é prefixado e trava a taxa", "misconception": "inverte-pos-e-prefixado" },
+      { "text": "Porque é isento de IR" }
+    ],
+    "correct": 0,
+    "explanation": "Como o Selic é pós-fixado e segue a taxa básica continuamente, há pouca diferença entre a taxa contratada e a de mercado — logo, baixa oscilação de preço. O prefixado trava uma taxa e sofre quando os juros mudam.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["O que 'acompanha' a taxa do dia oscila pouco quando a taxa muda."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2c-q07",
+    "topicId": "m2c",
+    "stem": "Marcação a mercado significa:",
+    "options": [
+      { "text": "Precificar o título pelo valor que ele valeria hoje, se fosse vendido no mercado" },
+      { "text": "Garantir que o título nunca muda de preço", "misconception": "acredita-titulo-preco-fixo" },
+      { "text": "O imposto cobrado na venda" },
+      { "text": "A taxa de administração do título" }
+    ],
+    "correct": 0,
+    "explanation": "Marcar a mercado é reavaliar o título pelo preço atual de negociação — por isso o valor exibido oscila antes do vencimento, mesmo na renda fixa.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "hints": ["'A mercado' = pelo preço de hoje."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2c-q08",
+    "topicId": "m2c",
+    "stem": "Se os juros de mercado CAEM, o preço de um título prefixado já emitido (com taxa mais alta) tende a:",
+    "options": [
+      { "text": "Subir, pois sua taxa fixa fica mais atrativa que as novas" },
+      { "text": "Cair, pois fica menos atrativo", "misconception": "inverte-relacao-juro-preco", "feedback": "É o contrário: com juros caindo, um título que paga taxa alta vira disputado e seu preço sobe." },
+      { "text": "Ficar igual, pois prefixado não oscila" },
+      { "text": "Zerar" }
+    ],
+    "correct": 0,
+    "explanation": "Preço e juros andam em sentidos opostos: com a queda dos juros, um título que paga taxa antiga (mais alta) fica valioso e seu preço sobe — base do ganho com marcação a mercado.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Preço e juros se movem em direções opostas."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2c-q09",
+    "topicId": "m2c",
+    "stem": "Um investidor quer USAR a marcação a mercado a favor, buscando ganho além da taxa contratada. A estratégia coerente é:",
+    "options": [
+      { "text": "Comprar um prefixado/IPCA+ longo quando os juros estão ALTOS, esperando a queda futura valorizar o título" },
+      { "text": "Comprar Tesouro Selic e vender no dia seguinte", "misconception": "espera-mam-no-pos-fixado", "feedback": "O Selic quase não marca a mercado; o ganho com marcação vem de títulos prefixados/IPCA+ longos." },
+      { "text": "Comprar prefixado quando os juros estão baixos e prestes a subir" },
+      { "text": "Manter tudo na poupança" }
+    ],
+    "correct": 0,
+    "explanation": "O ganho com marcação vem de travar uma taxa ALTA e vender depois que os juros caíram (preço subiu). Funciona em prefixado/IPCA+ longos; comprar antes de uma alta de juros geraria perda.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Para lucrar com a queda dos juros, você precisa ter travado uma taxa ALTA antes."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2d-q07",
+    "topicId": "m2d",
+    "stem": "Um CDB é, essencialmente:",
+    "options": [
+      { "text": "Um empréstimo que você faz a um banco, coberto pelo FGC até o limite" },
+      { "text": "Uma ação de um banco", "misconception": "confunde-cdb-com-acao" },
+      { "text": "Um fundo imobiliário" },
+      { "text": "Um título público federal" }
+    ],
+    "correct": 0,
+    "explanation": "No CDB você empresta ao banco, que devolve com juros; é renda fixa privada com cobertura do FGC até R$ 250 mil por CPF por instituição.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "hints": ["CDB = você empresta ao banco."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2d-q08",
+    "topicId": "m2d",
+    "stem": "Com o CDI em torno de 10% ao ano, qual o rendimento bruto aproximado, em um ano, de um CDB que paga 95% do CDI?",
+    "options": [
+      { "text": "Cerca de 9,5%" },
+      { "text": "Cerca de 10,5%", "misconception": "soma-em-vez-de-multiplicar-percentual-do-cdi", "feedback": "'95% do CDI' multiplica o CDI por 0,95; abaixo de 100% rende MENOS que o CDI, não mais." },
+      { "text": "Cerca de 19%" },
+      { "text": "Cerca de 5%" }
+    ],
+    "correct": 0,
+    "explanation": "95% de 10% ≈ 9,5% ao ano (bruto). Pagar 'X% do CDI' significa multiplicar o CDI por X% — abaixo de 100% rende menos que o CDI.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "calculo",
+    "hints": ["95% de 10%."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2d-q09",
+    "topicId": "m2d",
+    "stem": "Além do limite de R$ 250 mil por CPF por instituição, o FGC tem outra regra importante. Qual é?",
+    "options": [
+      { "text": "Há um teto global de R$ 1 milhão por CPF, renovável a cada 4 anos, somando todas as instituições" },
+      { "text": "Cobre qualquer valor, sem teto global", "misconception": "ignora-teto-global-fgc" },
+      { "text": "Cobre apenas o principal, nunca os juros" },
+      { "text": "Só vale para bancos públicos" }
+    ],
+    "correct": 0,
+    "explanation": "O FGC cobre R$ 250 mil por CPF por instituição (principal + juros), mas com um teto global de R$ 1 milhão a cada 4 anos. Por isso, pulverizar entre instituições tem limite.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Existe um teto que soma TODAS as instituições."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2e-q07",
+    "topicId": "m2e",
+    "stem": "LCI e LCA são títulos de renda fixa lastreados, respectivamente, em crédito:",
+    "options": [
+      { "text": "Imobiliário (LCI) e do agronegócio (LCA), isentos de IR para a pessoa física" },
+      { "text": "Industrial e comercial, ambos tributados", "misconception": "erra-lastro-lci-lca" },
+      { "text": "Público federal" },
+      { "text": "Externo" }
+    ],
+    "correct": 0,
+    "explanation": "LCI tem lastro imobiliário e LCA, no agronegócio; ambas são isentas de IR para a PF, o que eleva o rendimento líquido frente a um CDB de taxa nominal parecida.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "hints": ["I de imobiliário, A de agro."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2e-q08",
+    "topicId": "m2e",
+    "stem": "Uma característica prática comum de LCIs e LCAs, que o investidor deve checar antes de usá-las para a reserva, é:",
+    "options": [
+      { "text": "A carência mínima (prazo sem liquidez) que muitas possuem antes do resgate" },
+      { "text": "A ausência total de risco de crédito", "misconception": "acredita-lci-sem-risco-de-credito" },
+      { "text": "O fato de não terem cobertura do FGC" },
+      { "text": "A cobrança de come-cotas" }
+    ],
+    "correct": 0,
+    "explanation": "Muitas LCI/LCA têm carência (de meses) sem liquidez — ruim para reserva de emergência. Elas têm FGC e não têm come-cotas; o risco de crédito do emissor existe, mitigado pelo FGC.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Você consegue resgatar a qualquer momento?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2e-q09",
+    "topicId": "m2e",
+    "stem": "Uma debênture comum (sem FGC) e um CDB (com FGC) oferecem a MESMA taxa e o mesmo prazo. O que essa situação sugere?",
+    "options": [
+      { "text": "Em risco-retorno o CDB leva vantagem: paga igual com a proteção do FGC; a debênture deveria pagar mais para compensar o risco de crédito" },
+      { "text": "São equivalentes, pois a taxa é igual", "misconception": "ignora-risco-ao-comparar-taxas-iguais", "feedback": "Mesma taxa com riscos diferentes não é equivalente: o CDB tem FGC e a debênture não." },
+      { "text": "A debênture é melhor só por ser de empresa" },
+      { "text": "Ambas têm FGC, então tanto faz", "misconception": "acredita-debenture-tem-fgc" }
+    ],
+    "correct": 0,
+    "explanation": "Mesma taxa, riscos diferentes: o CDB tem FGC e a debênture não. Para ser atraente, a debênture precisaria pagar um prêmio acima do CDB — pagar igual a um ativo mais arriscado é desvantajoso.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Mesma taxa, mas e o risco de cada um?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2f-q07",
+    "topicId": "m2f",
+    "stem": "Um fundo de renda fixa é:",
+    "options": [
+      { "text": "Um condomínio de investidores cujo gestor aplica os recursos em títulos de renda fixa, dividido em cotas" },
+      { "text": "Um título emitido diretamente por você", "misconception": "confunde-fundo-com-titulo" },
+      { "text": "Uma conta poupança premium" },
+      { "text": "Uma ação negociada na bolsa" }
+    ],
+    "correct": 0,
+    "explanation": "No fundo, vários investidores juntam recursos (cotas) e um gestor compra os títulos de RF. Você compra cotas, não os títulos diretamente.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "hints": ["Fundo = condomínio de cotistas com um gestor."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2f-q08",
+    "topicId": "m2f",
+    "stem": "Ao escolher um fundo de renda fixa, o prazo de cotização/resgate (D+0, D+1, D+30) importa porque:",
+    "options": [
+      { "text": "Define em quantos dias o dinheiro do resgate efetivamente cai na conta, afetando a liquidez" },
+      { "text": "Determina a alíquota de IR", "misconception": "confunde-cotizacao-com-tributacao" },
+      { "text": "Indica a rentabilidade garantida" },
+      { "text": "Não tem efeito prático" }
+    ],
+    "correct": 0,
+    "explanation": "O prazo de resgate diz quando você recebe o dinheiro: um fundo D+30 não serve para necessidades imediatas. É um critério de liquidez, separado da tributação.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["D+30 significa que o dinheiro cai quando?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2f-q09",
+    "topicId": "m2f",
+    "stem": "Dois fundos se chamam 'renda fixa', mas um é DI (Tesouro Selic) e outro é de crédito privado. O que esperar do segundo?",
+    "options": [
+      { "text": "Potencial de retorno um pouco maior, em troca de mais risco de crédito (emissores privados podem dar calote)" },
+      { "text": "Exatamente o mesmo risco e retorno do fundo DI", "misconception": "trata-todo-rf-como-igual" },
+      { "text": "Retorno garantido acima do CDI sem risco" },
+      { "text": "Isenção de IR por ser crédito privado" }
+    ],
+    "correct": 0,
+    "explanation": "Renda fixa não é tudo igual: o fundo DI tem risco baixíssimo (Selic), enquanto o de crédito privado busca prêmio comprando dívida de empresas — mais retorno potencial, porém com risco de crédito real.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["O que o nome 'crédito privado' acrescenta de risco?"],
+    "source": "M2 · Renda Fixa"
   }
 ]

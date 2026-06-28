@@ -422,5 +422,221 @@
     "type": "aplicacao",
     "hints": ["Documentação organizada serve para preencher certo e comprovar depois."],
     "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irA-q07",
+    "topicId": "irA",
+    "stem": "Na renda fixa tributada (tabela regressiva), quem resgata com POUCO tempo de aplicação paga alíquota de IR:",
+    "options": [
+      { "text": "Maior — começa em 22,5% para até 180 dias" },
+      { "text": "Menor — começa em 15%", "misconception": "inverte-tabela-regressiva", "feedback": "É o contrário: a regressiva começa ALTA (22,5%) e cai com o tempo, chegando a 15% após 720 dias." },
+      { "text": "Zero, sempre" },
+      { "text": "Fixa em 17,5% para qualquer prazo" }
+    ],
+    "correct": 0,
+    "explanation": "A tabela regressiva começa em 22,5% (até 180 dias) e cai conforme o tempo: 20%, 17,5% e 15% (acima de 720 dias). Resgatar cedo paga mais imposto.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Regressiva: começa alta e cai com o tempo."],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irA-q08",
+    "topicId": "irA",
+    "stem": "Um investidor resgata um CDB tributado após 400 dias. Pela tabela regressiva, a alíquota de IR sobre o rendimento será:",
+    "options": [
+      { "text": "17,5%" },
+      { "text": "20%", "misconception": "erra-faixa-da-tabela-regressiva", "feedback": "20% vale de 181 a 360 dias; 400 dias cai na faixa de 361 a 720 dias, que é 17,5%." },
+      { "text": "22,5%" },
+      { "text": "15%" }
+    ],
+    "correct": 0,
+    "explanation": "Faixas: 22,5% (até 180), 20% (181–360), 17,5% (361–720), 15% (acima de 720). 400 dias está entre 361 e 720 → 17,5%.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "calculo",
+    "hints": ["Em qual faixa de dias caem 400 dias?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irA-q09",
+    "topicId": "irA",
+    "stem": "Por que o come-cotas pode reduzir o retorno de LONGO prazo de um fundo, mesmo sendo apenas uma antecipação do IR?",
+    "options": [
+      { "text": "Porque retira cotas a cada semestre, diminuindo o valor que seguiria rendendo juros sobre juros" },
+      { "text": "Porque cobra uma alíquota maior que a de ações", "misconception": "explica-come-cotas-por-aliquota-maior" },
+      { "text": "Porque é um imposto novo, além do IR final" },
+      { "text": "Porque zera o rendimento do fundo" }
+    ],
+    "correct": 0,
+    "explanation": "O come-cotas adianta o IR semestralmente, reduzindo o número de cotas; com menos valor investido ao longo do tempo, o efeito dos juros compostos diminui frente a um título sem antecipação.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["O que acontece com os juros compostos se parte é retirada a cada semestre?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irB-q07",
+    "topicId": "irB",
+    "stem": "Os RENDIMENTOS mensais distribuídos por um FII à pessoa física são, em regra:",
+    "options": [
+      { "text": "Isentos de IR, desde que cumpridas as condições legais" },
+      { "text": "Tributados em 27,5% na fonte", "misconception": "confunde-rendimento-de-fii-com-salario" },
+      { "text": "Tributados em 15% sempre" },
+      { "text": "Tributados pela tabela regressiva" }
+    ],
+    "correct": 0,
+    "explanation": "Os proventos mensais de FIIs são isentos de IR para a PF (atendidas as regras: FII listado, cotista com participação pequena, etc.). Já o GANHO na venda das cotas é tributado.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "hints": ["Renda mensal de FII: paga IR ou é isenta?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irB-q08",
+    "topicId": "irB",
+    "stem": "Um investidor vendeu R$ 25 mil em ações (swing trade) em um único mês, com lucro. Sobre esse lucro:",
+    "options": [
+      { "text": "Incide IR de 15%, pois ultrapassou o limite de isenção de R$ 20 mil em vendas no mês" },
+      { "text": "Não incide IR, pois vendas de ações são sempre isentas", "misconception": "acredita-acao-sempre-isenta", "feedback": "A isenção do swing trade vale só até R$ 20 mil de VENDAS no mês; acima disso, o lucro é tributado em 15%." },
+      { "text": "Incide IR de 20%, como no day trade" },
+      { "text": "Incide IR de 27,5%" }
+    ],
+    "correct": 0,
+    "explanation": "A isenção do swing trade cobre até R$ 20 mil de vendas por mês. Como vendeu R$ 25 mil, o lucro é tributado em 15% (recolhido via DARF).",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Passou de R$ 20 mil em vendas no mês?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irB-q09",
+    "topicId": "irB",
+    "stem": "Qual a diferença entre a isenção das AÇÕES e a dos FIIs?",
+    "options": [
+      { "text": "Nas ações, é isento o GANHO de venda até R$ 20 mil/mês; nos FIIs, o ganho na venda é tributado (20%), mas os RENDIMENTOS mensais é que são isentos" },
+      { "text": "São idênticas: tudo isento nos dois casos", "misconception": "equipara-isencao-acoes-e-fii" },
+      { "text": "Ambas tributam os rendimentos mensais" },
+      { "text": "Nenhuma das duas tem qualquer isenção" }
+    ],
+    "correct": 0,
+    "explanation": "São isenções de naturezas diferentes: ação → ganho de capital isento até R$ 20 mil/mês de vendas; FII → rendimentos mensais isentos, mas ganho na venda das cotas tributado em 20%.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Em ação a isenção é no ganho de venda; em FII é no rendimento mensal."],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irC-q07",
+    "topicId": "irC",
+    "stem": "O ganho de capital na venda de um ativo no exterior, em regra, é apurado e recolhido:",
+    "options": [
+      { "text": "Pelo próprio investidor, conforme as regras vigentes (ex.: apuração de ganho de capital com DARF)" },
+      { "text": "Automaticamente pela corretora estrangeira, sem nada a fazer", "misconception": "acredita-corretora-estrangeira-recolhe-ir-br" },
+      { "text": "Apenas na declaração de outro país" },
+      { "text": "Nunca, pois ganhos no exterior são isentos", "misconception": "acredita-exterior-isento" }
+    ],
+    "correct": 0,
+    "explanation": "O residente fiscal no Brasil é responsável por apurar e recolher o imposto sobre ganhos no exterior conforme a legislação vigente; a corretora estrangeira não recolhe o IR brasileiro por ele.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "hints": ["Quem é o responsável por pagar o IR brasileiro sobre o ganho lá fora?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irC-q08",
+    "topicId": "irC",
+    "stem": "Na tributação de ativos no exterior, o investidor precisa distinguir:",
+    "options": [
+      { "text": "O ganho de capital (na venda) dos rendimentos/dividendos recebidos — cada um tem regras próprias de tributação" },
+      { "text": "Nada: tudo é tratado igual e isento", "misconception": "trata-todo-resultado-exterior-como-igual" },
+      { "text": "Apenas a cor da corretora" },
+      { "text": "Somente o nome do país" }
+    ],
+    "correct": 0,
+    "explanation": "Resultados no exterior têm naturezas diferentes — ganho na venda e rendimentos (juros/dividendos) — e cada tipo segue regras próprias. Identificá-los corretamente é essencial para declarar e pagar certo.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Vender com lucro e receber dividendos são a mesma coisa?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irC-q09",
+    "topicId": "irC",
+    "stem": "Por que a variação cambial complica a apuração do IR sobre ativos no exterior?",
+    "options": [
+      { "text": "Porque pode haver ganho em reais mesmo sem ganho em dólar (se o dólar subiu) — e a tributação considera os valores convertidos para reais" },
+      { "text": "Porque o câmbio não tem qualquer efeito no imposto", "misconception": "ignora-cambio-na-apuracao" },
+      { "text": "Porque o dólar é isento de IR" },
+      { "text": "Porque só se usa o valor em dólar" }
+    ],
+    "correct": 0,
+    "explanation": "Como a apuração considera valores em reais, a alta do dólar pode gerar ganho tributável em reais mesmo que, em dólar, o ativo não tenha valorizado — e vice-versa. Por isso o câmbio é parte central do cálculo.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["É possível 'ganhar' em reais sem 'ganhar' em dólar?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irD-q07",
+    "topicId": "irD",
+    "stem": "A diferença entre a declaração 'completa' e a 'simplificada' do IR é que a simplificada:",
+    "options": [
+      { "text": "Aplica um desconto padrão no lugar das deduções detalhadas — boa para quem tem poucas deduções" },
+      { "text": "É proibida para quem investe", "misconception": "acredita-simplificada-proibida-para-investidor" },
+      { "text": "Isenta o investidor de declarar" },
+      { "text": "Sempre paga menos imposto que a completa" }
+    ],
+    "correct": 0,
+    "explanation": "Na simplificada, um desconto padrão substitui as deduções (saúde, dependentes, PGBL...). Quem tem muitas deduções costuma se sair melhor na completa; quem tem poucas, na simplificada.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Uma usa desconto padrão; a outra, deduções detalhadas."],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irD-q08",
+    "topicId": "irD",
+    "stem": "Um investidor pagou DARFs sobre lucros com ações ao longo do ano. Na declaração anual, ele:",
+    "options": [
+      { "text": "Informa esses ganhos e o imposto já recolhido — a apuração mensal não dispensa a declaração anual" },
+      { "text": "Não precisa informar nada, pois já pagou o DARF", "misconception": "acredita-darf-dispensa-declaracao" },
+      { "text": "Recolhe tudo de novo do zero" },
+      { "text": "Fica isento de declarar por ter pago DARF" }
+    ],
+    "correct": 0,
+    "explanation": "O DARF mensal recolhe o imposto da renda variável no mês, mas os ganhos e o imposto pago ainda precisam constar na declaração anual (consolidação). Uma coisa não substitui a outra.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Pagar DARF no mês elimina a declaração anual?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irD-q09",
+    "topicId": "irD",
+    "stem": "Informar na ficha de Bens e Direitos a posição de fim de ano (mesmo de ativos isentos) é importante porque:",
+    "options": [
+      { "text": "Mantém a coerência da evolução patrimonial — a Receita cruza o aumento de patrimônio com a renda declarada, e inconsistências levam à malha fina" },
+      { "text": "Não tem utilidade, já que ativos isentos não pagam imposto", "misconception": "acredita-isento-nao-precisa-constar-em-bens" },
+      { "text": "Serve apenas para enfeitar a declaração" },
+      { "text": "Substitui o informe de rendimentos" }
+    ],
+    "correct": 0,
+    "explanation": "A Receita confere se a variação do seu patrimônio bate com a renda e os ganhos declarados. Omitir ativos (mesmo isentos) quebra essa coerência e pode levar à malha fina.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Como a Receita verifica se seu patrimônio cresceu de forma compatível com sua renda?"],
+    "source": "IR · Imposto de Renda"
   }
 ]

@@ -528,5 +528,275 @@
     "type": "aplicacao",
     "hints": ["Junte duas vantagens: dedução do PGBL (completa) + alíquota mínima da regressiva (longo prazo)."],
     "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1a-q07",
+    "topicId": "m1a",
+    "stem": "O que é um \"gasto formiga\"?",
+    "options": [
+      { "text": "Pequenas despesas frequentes que, somadas, viram um valor relevante no mês" },
+      { "text": "Uma única grande compra parcelada no cartão", "misconception": "confunde-formiga-com-grande-compra", "feedback": "Gasto formiga é o oposto: são valores pequenos e repetidos, não uma compra grande isolada." },
+      { "text": "Um imposto cobrado sobre transações bancárias" },
+      { "text": "Uma despesa fixa essencial, como o aluguel" }
+    ],
+    "correct": 0,
+    "explanation": "Gastos formiga são pequenos e recorrentes (cafés, taxas, apps) que parecem inofensivos, mas no acumulado do mês pesam — mapeá-los é um ganho rápido no orçamento.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "hints": ["Pense em valores pequenos que se repetem muitas vezes."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1a-q08",
+    "topicId": "m1a",
+    "stem": "Seguindo a ideia de \"pagar-se primeiro\", uma pessoa com renda líquida de R$ 4.000 separa 20% para investir ANTES de gastar e tem R$ 2.200 de despesas fixas. Quanto sobra para as despesas variáveis no mês?",
+    "options": [
+      { "text": "R$ 1.800", "misconception": "ignora-pagar-se-primeiro", "feedback": "Aqui a poupança vem ANTES: separe os R$ 800 primeiro; só então sobram R$ 1.000 para os variáveis." },
+      { "text": "R$ 800" },
+      { "text": "R$ 1.000" },
+      { "text": "R$ 2.000" }
+    ],
+    "correct": 2,
+    "explanation": "Pagar-se primeiro: 20% de R$ 4.000 = R$ 800 vão para investir. Sobra R$ 4.000 − R$ 800 − R$ 2.200 = R$ 1.000 para as despesas variáveis.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "calculo",
+    "hints": ["Calcule a poupança primeiro (20%).", "Subtraia poupança e fixas da renda."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1a-q09",
+    "topicId": "m1a",
+    "stem": "Por que \"pagar-se primeiro\" (separar a poupança no início do mês) costuma funcionar melhor do que \"investir o que sobrar\" no fim do mês?",
+    "options": [
+      { "text": "Porque garante a poupança antes que os gastos consumam a renda, tornando-a prioridade e não resto" },
+      { "text": "Porque rende muito mais juros por investir alguns dias antes", "misconception": "atribui-efeito-ao-timing-de-dias", "feedback": "O ganho não vem de poucos dias de juros, e sim de garantir que a poupança realmente aconteça." },
+      { "text": "Porque elimina a necessidade de ter um orçamento" },
+      { "text": "Porque permite gastar mais com desejos sem culpa" }
+    ],
+    "correct": 0,
+    "explanation": "No fim do mês quase nunca \"sobra\". Reservando a poupança primeiro, ela deixa de competir com os gastos e vira hábito — é disciplina comportamental, não rendimento.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["O problema do \"investir o que sobra\" é comportamental.", "O que costuma acontecer com a sobra no fim do mês?"],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1b-q07",
+    "topicId": "m1b",
+    "stem": "Entre as opções abaixo, qual é o melhor exemplo de ATIVO na lógica patrimonial?",
+    "options": [
+      { "text": "Um aluguel de imóvel que entra todo mês" },
+      { "text": "Um carro de passeio com parcelas e manutenção", "misconception": "classifica-carro-de-uso-como-ativo", "feedback": "Carro de passeio só gera saídas (parcela, seguro, manutenção) — é passivo, não ativo." },
+      { "text": "A fatura do cartão de crédito" },
+      { "text": "Uma assinatura de streaming" }
+    ],
+    "correct": 0,
+    "explanation": "Ativo coloca dinheiro no bolso (gera renda ou valoriza); o aluguel recebido é entrada recorrente. Fatura, carro de passeio e assinaturas só geram saídas.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Ativo coloca dinheiro no bolso; passivo tira."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1b-q08",
+    "topicId": "m1b",
+    "stem": "Um mesmo imóvel pode ser ativo ou passivo dependendo do uso. Quando ele se comporta como ATIVO?",
+    "options": [
+      { "text": "Quando está alugado e o aluguel cobre com folga as despesas, gerando renda líquida" },
+      { "text": "Quando está fechado, gerando IPTU e condomínio sem uso", "misconception": "imovel-e-sempre-ativo", "feedback": "Imóvel parado só gera custos — nesse caso é passivo, mesmo tendo valor de mercado." },
+      { "text": "Sempre, porque imóvel nunca desvaloriza" },
+      { "text": "Quando é usado como moradia da própria família" }
+    ],
+    "correct": 0,
+    "explanation": "Não é o bem em si, e sim o fluxo de caixa: alugado com folga → entra dinheiro (ativo); parado ou de uso próprio → só sai (passivo/despesa).",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "aplicacao",
+    "hints": ["Olhe o fluxo de caixa, não o bem em si."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1b-q09",
+    "topicId": "m1b",
+    "stem": "Ao receber um aumento de salário, uma pessoa imediatamente troca de carro e aluga um apartamento maior, elevando as parcelas. Do ponto de vista patrimonial, qual é o risco desse padrão?",
+    "options": [
+      { "text": "Inflação do estilo de vida: a alta dos passivos consome o aumento de renda e trava a construção de patrimônio" },
+      { "text": "Nenhum, pois maior renda sempre justifica maiores gastos" },
+      { "text": "Reduz impostos por aumentar as despesas", "misconception": "confunde-gasto-com-deducao" },
+      { "text": "Transforma automaticamente os novos bens em ativos" }
+    ],
+    "correct": 0,
+    "explanation": "Quando os passivos crescem junto com (ou mais que) a renda, a sobra para investir não aumenta — é a \"inflação do estilo de vida\", principal inimigo da formação de patrimônio.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["O que acontece com a sobra se os gastos sobem junto com a renda?"],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1c-q07",
+    "topicId": "m1c",
+    "stem": "O crédito rotativo do cartão de crédito é conhecido por:",
+    "options": [
+      { "text": "Ter uma das taxas de juros mais altas do mercado, cobrada quando não se paga a fatura integral" },
+      { "text": "Ser isento de juros em qualquer situação", "misconception": "acredita-rotativo-sem-juros", "feedback": "Pagar menos que o total da fatura aciona o rotativo, com juros altíssimos." },
+      { "text": "Ter juros menores que o crédito consignado" },
+      { "text": "Ser uma linha de crédito subsidiada pelo governo" }
+    ],
+    "correct": 0,
+    "explanation": "Pagar menos que o total da fatura aciona o rotativo, com juros entre os maiores do mercado. Evite-o quitando a fatura integral.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["O que acontece quando você paga só o mínimo da fatura?"],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1c-q08",
+    "topicId": "m1c",
+    "stem": "Uma pessoa tem três dívidas e quer quitá-las da forma que economiza MAIS juros. Qual estratégia atende melhor a esse objetivo?",
+    "options": [
+      { "text": "Método avalanche: priorizar a dívida de MAIOR taxa de juros primeiro" },
+      { "text": "Método bola de neve: quitar a de menor saldo primeiro", "misconception": "confunde-bola-de-neve-com-economia-de-juros", "feedback": "A bola de neve ajuda na motivação, mas quem economiza mais juros é a avalanche (maior taxa primeiro)." },
+      { "text": "Pagar todas com o valor mínimo, igualmente" },
+      { "text": "Alongar o prazo de todas para reduzir as parcelas" }
+    ],
+    "correct": 0,
+    "explanation": "Para minimizar juros pagos, ataque primeiro a dívida de maior taxa (avalanche). A bola de neve (menor saldo primeiro) é melhor para motivação, não para economia.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Qual dívida \"cresce\" mais rápido? Ataque a de maior taxa."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1c-q09",
+    "topicId": "m1c",
+    "stem": "Ao comparar duas ofertas de crédito com a mesma parcela mensal, qual indicador permite saber qual sai realmente mais barata?",
+    "options": [
+      { "text": "O CET (Custo Efetivo Total), que inclui juros, tarifas, seguros e demais encargos" },
+      { "text": "Apenas a taxa de juros nominal anunciada", "misconception": "compara-so-juros-nominal", "feedback": "Duas ofertas com o mesmo juros nominal podem custar diferente por causa de tarifas e seguros — por isso se olha o CET." },
+      { "text": "O valor da parcela isoladamente" },
+      { "text": "O número de parcelas" }
+    ],
+    "correct": 0,
+    "explanation": "O CET consolida todos os custos do empréstimo (juros + tarifas + seguros), permitindo comparar ofertas de forma justa. Só a parcela ou o juros nominal podem enganar.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Parcelas iguais podem esconder tarifas e seguros diferentes."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1d-q07",
+    "topicId": "m1d",
+    "stem": "O tamanho usualmente recomendado para a reserva de emergência é equivalente a:",
+    "options": [
+      { "text": "De 3 a 6 meses das despesas essenciais (mais, para rendas instáveis)" },
+      { "text": "Exatamente 1 salário mínimo, para qualquer pessoa", "misconception": "reserva-valor-fixo", "feedback": "A reserva se mede em MESES de despesa de cada um, não num valor fixo igual para todos." },
+      { "text": "12 a 24 meses de renda bruta, sempre" },
+      { "text": "O valor de um carro popular" }
+    ],
+    "correct": 0,
+    "explanation": "A referência é cobrir de 3 a 6 meses das despesas essenciais; quem tem renda instável (autônomos) mira a parte alta ou mais. Não é um valor fixo igual para todos.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "hints": ["A reserva se mede em MESES de despesa, não em valor fixo."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1d-q08",
+    "topicId": "m1d",
+    "stem": "Um autônomo com despesas mensais essenciais de R$ 4.000 decide manter uma reserva de 12 meses por causa da renda instável. De quanto deve ser a reserva?",
+    "options": [
+      { "text": "R$ 48.000" },
+      { "text": "R$ 24.000", "misconception": "usa-prazo-padrao-ignora-perfil", "feedback": "O enunciado pede 12 meses por causa da renda instável, não os 6 meses padrão." },
+      { "text": "R$ 4.000" },
+      { "text": "R$ 16.000" }
+    ],
+    "correct": 0,
+    "explanation": "Reserva = meses desejados × despesa mensal essencial = 12 × R$ 4.000 = R$ 48.000. Rendas instáveis justificam reservas maiores.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "calculo",
+    "hints": ["Multiplique os meses pela despesa mensal."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1d-q09",
+    "topicId": "m1d",
+    "stem": "Entre as opções abaixo, qual é a MENOS adequada para guardar a reserva de emergência, mesmo sendo de baixo risco de crédito?",
+    "options": [
+      { "text": "Um CDB com carência de 2 anos (sem liquidez antes do vencimento)" },
+      { "text": "Tesouro Selic" },
+      { "text": "Um CDB de liquidez diária que paga cerca de 100% do CDI" },
+      { "text": "Conta com rendimento diário atrelado ao CDI e resgate imediato" }
+    ],
+    "correct": 0,
+    "explanation": "A reserva exige LIQUIDEZ imediata. Um CDB com carência de 2 anos, embora seguro (FGC), não pode ser resgatado quando a emergência ocorrer — por isso é inadequado, apesar do baixo risco de crédito.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Segurança não basta: o que mais a reserva exige?", "Você consegue sacar amanhã se precisar?"],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1e-q07",
+    "topicId": "m1e",
+    "stem": "Na previdência privada, a tabela REGRESSIVA de IR se caracteriza por:",
+    "options": [
+      { "text": "Alíquotas que CAEM com o tempo de aplicação, chegando a 10% após 10 anos" },
+      { "text": "Alíquotas que SOBEM conforme o valor resgatado", "misconception": "confunde-regressiva-com-progressiva", "feedback": "Quem sobe conforme a base é a tabela progressiva; a regressiva CAI com o tempo de permanência." },
+      { "text": "Uma alíquota única de 15%, sempre" },
+      { "text": "Isenção total de IR" }
+    ],
+    "correct": 0,
+    "explanation": "Na regressiva, quanto mais tempo o dinheiro fica aplicado, menor a alíquota — começa em 35% e chega a 10% após 10 anos. Ela premia o longo prazo.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Regressiva = diminui; o que diminui é a alíquota com o tempo."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1e-q08",
+    "topicId": "m1e",
+    "stem": "Um investidor que declara o IR no modelo COMPLETO tem renda bruta tributável de R$ 100.000 no ano. Qual o valor máximo que ele pode aportar em PGBL para deduzir da base do imposto?",
+    "options": [
+      { "text": "R$ 12.000 (até 12% da renda bruta tributável)" },
+      { "text": "R$ 100.000 (todo o valor aportado)", "misconception": "acredita-deducao-ilimitada-pgbl", "feedback": "A dedução do PGBL é limitada a 12% da renda bruta tributável anual." },
+      { "text": "R$ 27.500" },
+      { "text": "Nada, pois PGBL não é dedutível" }
+    ],
+    "correct": 0,
+    "explanation": "O PGBL permite deduzir aportes até 12% da renda bruta tributável anual (para quem declara no completo e contribui à previdência oficial). 12% de R$ 100.000 = R$ 12.000.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "calculo",
+    "hints": ["O limite de dedução do PGBL é um percentual da renda bruta.", "12% de 100.000."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1e-q09",
+    "topicId": "m1e",
+    "stem": "Além da tributação, uma vantagem frequentemente citada da previdência privada (PGBL/VGBL) no planejamento de longo prazo é que ela:",
+    "options": [
+      { "text": "Não sofre come-cotas e costuma permitir indicar beneficiários, facilitando a sucessão patrimonial" },
+      { "text": "Garante rentabilidade acima da inflação todo ano", "misconception": "garante-rentabilidade-previdencia", "feedback": "Previdência não garante rentabilidade; o desempenho depende do fundo escolhido." },
+      { "text": "É isenta de qualquer taxa de administração" },
+      { "text": "Pode ser resgatada sem nenhum imposto a qualquer momento" }
+    ],
+    "correct": 0,
+    "explanation": "Fundos de previdência não têm come-cotas (o IR só incide no resgate) e costumam permitir indicar beneficiários, agilizando a transmissão. Não garantem rentabilidade nem isentam de taxas/IR.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "aplicacao",
+    "hints": ["Pense em dois pontos: tributação ao longo do tempo (come-cotas) e sucessão."],
+    "source": "M1 · Organize seus gastos"
   }
 ]

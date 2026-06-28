@@ -6,35 +6,37 @@ import { MASTER } from './studentModel'
 /* =========================================================================
    MODELO PEDAGÓGICO — SELEÇÃO ADAPTATIVA DE QUESTÕES
 
-   Substitui a apresentação sequencial. Dada a KC aberta e o domínio p atual do
-   aluno, escolhe a próxima questão cuja P(acerto) estimada fica mais perto de
-   um alvo na ZONA DE DESENVOLVIMENTO PROXIMAL — nem trivial (pouco
-   aprendizado), nem frustrante. Evita repetir itens recém-vistos.
-
-   A estimativa de P(acerto) é uma heurística simples: parte do domínio p e
-   aplica um ajuste pela dificuldade da questão (fácil sobe a chance de acerto,
-   difícil reduz). Serve só à seleção — não faz parte da atualização de p.
+   Casa a DIFICULDADE da questão com a HABILIDADE estimada do aluno (o domínio
+   p da KC) — o mesmo princípio do Teste Adaptativo Informatizado / TRI: cada
+   dificuldade tem um "limiar de habilidade" b; a chance de acerto vale ~0,5
+   quando p iguala b, cresce acima e cai abaixo. A seleção escolhe o item cuja
+   P(acerto) estimada fica mais perto de um alvo — então, à medida que p sobe,
+   a dificuldade apresentada sobe junto (fácil → média → difícil). Evita repetir
+   itens recém-vistos. Isto serve só à seleção — não atualiza p.
    ========================================================================= */
 
-/** Alvo de P(acerto) enquanto o aluno aprende a KC (desafio calibrado). */
-const TARGET_LEARNING = 0.75
-/** Em revisão (KC já dominada), busca mais desafio: alvo de acerto menor. */
-const TARGET_REVIEW = 0.6
+/**
+ * Alvo de P(acerto): no aprendizado mira ~0,6 (desafio calibrado à ZDP); na
+ * revisão (KC dominada) baixa o alvo para puxar os itens mais difíceis.
+ */
+const TARGET_LEARNING = 0.6
+const TARGET_REVIEW = 0.4
 
-/** Ajuste de P(acerto) por dificuldade da questão. */
-const DIFF_OFFSET: Record<Difficulty, number> = {
-  [Difficulty.Facil]: 0.15,
-  [Difficulty.Medio]: 0,
-  [Difficulty.Dificil]: -0.15,
+/** Limiar de habilidade b de cada dificuldade, na escala do domínio p (0–1). */
+const DIFFICULTY_B: Record<Difficulty, number> = {
+  [Difficulty.Facil]: 0.25,
+  [Difficulty.Medio]: 0.5,
+  [Difficulty.Dificil]: 0.75,
 }
 
 /**
- * P(acerto) estimada para uma questão de dada dificuldade, dado o domínio atual.
- * Usada pela seleção adaptativa para mirar a zona de desenvolvimento proximal.
+ * P(acerto) estimada (curva da TRI, simplificada): 0,5 quando o domínio p iguala
+ * o limiar b da dificuldade; maior acima, menor abaixo. É o que liga o domínio
+ * do aluno à dificuldade do item na seleção adaptativa.
  */
 function predictCorrect(pKnown: number, difficulty: Difficulty): number {
-  const est = pKnown + (DIFF_OFFSET[difficulty] ?? 0)
-  return Math.min(1, Math.max(0, est))
+  const b = DIFFICULTY_B[difficulty] ?? 0.5
+  return Math.min(1, Math.max(0, 0.5 + (pKnown - b)))
 }
 
 /**

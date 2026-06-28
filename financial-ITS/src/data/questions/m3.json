@@ -740,5 +740,383 @@
     "type": "aplicacao",
     "hints": ["Junte três pilares: qualidade, preço e diversificação."],
     "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3a-q07",
+    "topicId": "m3a",
+    "stem": "Como sócio de uma empresa via ações negociadas em bolsa (S.A.), a responsabilidade do investidor pelas dívidas da empresa é:",
+    "options": [
+      { "text": "Limitada ao valor que ele investiu nas ações" },
+      { "text": "Ilimitada: ele responde com todo o patrimônio pessoal", "misconception": "acredita-responsabilidade-ilimitada-do-acionista", "feedback": "Em S.A., o acionista tem responsabilidade limitada ao capital investido — não responde com o patrimônio pessoal pelas dívidas da empresa." },
+      { "text": "Igual à de um funcionário da empresa" },
+      { "text": "Definida pela Receita Federal a cada ano" }
+    ],
+    "correct": 0,
+    "explanation": "Em sociedades anônimas o acionista tem responsabilidade limitada: o máximo que pode perder é o capital investido nas ações; não responde pessoalmente pelas dívidas da empresa.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Quanto, no máximo, um acionista pode perder?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3a-q08",
+    "topicId": "m3a",
+    "stem": "Na prática, ser sócio minoritário de uma grande empresa pela bolsa dá ao investidor:",
+    "options": [
+      { "text": "Participação proporcional nos lucros (dividendos) e na valorização, mas pouca influência na gestão" },
+      { "text": "O direito de mandar nas decisões do dia a dia da empresa", "misconception": "superestima-poder-do-minoritario" },
+      { "text": "Um salário mensal garantido pela empresa" },
+      { "text": "A obrigação de cobrir prejuízos da companhia" }
+    ],
+    "correct": 0,
+    "explanation": "O minoritário participa dos resultados (proventos e valorização) na proporção das ações que tem, mas o poder de decisão fica com os controladores e a administração.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Você ganha proporcional, mas manda no negócio?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3a-q09",
+    "topicId": "m3a",
+    "stem": "Na mesma empresa, qual a diferença essencial entre ser ACIONISTA (ação) e ser CREDOR (uma debênture/título de dívida)?",
+    "options": [
+      { "text": "O acionista tem maior potencial de ganho e de perda e recebe DEPOIS dos credores; o credor tem retorno definido e prioridade no recebimento" },
+      { "text": "Não há diferença: ambos recebem dividendos", "misconception": "confunde-acionista-com-credor" },
+      { "text": "O credor é dono da empresa e o acionista apenas emprestou" },
+      { "text": "O acionista tem retorno garantido e o credor não" }
+    ],
+    "correct": 0,
+    "explanation": "Ação (equity) = participação: ganho potencialmente ilimitado, mas recebe por último e pode perder tudo. Dívida (debênture) = empréstimo: retorno combinado e prioridade sobre os acionistas em caso de problemas.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Quem recebe primeiro se a empresa quebrar: dono ou credor?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3b-q07",
+    "topicId": "m3b",
+    "stem": "A \"data-com\" de um provento é:",
+    "options": [
+      { "text": "O último dia para comprar a ação e ainda ter direito ao provento anunciado" },
+      { "text": "O dia em que o provento cai na conta", "misconception": "confunde-data-com-com-data-de-pagamento" },
+      { "text": "A data em que a empresa divulga o balanço" },
+      { "text": "O primeiro dia após o pagamento" }
+    ],
+    "correct": 0,
+    "explanation": "Quem tem a ação na data-com recebe o provento; a partir da data-ex (dia seguinte) a ação é negociada sem o direito. O pagamento ocorre depois, em data própria.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["'Com' direito: até quando preciso ter a ação?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3b-q08",
+    "topicId": "m3b",
+    "stem": "Uma ação custa R$ 25 e pagou R$ 1,50 em proventos no ano. Qual é o dividend yield (DY) aproximado?",
+    "options": [
+      { "text": "6%" },
+      { "text": "1,5%", "misconception": "ignora-dividir-provento-pelo-preco" },
+      { "text": "16,6%" },
+      { "text": "25%" }
+    ],
+    "correct": 0,
+    "explanation": "DY = proventos por ação ÷ preço = 1,50 ÷ 25 = 0,06 = 6% ao ano.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "calculo",
+    "hints": ["DY = provento ÷ preço.", "1,50 / 25."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3b-q09",
+    "topicId": "m3b",
+    "stem": "Por que receber um dividendo NÃO aumenta, por si só, o patrimônio total do investidor no momento do pagamento?",
+    "options": [
+      { "text": "Porque na data-ex o preço da ação cai aproximadamente pelo valor distribuído: troca-se valor da ação por dinheiro em caixa" },
+      { "text": "Porque o dividendo é sempre tributado em 50%", "misconception": "explica-dividendo-por-tributacao-errada" },
+      { "text": "Porque o dividendo precisa ser devolvido à empresa" },
+      { "text": "Porque o dividendo não existe de fato" }
+    ],
+    "correct": 0,
+    "explanation": "O dividendo sai do caixa da empresa; na data-ex a cotação ajusta para baixo aproximadamente pelo valor pago. No instante, o investidor apenas converte parte do valor da ação em dinheiro — o ganho real vem do desempenho do negócio ao longo do tempo.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["O que acontece com o preço na data-ex?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3c-q07",
+    "topicId": "m3c",
+    "stem": "Após um grupamento (inplit) na proporção 10:1, um investidor que tinha 200 ações a R$ 1,00 passa a ter:",
+    "options": [
+      { "text": "20 ações a R$ 10,00 (total inalterado de R$ 200)" },
+      { "text": "2.000 ações a R$ 0,10", "misconception": "confunde-inplit-com-split", "feedback": "Isso seria um desdobramento (split). No inplit a quantidade DIMINUI e o preço sobe proporcionalmente." },
+      { "text": "200 ações a R$ 10,00 (total R$ 2.000)" },
+      { "text": "20 ações a R$ 1,00 (total R$ 20)" }
+    ],
+    "correct": 0,
+    "explanation": "Inplit 10:1 agrupa 10 ações em 1: a quantidade cai 10× (200→20) e o preço sobe 10× (R$ 1→R$ 10). O patrimônio total (R$ 200) não muda.",
+    "difficulty": "facil",
+    "bloom": "aplicar",
+    "type": "calculo",
+    "hints": ["Inplit: menos ações, preço proporcionalmente maior."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3c-q08",
+    "topicId": "m3c",
+    "stem": "Após um desdobramento (split), o valor de mercado total da empresa:",
+    "options": [
+      { "text": "Permanece o mesmo — apenas se divide em mais ações de menor preço" },
+      { "text": "Aumenta, pois passa a existir mais ações", "misconception": "acredita-split-cria-valor", "feedback": "Mais ações não criam valor: o mesmo bolo é fatiado em mais pedaços menores." },
+      { "text": "Cai pela metade" },
+      { "text": "Dobra automaticamente" }
+    ],
+    "correct": 0,
+    "explanation": "O split não cria nem destrói valor: o valor de mercado (e o patrimônio de cada investidor) é o mesmo, apenas representado por mais ações de preço unitário menor.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["O bolo muda de tamanho ou só o número de fatias?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3c-q09",
+    "topicId": "m3c",
+    "stem": "Qual a diferença entre um desdobramento (split) e uma bonificação em ações?",
+    "options": [
+      { "text": "No split as ações existentes são apenas divididas; na bonificação a empresa incorpora reservas/lucros ao capital e entrega novas ações aos acionistas" },
+      { "text": "São exatamente a mesma coisa", "misconception": "confunde-split-com-bonificacao" },
+      { "text": "A bonificação reduz o número de ações" },
+      { "text": "O split distribui dinheiro aos acionistas" }
+    ],
+    "correct": 0,
+    "explanation": "Split apenas refraciona as ações (sem mexer no capital). Bonificação capitaliza reservas/lucros e distribui novas ações — origem contábil diferente, embora ambas aumentem a quantidade de ações.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Uma só divide; a outra usa reservas/lucros da empresa."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3d-q07",
+    "topicId": "m3d",
+    "stem": "O lucro por ação (LPA) é:",
+    "options": [
+      { "text": "O lucro líquido da empresa dividido pelo número de ações" },
+      { "text": "O preço da ação dividido pelo lucro", "misconception": "confunde-lpa-com-pl", "feedback": "Preço ÷ lucro é o P/L. O LPA é lucro ÷ número de ações." },
+      { "text": "O total de dividendos pagos no ano" },
+      { "text": "A variação anual do preço da ação" }
+    ],
+    "correct": 0,
+    "explanation": "LPA = lucro líquido ÷ quantidade de ações; mostra quanto de lucro cabe a cada ação. É um insumo do P/L (preço ÷ LPA).",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "hints": ["Lucro repartido por ação."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3d-q08",
+    "topicId": "m3d",
+    "stem": "Uma ação custa R$ 30 e a empresa tem lucro por ação de R$ 1,50 no ano. Qual é o P/L?",
+    "options": [
+      { "text": "20" },
+      { "text": "0,05", "misconception": "inverte-formula-do-pl" },
+      { "text": "45" },
+      { "text": "2" }
+    ],
+    "correct": 0,
+    "explanation": "P/L = preço ÷ LPA = 30 ÷ 1,50 = 20. De forma simplificada, ao lucro atual seriam necessários 20 anos para 'pagar' o preço.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "calculo",
+    "hints": ["P/L = preço ÷ lucro por ação.", "30 / 1,5."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3d-q09",
+    "topicId": "m3d",
+    "stem": "Por que um P/L muito BAIXO nem sempre significa que a ação está 'barata' e é boa compra?",
+    "options": [
+      { "text": "Porque o preço pode estar baixo justamente por riscos ou queda esperada nos lucros — a chamada 'armadilha de valor'" },
+      { "text": "Porque P/L baixo é sempre sinal de empresa excelente", "misconception": "trata-pl-baixo-como-garantia" },
+      { "text": "Porque P/L não tem relação com preço" },
+      { "text": "Porque P/L baixo significa que a empresa não dá lucro" }
+    ],
+    "correct": 0,
+    "explanation": "Um P/L baixo pode refletir problemas (endividamento, lucros em queda, setor em crise). Comprar só por estar 'barato' pode ser uma armadilha de valor; é preciso entender o porquê do desconto.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "conceitual",
+    "hints": ["O preço pode estar baixo por um bom motivo... ou por um motivo ruim."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3e-q07",
+    "topicId": "m3e",
+    "stem": "Gestão passiva, típica dos ETFs de índice, significa:",
+    "options": [
+      { "text": "Replicar a composição de um índice, em vez de tentar superá-lo escolhendo ativos" },
+      { "text": "Comprar e vender o tempo todo tentando bater o mercado", "misconception": "confunde-gestao-passiva-com-ativa", "feedback": "Isso é gestão ativa. A passiva apenas segue o índice, com custo menor." },
+      { "text": "Deixar o dinheiro parado sem investir" },
+      { "text": "Investir apenas em renda fixa" }
+    ],
+    "correct": 0,
+    "explanation": "Na gestão passiva o fundo apenas espelha um índice (ex.: Ibovespa, S&P 500). Sem seleção ativa nem giro alto, os custos ficam baixos.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Seguir o índice ou tentar vencê-lo?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3e-q08",
+    "topicId": "m3e",
+    "stem": "Para um iniciante, comprar uma cota de um ETF de Ibovespa em vez de uma única ação oferece principalmente:",
+    "options": [
+      { "text": "Diversificação instantânea em dezenas de empresas, num único ativo" },
+      { "text": "A garantia de lucro", "misconception": "acredita-etf-garante-lucro" },
+      { "text": "Isenção total de risco de mercado" },
+      { "text": "Rendimento fixo mensal" }
+    ],
+    "correct": 0,
+    "explanation": "Uma cota de ETF de índice já contém dezenas de ações na proporção do índice — diversificação imediata e barata. Mas continua exposta às oscilações do mercado.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Quantas empresas vêm 'dentro' de uma cota do ETF?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3e-q09",
+    "topicId": "m3e",
+    "stem": "Estudos mostram que, no longo prazo, a maioria dos fundos de gestão ATIVA não supera seu índice de referência. Um motivo central é:",
+    "options": [
+      { "text": "Os custos mais altos (taxas e giro) corroem o retorno, dificultando bater o índice de forma consistente" },
+      { "text": "Gestores ativos não têm acesso ao mercado", "misconception": "explica-por-falta-de-acesso" },
+      { "text": "Índices não podem ser comprados" },
+      { "text": "ETFs são proibidos no Brasil" }
+    ],
+    "correct": 0,
+    "explanation": "Bater o índice de forma consistente é difícil, e as taxas maiores da gestão ativa pesam contra. Por isso ETFs passivos de baixo custo costumam levar vantagem no longo prazo.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["O que as taxas mais altas fazem com o retorno ao longo dos anos?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3f-q07",
+    "topicId": "m3f",
+    "stem": "Um FII de tijolo investe principalmente em:",
+    "options": [
+      { "text": "Imóveis físicos para gerar renda de aluguel (shoppings, galpões, lajes corporativas)" },
+      { "text": "Títulos de crédito imobiliário, como CRIs", "misconception": "confunde-fii-tijolo-com-papel", "feedback": "Investir em CRIs é característica do FII de PAPEL; o de tijolo compra imóveis físicos." },
+      { "text": "Ações de bancos" },
+      { "text": "Ouro e dólar" }
+    ],
+    "correct": 0,
+    "explanation": "FIIs de tijolo compram imóveis reais e distribuem a renda dos aluguéis; os de papel investem em recebíveis (CRIs). Muitos fundos misturam os dois.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["'Tijolo' remete a quê?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3f-q08",
+    "topicId": "m3f",
+    "stem": "Um FII de tijolo é negociado a um P/VP de 0,8. Isso indica que a cota está sendo negociada:",
+    "options": [
+      { "text": "Abaixo do valor patrimonial (com desconto) — pode ser oportunidade ou sinal de algum problema a investigar" },
+      { "text": "Acima do valor patrimonial (com ágio)", "misconception": "inverte-leitura-do-pvp" },
+      { "text": "Exatamente pelo valor patrimonial" },
+      { "text": "Com isenção de risco" }
+    ],
+    "correct": 0,
+    "explanation": "P/VP = preço da cota ÷ valor patrimonial por cota. 0,8 significa pagar R$ 0,80 por R$ 1,00 de patrimônio (desconto). Pode ser barganha ou refletir vacância/risco — exige análise.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["P/VP < 1 significa preço acima ou abaixo do patrimônio?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3f-q09",
+    "topicId": "m3f",
+    "stem": "Comparado a comprar um imóvel para alugar diretamente, investir em FIIs oferece, principalmente:",
+    "options": [
+      { "text": "Liquidez, diversificação e baixo valor de entrada com gestão profissional — em troca de oscilação da cota e taxas" },
+      { "text": "A mesma falta de liquidez de um imóvel físico", "misconception": "ignora-liquidez-do-fii" },
+      { "text": "Garantia de renda fixa todo mês" },
+      { "text": "Isenção de qualquer risco de vacância" }
+    ],
+    "correct": 0,
+    "explanation": "FIIs negociam em bolsa (liquidez), permitem diversificar entre vários imóveis com pouco dinheiro e têm gestão profissional. Em contrapartida, a cota oscila no mercado, há taxas e a vacância ainda afeta os rendimentos.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "aplicacao",
+    "hints": ["Pense em liquidez, valor de entrada e diversificação."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3g-q07",
+    "topicId": "m3g",
+    "stem": "O risco ESPECÍFICO (não sistemático) de uma carteira de ações é aquele que:",
+    "options": [
+      { "text": "Afeta uma empresa ou setor em particular e pode ser bastante reduzido com diversificação" },
+      { "text": "Atinge todo o mercado ao mesmo tempo e não dá para diversificar", "misconception": "confunde-risco-especifico-com-sistemico", "feedback": "Esse é o risco sistêmico (de mercado). O específico é o de uma empresa/setor, reduzível com diversificação." },
+      { "text": "É sempre igual a zero" },
+      { "text": "Só existe em renda fixa" }
+    ],
+    "correct": 0,
+    "explanation": "Risco específico vem de eventos de uma empresa/setor (um escândalo, um resultado ruim); espalhar o capital reduz seu impacto. Já o risco sistêmico atinge todo o mercado e não some com diversificação.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Qual risco some quando você espalha entre muitas empresas?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3g-q08",
+    "topicId": "m3g",
+    "stem": "A partir de aproximadamente quantas ações, bem escolhidas e de setores variados, já se captura a maior parte do benefício da diversificação?",
+    "options": [
+      { "text": "Por volta de 15 a 30 ações — além disso, o ganho marginal de diversificação cai bastante" },
+      { "text": "Mais de 200 ações, sempre", "misconception": "acredita-mais-acoes-sempre-melhor", "feedback": "Depois de certo ponto, adicionar ações quase não reduz o risco e dificulta acompanhar — é a 'diworsification'." },
+      { "text": "Exatamente 2 ações" },
+      { "text": "1 ação já basta" }
+    ],
+    "correct": 0,
+    "explanation": "O grosso da redução do risco específico vem com algumas dezenas de ações (≈15–30) variando setores. Acima disso o ganho é pequeno e a carteira fica difícil de acompanhar.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Existe um ponto em que adicionar mais ações quase não ajuda."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3g-q09",
+    "topicId": "m3g",
+    "stem": "Um investidor tem 25 ações na carteira, mas TODAS são de bancos. Qual é o problema?",
+    "options": [
+      { "text": "Falsa diversificação: muitas ações, porém concentradas em um único setor, que tende a cair junto em crises do setor" },
+      { "text": "Nenhum: ter 25 ações já garante diversificação total", "misconception": "confunde-numero-de-acoes-com-diversificacao" },
+      { "text": "Excesso de diversificação" },
+      { "text": "O risco sistêmico foi eliminado" }
+    ],
+    "correct": 0,
+    "explanation": "Diversificação não é só quantidade, é variedade. 25 bancos sobem e caem juntos diante de juros, regulação ou crise bancária — o risco setorial continua concentrado. Diversificar exige setores pouco correlacionados.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Muitas ações do MESMO setor diversificam de verdade?"],
+    "source": "M3 · Renda Variável"
   }
 ]

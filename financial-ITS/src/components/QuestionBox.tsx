@@ -14,12 +14,14 @@ interface QuestionBoxProps {
   question: Question | null
   status: TopicStatus
   answeredIdx: number | null
+  /** Domínio atual do tópico (0–1) — usado para explicar a seleção adaptativa. */
+  mastery: number
   onAnswer: (optIndex: number) => void
   onNext: () => void
 }
 
 /** Bloco de questão do modal: bloqueio, ou pergunta + dicas (scaffolding) + feedback. */
-export function QuestionBox({ question, status, answeredIdx, onAnswer, onNext }: QuestionBoxProps) {
+export function QuestionBox({ question, status, answeredIdx, mastery, onAnswer, onNext }: QuestionBoxProps) {
   // Quantas dicas o aluno revelou nesta questão. O componente é remontado a
   // cada nova questão (key=question.id no Modal), então este estado zera só.
   const [revealed, setRevealed] = useState(0)
@@ -55,6 +57,9 @@ export function QuestionBox({ question, status, answeredIdx, onAnswer, onNext }:
       <div className="qhead">
         <span className="qnum">Questão adaptativa</span>
         <span className={`diff-badge ${question.difficulty}`}>{DIFF_LABEL[question.difficulty]}</span>
+      </div>
+      <div className="qadapt">
+        🎯 dificuldade <b>{DIFF_LABEL[question.difficulty]}</b> calibrada ao seu domínio ({Math.round(mastery * 100)}%)
       </div>
       <div className="enun">{question.stem}</div>
 

@@ -634,5 +634,329 @@
     "type": "aplicacao",
     "hints": ["Renda fixa também tem marcação a mercado quando os juros mudam."],
     "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5a-q07",
+    "topicId": "m5a",
+    "stem": "Internacionalizar a carteira significa, na prática:",
+    "options": [
+      { "text": "Manter parte dos investimentos em ativos e moedas de outros países" },
+      { "text": "Investir apenas em empresas brasileiras exportadoras", "misconception": "confunde-internacionalizar-com-exportadoras", "feedback": "Comprar exportadoras brasileiras não é o mesmo que ter ativos e moeda de fora — você continua 100% no Brasil." },
+      { "text": "Trocar todo o patrimônio por dólar em espécie" },
+      { "text": "Aplicar somente na poupança" }
+    ],
+    "correct": 0,
+    "explanation": "Internacionalizar é alocar parte do patrimônio fora do país (ações, ETFs, bonds) e em outra moeda, reduzindo a dependência de uma única economia.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["É sobre ter ativos e moeda de fora, não exportadoras locais."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5a-q08",
+    "topicId": "m5a",
+    "stem": "Qual a diferença entre diversificar entre EMPRESAS brasileiras e diversificar entre PAÍSES?",
+    "options": [
+      { "text": "Diversificar só entre empresas brasileiras não protege de um risco que atinge todo o Brasil; entre países, sim" },
+      { "text": "Não há diferença: ambas eliminam o mesmo risco", "misconception": "confunde-diversificacao-setorial-com-geografica" },
+      { "text": "Diversificar entre países aumenta o risco-Brasil" },
+      { "text": "Empresas brasileiras já são internacionais por definição" }
+    ],
+    "correct": 0,
+    "explanation": "Ter muitas empresas brasileiras ainda deixa você exposto ao risco-país (câmbio, política, juros locais). Diversificar geograficamente dilui esse risco comum a toda a economia brasileira.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["O que acontece com TODAS as empresas BR numa crise nacional?"],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5a-q09",
+    "topicId": "m5a",
+    "stem": "Um erro ao pensar em internacionalização é supor que ela:",
+    "options": [
+      { "text": "Elimina todos os riscos — na verdade, troca parte do risco-Brasil por risco cambial e pelo risco de outros mercados" },
+      { "text": "Pode reduzir a dependência de uma única economia", "misconception": "nega-beneficio-real-da-internacionalizacao" },
+      { "text": "Envolve outra moeda" },
+      { "text": "Exige atenção a custos" }
+    ],
+    "correct": 0,
+    "explanation": "Internacionalizar reduz a concentração no Brasil, mas não zera o risco: você passa a depender do câmbio e do desempenho de mercados externos. É troca de riscos, não ausência deles.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "conceitual",
+    "hints": ["Sai um risco, entra outro — qual?"],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5b-q07",
+    "topicId": "m5b",
+    "stem": "Um motivo frequente para acessar o mercado dos EUA é a possibilidade de investir em:",
+    "options": [
+      { "text": "Empresas e setores líderes globais (como as grandes techs) pouco presentes na bolsa brasileira" },
+      { "text": "Apenas títulos do governo brasileiro", "misconception": "nao-entende-acesso-global" },
+      { "text": "Somente imóveis no Brasil" },
+      { "text": "A poupança americana garantida pelo FGC" }
+    ],
+    "correct": 0,
+    "explanation": "O mercado americano dá acesso a milhares de empresas e setores (tecnologia, saúde global, etc.) com pouca ou nenhuma representação na B3, ampliando as opções do investidor.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Pense nas big techs e na variedade de setores."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5b-q08",
+    "topicId": "m5b",
+    "stem": "Ao operar por uma corretora no exterior, uma diferença prática que o investidor precisa administrar é que:",
+    "options": [
+      { "text": "Preços, extratos e resultados vêm em dólar, exigindo atenção ao câmbio ao aportar e ao trazer o dinheiro de volta" },
+      { "text": "Tudo é cotado em reais, sem qualquer efeito do câmbio", "misconception": "ignora-efeito-cambial-na-conta-exterior" },
+      { "text": "Não há custo nenhum de remessa" },
+      { "text": "O FGC cobre as aplicações" }
+    ],
+    "correct": 0,
+    "explanation": "Na conta no exterior tudo é em dólar: além do desempenho dos ativos, o câmbio afeta o valor em reais na entrada e na saída — e há custos de remessa/IOF a considerar.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Em que moeda fica o extrato de uma conta nos EUA?"],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5b-q09",
+    "topicId": "m5b",
+    "stem": "Por que, para muitos investidores, usar ETFs/BDRs na B3 pode ser preferível a abrir conta no exterior?",
+    "options": [
+      { "text": "Evitam burocracia, câmbio direto e uma declaração mais complexa — em troca de menos opções e de custos/tributação potencialmente diferentes" },
+      { "text": "Porque rendem sempre mais que os ativos lá fora", "misconception": "acredita-bdr-rende-mais" },
+      { "text": "Porque são isentos de qualquer risco de mercado" },
+      { "text": "Porque eliminam a exposição ao dólar" }
+    ],
+    "correct": 0,
+    "explanation": "BDRs/ETFs na B3 simplificam (em reais, sem conta no exterior, declaração mais simples), mas oferecem menos variedade e podem ter custos e tributação distintos. É troca de praticidade por amplitude.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Praticidade de um lado; amplitude e custos do outro."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5c-q07",
+    "topicId": "m5c",
+    "stem": "Qual a diferença entre uma 'growth stock' e uma 'dividend stock'?",
+    "options": [
+      { "text": "A growth reinveste os lucros buscando crescimento (paga pouco dividendo); a dividend distribui parte maior do lucro aos acionistas" },
+      { "text": "São a mesma coisa com nomes diferentes", "misconception": "confunde-growth-com-dividend" },
+      { "text": "A growth é renda fixa e a dividend é ação" },
+      { "text": "A dividend nunca se valoriza" }
+    ],
+    "correct": 0,
+    "explanation": "Growth stocks priorizam reinvestir para crescer (dividendos baixos); dividend stocks são mais maduras e distribuem mais lucro. São perfis diferentes: valorização x renda.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Uma reinveste para crescer; a outra distribui mais."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5c-q08",
+    "topicId": "m5c",
+    "stem": "Comparado a comprar a ação americana diretamente (conta no exterior), comprar o BDR dela na B3:",
+    "options": [
+      { "text": "É mais prático (em reais, sem conta lá fora), mas pode ter menos liquidez e custos/tributação próprios" },
+      { "text": "Dá exatamente os mesmos direitos e liquidez da ação original", "misconception": "equipara-bdr-a-acao-direta" },
+      { "text": "É sempre mais barato e melhor" },
+      { "text": "Elimina a exposição ao dólar" }
+    ],
+    "correct": 0,
+    "explanation": "O BDR representa a ação estrangeira e é negociado em reais na B3 (prático), mas costuma ter menor liquidez e regras próprias de custo/tributação; a exposição ao dólar continua existindo.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Praticidade x liquidez/custos."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5c-q09",
+    "topicId": "m5c",
+    "stem": "Uma carteira formada por poucas stocks de tecnologia americana pode ser mais arriscada do que parece porque:",
+    "options": [
+      { "text": "Mesmo sendo 'no exterior', está concentrada em um único setor (tech), que tende a cair junto — é falsa diversificação" },
+      { "text": "Investir nos EUA elimina o risco setorial", "misconception": "acredita-eua-elimina-risco-setorial" },
+      { "text": "Ações de tecnologia nunca caem" },
+      { "text": "O dólar protege contra qualquer queda" }
+    ],
+    "correct": 0,
+    "explanation": "Estar nos EUA não diversifica setores: várias techs reagem juntas a juros e ao humor do setor. A concentração setorial é risco real, ainda que geograficamente 'lá fora'.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Geografia diferente, mas e o setor?"],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5d-q07",
+    "topicId": "m5d",
+    "stem": "Investir em um ETF que segue um índice de ações global significa apostar em:",
+    "options": [
+      { "text": "O desempenho conjunto de muitas empresas de vários países, não em uma só" },
+      { "text": "Uma única empresa escolhida pelo gestor", "misconception": "confunde-etf-com-acao-unica" },
+      { "text": "Apenas títulos do governo brasileiro" },
+      { "text": "Ouro físico" }
+    ],
+    "correct": 0,
+    "explanation": "Um ETF global reúne centenas ou milhares de ações de diversos países numa cota — diversificação ampla com um único ativo.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Um ETF global é uma cesta de muitos países."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5d-q08",
+    "topicId": "m5d",
+    "stem": "Qual a diferença entre um ETF internacional negociado na B3 (em reais) e um negociado nos EUA (em dólar)?",
+    "options": [
+      { "text": "O da B3 dispensa conta no exterior e câmbio direto, mas pode ter custos, variedade e tributação diferentes do negociado lá fora" },
+      { "text": "São idênticos em tudo", "misconception": "equipara-etf-b3-com-etf-eua" },
+      { "text": "O da B3 não tem exposição a ativos estrangeiros" },
+      { "text": "O dos EUA é isento de risco de mercado" }
+    ],
+    "correct": 0,
+    "explanation": "Ambos dão exposição internacional, mas o da B3 é mais prático (reais, sem conta no exterior) com possíveis diferenças de custo/variedade/tributação; o dos EUA exige conta e câmbio, com leque maior de opções.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Praticidade na B3 x amplitude nos EUA."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5d-q09",
+    "topicId": "m5d",
+    "stem": "Por que um ETF amplo de mercado global é, para muitos, uma escolha sólida no longo prazo?",
+    "options": [
+      { "text": "Reúne diversificação máxima e custo baixo (gestão passiva), capturando o crescimento global sem o risco de errar empresas específicas" },
+      { "text": "Porque garante o maior retorno em qualquer ano", "misconception": "acredita-etf-garante-retorno-maximo" },
+      { "text": "Porque elimina o risco de mercado" },
+      { "text": "Porque paga juros fixos mensais" }
+    ],
+    "correct": 0,
+    "explanation": "Em vez de tentar acertar ações ou países, o ETF global entrega diversificação ampla a baixo custo e segue o crescimento agregado dos mercados — sólido para o investidor passivo de longo prazo.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Diversificação + custo baixo + não precisar 'acertar' empresas."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5e-q07",
+    "topicId": "m5e",
+    "stem": "A principal fonte da renda distribuída por um REIT de 'equity' (tijolo) é:",
+    "options": [
+      { "text": "Os aluguéis dos imóveis que ele possui (shoppings, galpões, escritórios)" },
+      { "text": "Os juros de financiamentos imobiliários", "misconception": "confunde-equity-reit-com-mortgage", "feedback": "Ganhar com juros de hipotecas é característica do mortgage REIT (de papel); o de equity vive de aluguéis." },
+      { "text": "A valorização do dólar" },
+      { "text": "Dividendos de ações de tecnologia" }
+    ],
+    "correct": 0,
+    "explanation": "Equity REITs são donos de imóveis e distribuem a renda dos aluguéis; mortgage REITs (de papel) ganham com juros de hipotecas. São fontes de renda diferentes.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["'Tijolo' vive de quê?"],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5e-q08",
+    "topicId": "m5e",
+    "stem": "Comparado a um FII brasileiro, um REIT americano expõe o investidor adicionalmente a:",
+    "options": [
+      { "text": "Variação cambial (dólar) e à tributação americana na fonte sobre os dividendos" },
+      { "text": "Nada diferente — é igual a um FII", "misconception": "equipara-reit-a-fii-sem-cambio" },
+      { "text": "Isenção total de impostos nos dois países" },
+      { "text": "Cobertura do FGC" }
+    ],
+    "correct": 0,
+    "explanation": "Além do risco imobiliário comum aos FIIs, o REIT traz risco cambial (dólar) e costuma ter retenção de imposto na fonte nos EUA sobre os dividendos — pontos a considerar na comparação.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["O que muda por ser em dólar e nos EUA?"],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5e-q09",
+    "topicId": "m5e",
+    "stem": "Por que os preços dos REITs costumam ser sensíveis à ALTA dos juros?",
+    "options": [
+      { "text": "Juros altos encarecem a dívida (muitos são alavancados) e tornam a renda fixa mais competitiva frente aos dividendos, pressionando as cotas" },
+      { "text": "Porque REITs não pagam dividendos", "misconception": "acredita-reit-nao-paga-dividendo" },
+      { "text": "Porque juros altos sempre valorizam imóveis" },
+      { "text": "Porque REITs são renda fixa" }
+    ],
+    "correct": 0,
+    "explanation": "REITs distribuem muito dividendo e frequentemente usam dívida; com juros altos, o custo da dívida sobe e a renda fixa atrai quem buscava aquela renda — o que tende a pressionar as cotas.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["O que juros altos fazem com a dívida e com a concorrência da renda fixa?"],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5f-q07",
+    "topicId": "m5f",
+    "stem": "Bonds são, de forma geral:",
+    "options": [
+      { "text": "Títulos de renda fixa (dívida) negociados no exterior, emitidos por governos ou empresas" },
+      { "text": "Ações de empresas estrangeiras", "misconception": "confunde-bond-com-acao" },
+      { "text": "Fundos imobiliários americanos" },
+      { "text": "Criptomoedas" }
+    ],
+    "correct": 0,
+    "explanation": "Bond é o nome dos títulos de dívida no exterior: quem compra empresta ao emissor (governo = Treasury; empresa = corporate bond) e recebe juros.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Bond = dívida (você empresta), não participação."],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5f-q08",
+    "topicId": "m5f",
+    "stem": "Para um investidor brasileiro, investir em Treasuries traz, além do rendimento em dólar:",
+    "options": [
+      { "text": "Exposição cambial (ganha ou perde com a variação do dólar) e estabilidade na parte global da carteira" },
+      { "text": "Rendimento garantido em reais, sem efeito do câmbio", "misconception": "ignora-cambio-em-treasury" },
+      { "text": "Cobertura do FGC brasileiro" },
+      { "text": "Isenção de risco de mercado e cambial" }
+    ],
+    "correct": 0,
+    "explanation": "Treasuries têm baixíssimo risco de crédito e rendem em dólar; para o brasileiro, o resultado em reais depende também do câmbio. Cumprem papel de estabilidade na fatia internacional.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Render em dólar implica qual risco para quem vive em reais?"],
+    "source": "M5 · Investindo no Exterior"
+  },
+  {
+    "id": "m5f-q09",
+    "topicId": "m5f",
+    "stem": "Em uma crise global de aversão a risco, as Treasuries dos EUA costumam:",
+    "options": [
+      { "text": "Valorizar, pela busca por segurança ('flight to quality'), ajudando a amortecer a queda das ações na carteira" },
+      { "text": "Despencar mais que as ações", "misconception": "acredita-treasury-cai-em-crise" },
+      { "text": "Virar criptomoedas" },
+      { "text": "Perder todo o valor" }
+    ],
+    "correct": 0,
+    "explanation": "Em crises, investidores correm para ativos seguros; a demanda por Treasuries sobe e seus preços tendem a subir, compensando parte das perdas em ações — por isso entram como estabilizador da carteira.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Para onde o dinheiro corre quando o mercado entra em pânico?"],
+    "source": "M5 · Investindo no Exterior"
   }
 ]

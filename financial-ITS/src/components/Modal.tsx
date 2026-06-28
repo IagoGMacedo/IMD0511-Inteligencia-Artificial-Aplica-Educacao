@@ -78,6 +78,7 @@ export function Modal({ currentTopic, progress, currentQuestion, answeredIdx, on
             question={currentQuestion}
             status={s}
             answeredIdx={answeredIdx}
+            mastery={st.m}
             onAnswer={onAnswer}
             onNext={onNext}
           />

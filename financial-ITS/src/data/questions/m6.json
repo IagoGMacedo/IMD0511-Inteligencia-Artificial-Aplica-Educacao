@@ -422,5 +422,221 @@
     "type": "aplicacao",
     "hints": ["Dá para rebalancear comprando com dinheiro novo, sem precisar vender?"],
     "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6a-q07",
+    "topicId": "m6a",
+    "stem": "Em gestão de carteira, o 'excesso de confiança' costuma levar o investidor a:",
+    "options": [
+      { "text": "Operar demais, achando que consegue prever o mercado — o que eleva custos e erros" },
+      { "text": "Seguir um plano de longo prazo com disciplina", "misconception": "confunde-excesso-de-confianca-com-disciplina" },
+      { "text": "Diversificar bem a carteira" },
+      { "text": "Manter a reserva de emergência" }
+    ],
+    "correct": 0,
+    "explanation": "O excesso de confiança faz o investidor girar a carteira tentando 'adivinhar' movimentos; o resultado costuma ser mais custos, impostos e erros — o oposto da boa gestão.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Achar que sempre acerta o mercado leva a quê?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6a-q08",
+    "topicId": "m6a",
+    "stem": "Para uma carteira de longo prazo, com que frequência costuma bastar revisar/rebalancear?",
+    "options": [
+      { "text": "Periodicamente (ex.: a cada semestre ou ano) ou quando os pesos se afastam muito do alvo" },
+      { "text": "Várias vezes ao dia, reagindo a cada notícia", "misconception": "confunde-acompanhar-com-reagir-ao-ruido", "feedback": "Revisar não é reagir a cada oscilação: acompanhar demais leva a giro emocional e custos." },
+      { "text": "Nunca — basta montar e esquecer para sempre" },
+      { "text": "Somente quando o saldo zera" }
+    ],
+    "correct": 0,
+    "explanation": "Revisões periódicas (semestral/anual) ou por bandas de desvio bastam para o longo prazo. Acompanhar de minuto em minuto induz decisões emocionais e custos desnecessários.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Nem todo dia, nem nunca: qual o meio-termo?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6a-q09",
+    "topicId": "m6a",
+    "stem": "Por que separar o 'ruído' de curto prazo das mudanças estruturais é central na gestão?",
+    "options": [
+      { "text": "Porque reagir a ruído gera custos e erros; só mudanças de fundamento ou de objetivo justificam alterar a estratégia" },
+      { "text": "Porque todo movimento de preço é uma mudança estrutural", "misconception": "trata-ruido-como-mudanca-estrutural" },
+      { "text": "Porque o ruído sempre indica o futuro" },
+      { "text": "Porque a estratégia deve mudar toda semana" }
+    ],
+    "correct": 0,
+    "explanation": "Mercados oscilam o tempo todo (ruído). Mudar a estratégia a cada balanço gera custos e erros; revisões devem ocorrer quando muda o fundamento do ativo ou os objetivos do investidor.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "conceitual",
+    "hints": ["O que realmente justifica mudar o plano?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6b-q07",
+    "topicId": "m6b",
+    "stem": "Distribuir o patrimônio entre renda fixa, ações, FIIs e exterior é um exemplo de:",
+    "options": [
+      { "text": "Alocação entre classes de ativos" },
+      { "text": "Concentração em um único ativo", "misconception": "confunde-alocacao-com-concentracao" },
+      { "text": "Especulação de curto prazo" },
+      { "text": "Reserva de emergência" }
+    ],
+    "correct": 0,
+    "explanation": "Alocação de ativos é decidir quanto colocar em cada classe (RF, ações, FIIs, exterior) conforme perfil e objetivos — a decisão que mais influencia o resultado de longo prazo.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Dividir entre classes diferentes é o quê?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6b-q08",
+    "topicId": "m6b",
+    "stem": "Por que o horizonte de tempo influencia a alocação de ativos?",
+    "options": [
+      { "text": "Prazos longos permitem assumir mais risco (há tempo para recuperar quedas); prazos curtos pedem mais segurança e liquidez" },
+      { "text": "Porque o tempo não tem relação com risco", "misconception": "ignora-horizonte-na-alocacao" },
+      { "text": "Porque prazos curtos pedem mais ações" },
+      { "text": "Porque prazos longos exigem 100% em renda fixa" }
+    ],
+    "correct": 0,
+    "explanation": "Com horizonte longo, oscilações de curto prazo importam menos e dá para buscar mais retorno em ativos de risco. Para metas próximas, prioriza-se segurança e liquidez.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Quem tem tempo para esperar a recuperação pode arriscar mais?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6b-q09",
+    "topicId": "m6b",
+    "stem": "Um investidor diz estar 'bem diversificado' por ter 5 fundos diferentes — mas todos de ações brasileiras. Qual o problema?",
+    "options": [
+      { "text": "São produtos diferentes, mas a MESMA classe e risco: a diversificação é só aparente" },
+      { "text": "Nenhum: ter 5 fundos garante diversificação total", "misconception": "confunde-quantidade-de-produtos-com-diversificacao" },
+      { "text": "Excesso de diversificação entre classes" },
+      { "text": "Falta de risco na carteira" }
+    ],
+    "correct": 0,
+    "explanation": "Diversificar é variar classes e riscos, não acumular produtos parecidos. Cinco fundos de ações BR sobem e caem praticamente juntos — a carteira segue concentrada numa única classe.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Cinco produtos, mas qual a classe de todos eles?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6c-q07",
+    "topicId": "m6c",
+    "stem": "O 'preço médio' (custo médio) de um ativo melhora quando o investidor:",
+    "options": [
+      { "text": "Aporta em vários momentos, comprando mais barato também nas quedas" },
+      { "text": "Compra tudo de uma vez no topo", "misconception": "confunde-preco-medio-com-compra-unica-no-topo" },
+      { "text": "Nunca aporta" },
+      { "text": "Vende sempre que o ativo cai" }
+    ],
+    "correct": 0,
+    "explanation": "Aportes distribuídos no tempo (inclusive nas quedas) tendem a reduzir o preço médio de compra — base do aporte programado (dollar-cost averaging).",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Comprar em vários momentos, inclusive nas baixas, faz o quê com o preço médio?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6c-q08",
+    "topicId": "m6c",
+    "stem": "Numa forte queda do mercado, um aporte programado de valor fixo tende a:",
+    "options": [
+      { "text": "Comprar MAIS cotas com o mesmo dinheiro (preços menores), o que ajuda no longo prazo" },
+      { "text": "Comprar menos cotas, pois o preço caiu", "misconception": "inverte-relacao-preco-quantidade-no-aporte" },
+      { "text": "Ser impossível de executar" },
+      { "text": "Garantir lucro imediato" }
+    ],
+    "correct": 0,
+    "explanation": "Com valor fixo, quanto menor o preço, mais cotas você compra. Aportar nas quedas baixa o preço médio e potencializa o resultado quando o mercado se recupera.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Mesmo valor, preço menor → mais ou menos cotas?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6c-q09",
+    "topicId": "m6c",
+    "stem": "Por que tentar 'esperar o fundo' do mercado para aportar costuma ser pior do que aportar regularmente?",
+    "options": [
+      { "text": "Porque ninguém acerta o fundo de forma consistente; ficar de fora pode perder os melhores dias de recuperação, e a regularidade tira a emoção da decisão" },
+      { "text": "Porque o fundo do mercado é sempre fácil de prever", "misconception": "acredita-ser-possivel-cronometrar-o-fundo" },
+      { "text": "Porque aportar regularmente garante o maior retorno todo mês" },
+      { "text": "Porque esperar o fundo elimina o risco" }
+    ],
+    "correct": 0,
+    "explanation": "Cronometrar o fundo é quase impossível; quem espera costuma perder as fortes altas de recuperação. Aportar com regularidade remove a tentativa de adivinhação e a emoção.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Dá para saber, ao vivo, qual é o fundo?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q07",
+    "topicId": "m6d",
+    "stem": "Rebalancear ajuda a CONTROLAR o risco da carteira porque:",
+    "options": [
+      { "text": "Impede que uma classe vencedora cresça além do peso-alvo e domine a carteira" },
+      { "text": "Garante que a carteira só suba", "misconception": "acredita-rebalanceamento-garante-ganho" },
+      { "text": "Elimina o risco de mercado" },
+      { "text": "Aumenta o giro para gerar mais custos" }
+    ],
+    "correct": 0,
+    "explanation": "Quando uma classe sobe muito, passa a pesar mais que o planejado e eleva o risco. Rebalancear traz os pesos de volta ao alvo, mantendo o risco sob controle.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["O que acontece com o risco se a classe que mais sobe domina a carteira?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q08",
+    "topicId": "m6d",
+    "stem": "A alocação-alvo é 60% ações e 40% renda fixa. Após uma alta, a carteira ficou 70% ações e 30% RF. Para rebalancear, o investidor deve:",
+    "options": [
+      { "text": "Reduzir ações e reforçar a renda fixa (vendendo um pouco de ações ou aportando em RF) até voltar a 60/40" },
+      { "text": "Comprar mais ações para aproveitar a alta", "misconception": "rebalanceia-na-direcao-errada", "feedback": "Isso aumenta ainda mais o desvio. Rebalancear é voltar ao alvo, reduzindo o que subiu demais." },
+      { "text": "Vender toda a renda fixa" },
+      { "text": "Não fazer nada, pois 70/30 é melhor" }
+    ],
+    "correct": 0,
+    "explanation": "Rebalancear é retornar aos pesos-alvo: como ações passaram de 60% para 70%, reduz-se ações e reforça-se RF (vendendo ou direcionando novos aportes) até 60/40.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Qual classe passou do alvo? Reduza-a."],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q09",
+    "topicId": "m6d",
+    "stem": "Um risco de rebalancear com MUITA frequência é:",
+    "options": [
+      { "text": "Gerar custos de transação e impostos que corroem o ganho — por isso se usam bandas ou periodicidade definida" },
+      { "text": "Deixar a carteira mais arriscada do que o alvo", "misconception": "confunde-excesso-de-rebalanceamento-com-falta" },
+      { "text": "Impedir qualquer diversificação" },
+      { "text": "Não ter nenhum efeito" }
+    ],
+    "correct": 0,
+    "explanation": "Rebalancear demais aciona custos e impostos repetidos, reduzindo o retorno líquido. Por isso define-se um critério (tempo ou bandas de desvio) em vez de ajustar a toda hora.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Cada ajuste tem custo e imposto; e se você ajusta toda hora?"],
+    "source": "M6 · O começo — Gestão"
   }
 ]

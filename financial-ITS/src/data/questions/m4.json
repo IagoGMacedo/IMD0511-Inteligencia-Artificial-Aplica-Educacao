@@ -422,5 +422,221 @@
     "type": "interpretacao",
     "hints": ["Não há SAC nem banco central para recuperar a chave perdida."],
     "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4a-q07",
+    "topicId": "m4a",
+    "stem": "Qual destes NÃO é, tipicamente, uma reserva de valor?",
+    "options": [
+      { "text": "Um CDB de liquidez diária para os gastos do mês" },
+      { "text": "Ouro" },
+      { "text": "Bitcoin" },
+      { "text": "Uma moeda forte, como o dólar" }
+    ],
+    "correct": 0,
+    "explanation": "Um CDB de liquidez diária é mais ligado à reserva de emergência (liquidez e baixo risco). Ouro, bitcoin e moedas fortes são citados como reservas de valor (proteção de longo prazo).",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Reserva de valor mira proteção de longo prazo, não o caixa do mês."],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4a-q08",
+    "topicId": "m4a",
+    "stem": "Uma reserva de valor protege o investidor principalmente contra:",
+    "options": [
+      { "text": "A perda de poder de compra da moeda (inflação) e crises de confiança" },
+      { "text": "As quedas diárias da bolsa", "misconception": "confunde-reserva-de-valor-com-hedge-de-curto-prazo", "feedback": "Reserva de valor é proteção de longo prazo do poder de compra, não um instrumento para oscilações diárias da bolsa." },
+      { "text": "O risco de crédito de um banco" },
+      { "text": "A falta de liquidez imediata no dia a dia" }
+    ],
+    "correct": 0,
+    "explanation": "A função central é preservar valor ao longo do tempo diante da inflação e de crises monetárias/de confiança — não proteger contra oscilações de curto prazo nem substituir a reserva de emergência.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Contra o que o dinheiro 'parado' perde valor ao longo dos anos?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4a-q09",
+    "topicId": "m4a",
+    "stem": "Incluir uma pequena fatia de reserva de valor pode REDUZIR o retorno esperado da carteira. Por que ainda assim costuma fazer sentido?",
+    "options": [
+      { "text": "Funciona como um 'seguro': abre-se mão de um pouco de retorno em troca de proteção nos cenários ruins, suavizando a carteira" },
+      { "text": "Porque garante o maior retorno possível", "misconception": "trata-reserva-de-valor-como-motor-de-retorno" },
+      { "text": "Porque elimina todo o risco da carteira" },
+      { "text": "Porque substitui completamente a renda fixa" }
+    ],
+    "correct": 0,
+    "explanation": "Reserva de valor é proteção, não motor de retorno. Como um seguro, custa um pouco de retorno esperado, mas tende a amortecer perdas em crises — por isso entra em fatia pequena.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Pense nela como um seguro da carteira."],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4b-q07",
+    "topicId": "m4b",
+    "stem": "Comparado a uma ação que paga dividendos, o ouro:",
+    "options": [
+      { "text": "Não distribui proventos — o retorno vem apenas da variação de preço" },
+      { "text": "Paga juros mensais ao investidor", "misconception": "acredita-ouro-paga-renda" },
+      { "text": "Garante valorização todo ano" },
+      { "text": "É isento de qualquer risco" }
+    ],
+    "correct": 0,
+    "explanation": "O ouro não gera fluxo de caixa (sem dividendos, juros ou aluguel); o ganho depende exclusivamente da valorização do preço — por isso é proteção, não fonte de renda.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["O ouro 'paga' alguma coisa enquanto você o mantém?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4b-q08",
+    "topicId": "m4b",
+    "stem": "Por que não faz sentido concentrar grande parte do patrimônio em ouro?",
+    "options": [
+      { "text": "Ele não gera renda e pode passar anos sem valorizar; serve como proteção em fatia pequena, não como motor de retorno" },
+      { "text": "Porque o ouro é proibido para pessoa física" },
+      { "text": "Porque o ouro sempre cai", "misconception": "acredita-ouro-sempre-cai" },
+      { "text": "Porque rende menos que a poupança, com certeza" }
+    ],
+    "correct": 0,
+    "explanation": "O ouro protege em crises, mas não distribui renda e pode ficar longos períodos de lado. Concentrar nele sacrifica o crescimento do patrimônio — daí o papel de pequena parcela.",
+    "difficulty": "medio",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["O que falta no ouro que ações e renda fixa têm (fluxo de renda)?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4b-q09",
+    "topicId": "m4b",
+    "stem": "Mesmo sendo visto como 'porto seguro', o ouro pode CAIR no curtíssimo prazo durante um pânico de liquidez agudo. Por quê?",
+    "options": [
+      { "text": "Em pânicos, investidores vendem até bons ativos para levantar caixa, derrubando temporariamente o preço do ouro" },
+      { "text": "Porque o ouro perde valor de forma permanente em qualquer crise", "misconception": "confunde-queda-temporaria-com-perda-de-funcao" },
+      { "text": "Porque o ouro passa a render juros negativos" },
+      { "text": "Porque o governo confisca o ouro nas crises" }
+    ],
+    "correct": 0,
+    "explanation": "Em momentos de pânico por liquidez, há venda generalizada (até de ativos de proteção) para fazer caixa, o que pode pressionar o ouro no curto prazo — sem anular seu papel de proteção no horizonte mais longo.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["O que as pessoas vendem quando precisam de dinheiro com urgência?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4c-q07",
+    "topicId": "m4c",
+    "stem": "O número máximo de bitcoins que existirão é:",
+    "options": [
+      { "text": "21 milhões — um limite fixo definido no protocolo" },
+      { "text": "Ilimitado, criado conforme a demanda", "misconception": "acredita-bitcoin-ilimitado", "feedback": "O Bitcoin tem oferta máxima fixa de 21 milhões — é justamente essa escassez programada que sustenta a tese de reserva de valor." },
+      { "text": "1 bilhão" },
+      { "text": "Definido a cada ano pelo governo dos EUA" }
+    ],
+    "correct": 0,
+    "explanation": "O protocolo limita a emissão a 21 milhões de unidades. Essa escassez programada (reforçada pelos halvings) é a base da tese do Bitcoin como reserva de valor 'digital'.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "hints": ["A escassez do Bitcoin é um número fixo."],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4c-q08",
+    "topicId": "m4c",
+    "stem": "O que registra e valida as transações de Bitcoin sem precisar de um banco central?",
+    "options": [
+      { "text": "Uma rede distribuída de computadores que mantém o mesmo histórico (blockchain), validado por consenso" },
+      { "text": "Um servidor único de uma empresa privada", "misconception": "acredita-bitcoin-centralizado-em-servidor" },
+      { "text": "O Banco Central do Brasil" },
+      { "text": "Uma planilha controlada por um administrador" }
+    ],
+    "correct": 0,
+    "explanation": "Milhares de nós mantêm cópias do mesmo registro (a blockchain) e validam as transações por consenso, dispensando uma autoridade central — é o que torna a rede descentralizada.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Quem guarda o 'livro-razão' do Bitcoin?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4c-q09",
+    "topicId": "m4c",
+    "stem": "Em que o Bitcoin se ASSEMELHA e em que DIFERE do ouro como reserva de valor?",
+    "options": [
+      { "text": "Assemelha-se pela escassez e por não gerar renda; difere por ter histórico muito mais curto e volatilidade bem maior" },
+      { "text": "São idênticos em risco e maturidade", "misconception": "equipara-bitcoin-ao-ouro" },
+      { "text": "O Bitcoin é físico e o ouro é digital" },
+      { "text": "O ouro é muito mais volátil que o Bitcoin" }
+    ],
+    "correct": 0,
+    "explanation": "Ambos são escassos e não pagam renda. Mas o ouro tem milênios de histórico e oscilação menor, enquanto o Bitcoin é recente e muito mais volátil — daí ser tratado com cautela e em fatia pequena.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Pense em escassez (igual) e em histórico/volatilidade (diferente)."],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4d-q07",
+    "topicId": "m4d",
+    "stem": "A chave privada (private key) de uma carteira de criptomoedas serve para:",
+    "options": [
+      { "text": "Autorizar (assinar) o gasto dos criptoativos — quem a possui controla os fundos" },
+      { "text": "Receber depósitos publicamente", "misconception": "confunde-chave-privada-com-publica", "feedback": "Receber publicamente é função do endereço/chave pública; a privada é secreta e autoriza os gastos." },
+      { "text": "Servir de nome de usuário na corretora" },
+      { "text": "Recuperar a senha do e-mail" }
+    ],
+    "correct": 0,
+    "explanation": "A chave privada assina as transações; quem a tem controla os fundos. Por isso deve ser secreta — diferente do endereço/chave pública, que pode ser compartilhado para receber.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Qual chave é secreta e dá controle sobre o dinheiro?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4d-q08",
+    "topicId": "m4d",
+    "stem": "Qual prática AUMENTA a segurança da autocustódia de criptoativos?",
+    "options": [
+      { "text": "Guardar a seed phrase offline, em local físico seguro, sem foto nem nuvem" },
+      { "text": "Salvar a seed phrase no e-mail para não esquecer", "misconception": "armazena-seed-online", "feedback": "Seed em e-mail, nuvem ou foto fica exposta a vazamentos e invasões — deve ficar offline." },
+      { "text": "Compartilhar a seed com o suporte da corretora" },
+      { "text": "Usar a mesma senha das redes sociais" }
+    ],
+    "correct": 0,
+    "explanation": "A seed phrase recupera toda a carteira; mantê-la offline e em segredo é essencial. Guardá-la online (e-mail/nuvem/foto) ou compartilhá-la abre brecha para roubo dos fundos.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Onde a seed fica MENOS exposta a invasões?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4d-q09",
+    "topicId": "m4d",
+    "stem": "Qual é o principal trade-off entre fazer autocustódia e deixar os criptoativos na corretora?",
+    "options": [
+      { "text": "Autocustódia dá controle total, mas toda a responsabilidade (perdeu a chave, perdeu tudo); na corretora há praticidade, porém você depende da solvência e da segurança dela" },
+      { "text": "Não há diferença de risco entre as duas", "misconception": "ignora-trade-off-de-custodia" },
+      { "text": "A corretora é sempre mais segura que qualquer autocustódia" },
+      { "text": "A autocustódia é garantida pelo FGC" }
+    ],
+    "correct": 0,
+    "explanation": "Autocustódia elimina o risco da corretora, mas concentra toda a responsabilidade em você (sem 'recuperar senha'). A corretora é prática, porém adiciona o risco de a empresa ter problemas de solvência ou segurança.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Controle total vem com responsabilidade total; praticidade vem com dependência."],
+    "source": "M4 · Reservas de Valor"
   }
 ]
