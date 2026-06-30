@@ -798,5 +798,237 @@
     "type": "aplicacao",
     "hints": ["Pense em dois pontos: tributação ao longo do tempo (come-cotas) e sucessão."],
     "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1e-q10",
+    "topicId": "m1e",
+    "stem": "Um investidor contribuinte ao INSS (autônomo), com rendimento tributável de R$ 80.000 e que deseja maximizar os benefícios tributários, deveria calcular a dedução do PGBL sobre:",
+    "options": [
+      { "text": "12% de R$ 80.000 = R$ 9.600 (até 12% da renda)" },
+      { "text": "Ilimitadamente, sem teto de 12%", "misconception": "acredita-deducao-pgbl-sem-limite", "feedback": "A dedução do PGBL é limitada a 12% da renda bruta tributável anual, não é ilimitada." },
+      { "text": "Apenas R$ 1.000 no máximo" },
+      { "text": "A renda total, sem limite" }
+    ],
+    "correct": 0,
+    "explanation": "O PGBL permite deduzir até 12% da renda bruta tributável (para contribuintes ao INSS). 12% de R$ 80.000 = R$ 9.600. Essa é a base máxima de dedução.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "calculo",
+    "hints": ["Calcule 12% do rendimento tributável."],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1e-q11",
+    "topicId": "m1e",
+    "stem": "No resgate de um PGBL, um investidor de declaração completa recebe R$ 100.000 (R$ 80.000 de aportes + R$ 20.000 de rendimento). O IR incidirá sobre:",
+    "options": [
+      { "text": "R$ 100.000 (todo o valor, pois o PGBL tributa o total resgatado)" },
+      { "text": "R$ 20.000 (apenas o rendimento)", "misconception": "pgbl-tributa-so-rendimento", "feedback": "PGBL tributa o total resgatado (aportes + rendimento), não só o ganho. É o VGBL que tributa só o rendimento." },
+      { "text": "R$ 0, pois é sempre isento" },
+      { "text": "R$ 50.000 (metade do valor)" }
+    ],
+    "correct": 0,
+    "explanation": "No PGBL, você deduziu os aportes na entrada; por isso, no resgate tributa-se sobre o TOTAL (aportes + ganhos). No VGBL seria só o rendimento.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["O PGBL deduziu os aportes na entrada — como isso afeta a base do IR no resgate?"],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1f-q01",
+    "topicId": "m1e",
+    "stem": "No âmbito financeiro pessoal, o que se entende por \"taxa de juros efetiva\" ou \"Custo Efetivo Total (CET)\"?",
+    "options": [
+      { "text": "O custo real e completo de um financiamento, incluindo juros, tarifas, seguros e todos os encargos" },
+      { "text": "Apenas a taxa de juros nominal anunciada no contrato", "misconception": "confunde-taxa-nominal-com-cet", "feedback": "A taxa nominal (juros) é só parte do custo; o CET inclui tarifas, seguros e demais despesas." },
+      { "text": "Um desconto oferecido ao cliente" },
+      { "text": "A renda bruta do tomador de crédito" }
+    ],
+    "correct": 0,
+    "explanation": "O CET permite comparar ofertas de crédito de forma justa, pois consolida todos os custos envolvidos — não apenas a taxa de juros nominal.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1f-q02",
+    "topicId": "m1e",
+    "stem": "Comparando dois empréstimos, o primeiro com taxa de 1,5% a.m. + tarifa, e o segundo com 1,8% a.m. sem tarifa, qual decisão é mais segura sem calcular o CET?",
+    "options": [
+      { "text": "Nenhuma — é necessário calcular o CET de ambos para comparar de forma justa" },
+      { "text": "O primeiro sempre, porque tem taxa de juros menor" },
+      { "text": "O segundo sempre, porque não tem tarifa" },
+      { "text": "São idênticos, a tarifa não importa" }
+    ],
+    "correct": 0,
+    "explanation": "Sem o CET, é impossível afirmar qual é mais barato — a tarifa pode fazer o primeiro custar mais, ou não. O CET tira a dúvida consolidando todos os custos.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "aplicacao",
+    "hints": ["O que você precisa saber para compara­r dois empréstimos corretamente?"],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1f-q03",
+    "topicId": "m1e",
+    "stem": "Um casal recebe 3 ofertas de refinanciamento da dívida atual. Para escolher a melhor, qual critério é mais relevante?",
+    "options": [
+      { "text": "O CET (Custo Efetivo Total), pois reflete o custo real de cada opção" },
+      { "text": "O número de parcelas, pois quanto mais, menor a mensalidade", "misconception": "prioriza-parcela-sobre-custo-total", "feedback": "Parcelas menores podem esconder um custo total maior; o CET mostra a verdade econômica." },
+      { "text": "O banco mais conhecido ou recomendado" },
+      { "text": "Qualquer uma, pois todas as ofertas custam igual" }
+    ],
+    "correct": 0,
+    "explanation": "O CET permite ver qual oferta custa realmente MENOS considerando tudo — não apenas a parcela ou a taxa nominal. É o critério mais transparente e justo.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Qual indicador mostra o custo TOTAL e real da operação?"],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1f-q04",
+    "topicId": "m1e",
+    "stem": "Por que é importante para o consumidor conhecer o CET antes de assinar um contrato de crédito?",
+    "options": [
+      { "text": "Para evitar ser enganado por publicidades que destacam só a taxa de juros nominal, escondendo outros custos" },
+      { "text": "Porque o CET garante aprovação imediata" },
+      { "text": "Porque muda automaticamente a taxa de juros do contrato" },
+      { "text": "Porque elimina completamente o risco da operação" }
+    ],
+    "correct": 0,
+    "explanation": "Muitos anúncios destacam \"taxa baixa\" escondendo tarifas altas. Conhecer o CET protege o consumidor e evita surpresas desagradáveis na primeira parcela.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "hints": ["O que as propagandas nem sempre mostram claramente?"],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1f-q05",
+    "topicId": "m1e",
+    "stem": "Em uma situação de endividamento alto, qual estratégia de negociação tende a funcionar melhor?",
+    "options": [
+      { "text": "Buscar renegociar as dívidas atuais antes de contrair novas — priorizar a redução do CET total" },
+      { "text": "Fazer um novo empréstimo para \"cobrir\" a dívida antiga", "misconception": "nova-divida-resolve-antiga", "feedback": "Pegar mais crédito para cobrir dívida antiga pode criar uma bola de neve de débitos e piorar a situação." },
+      { "text": "Ignorar as dívidas e deixar acumular" },
+      { "text": "Vender bens sem verificar o valor justo" }
+    ],
+    "correct": 0,
+    "explanation": "Renegociar para reduzir o custo total (CET) é mais eficaz que criar novas dívidas. O objetivo é reduzir o serviço mensal e acelerar a quitação.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Qual atitude reduz o peso total das dívidas?"],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1f-q06",
+    "topicId": "m1e",
+    "stem": "Um banco oferece parcelar uma compra em 12x \"sem juros\", mas cobra uma tarifa de 3% por usar o serviço. Nessa situação, há realmente \"sem juros\"?",
+    "options": [
+      { "text": "Não — a tarifa de 3% é um custo que encarece a operação, tornando o CET positivo apesar da taxa de juros ser 0%" },
+      { "text": "Sim, porque a taxa de juros é zero" },
+      { "text": "Depende da cor do banco" },
+      { "text": "Nunca há custo quando é parcelado" }
+    ],
+    "correct": 0,
+    "explanation": "\"Sem juros\" se refere só à taxa de juros (0%). Mas a tarifa é um custo real que eleva o CET. O financiamento não é grátis — há custo embutido na tarifa.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "interpretacao",
+    "hints": ["Não há taxa de juros, mas há outros custos?"],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1f-q07",
+    "topicId": "m1e",
+    "stem": "Na hora de avaliar se vale a pena fazer um financiamento, qual pergunta é MAIS importante de responder?",
+    "options": [
+      { "text": "Qual é o CET total da operação e ele é menor que o retorno esperado do investimento que financio?" },
+      { "text": "Qual é a taxa de juros nominal do contrato?" },
+      { "text": "Quantos anos o financiamento vai durar?" },
+      { "text": "Qual banco é mais popular?" }
+    ],
+    "correct": 0,
+    "explanation": "Comparar o CET com o retorno esperado (se ficar para investir) ou com a capacidade de pagar é o que realmente importa. A taxa nominal é irrelevante sem contexto.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["O que importa de verdade: qual é o custo real versus o meu ganho?"],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1f-q08",
+    "topicId": "m1e",
+    "stem": "Em uma negociação com a instituição financeira para abater um CET muito alto, qual argumento tende a ser mais persuasivo?",
+    "options": [
+      { "text": "Apresentar ofertas de concorrentes com CET mais baixo e mostrar que você procuraria refinanciar lá se não descermos aqui" },
+      { "text": "Apenas pedir, sem apresentar dados", "misconception": "negocia-sem-dados", "feedback": "Instituições financeiras respondem melhor a dados concretos e à ameaça de perder o cliente para concorrência." },
+      { "text": "Ameaçar não pagar a dívida" },
+      { "text": "Oferecer bens como garantia" }
+    ],
+    "correct": 0,
+    "explanation": "Dados objetivos (ofertas de concorrentes) junto com o risco de perder o cliente são argumentos que financeiras levam a sério. Sem dados, é fácil recusar.",
+    "difficulty": "dificil",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["O que faria uma instituição financeira querer renegociar?"],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1f-q09",
+    "topicId": "m1e",
+    "stem": "Qual é a relação entre melhor compreensão do CET e melhor poder de negociação financeira?",
+    "options": [
+      { "text": "Quem entende o CET consegue identificar ofertas abusivas e negociar de forma mais informada e segura" },
+      { "text": "Nenhuma — CET não influencia negociação" },
+      { "text": "CET só interessa para economistas" },
+      { "text": "Compreender CET reduz automaticamente o custo em 50%" }
+    ],
+    "correct": 0,
+    "explanation": "Conhecimento é poder: quem entende CET sabe quando está sendo explorado, consegue comparar ofertas e negocia com segurança — economizando dinheiro real.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "hints": ["Como o conhecimento muda a posição de poder numa negociação?"],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1f-q10",
+    "topicId": "m1e",
+    "stem": "Um consumidor vê uma promoção \"entrada de R$ 1.000 + 11 parcelas de R$ 500\". Para avaliar se é uma boa oferta, qual informação FALTA e seria essencial ter?",
+    "options": [
+      { "text": "O CET (Custo Efetivo Total), para saber o verdadeiro custo da operação" },
+      { "text": "O nome da loja, pois loja famosa sempre tem melhor preço", "misconception": "qualidade-da-loja-garante-preco" },
+      { "text": "A cor do produto" },
+      { "text": "Nada — as informações são suficientes para decidir" }
+    ],
+    "correct": 0,
+    "explanation": "A mensalidade parece clara, mas sem o CET não se sabe se há taxas, seguros ou outras despesas escondidas. O CET é essencial para julgar se é realmente uma boa oferta.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["O que falta saber para ter certeza do custo total?"],
+    "source": "M1 · Organize seus gastos"
+  },
+  {
+    "id": "m1f-q11",
+    "topicId": "m1e",
+    "stem": "A importância de compreender e comparar CETs antes de contratar qualquer crédito está relacionada ao princípio de:",
+    "options": [
+      { "text": "Transparência e educação financeira — apenas quem conhece o real custo consegue tomar decisões que protegem seu patrimônio" },
+      { "text": "Apenas evitar bancos grandes" },
+      { "text": "Buscar sempre o menor número de parcelas" },
+      { "text": "Confiar em recomendações de amigos sem verificar dados" }
+    ],
+    "correct": 0,
+    "explanation": "CET é ferramenta de transparência: permite que cada pessoa tome decisões informadas e conscientes. Educação financeira passa por entender o custo real de cada operação.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "source": "M1 · Organize seus gastos"
   }
 ]

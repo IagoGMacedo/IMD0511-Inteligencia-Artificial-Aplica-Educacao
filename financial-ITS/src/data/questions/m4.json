@@ -638,5 +638,236 @@
     "type": "aplicacao",
     "hints": ["Controle total vem com responsabilidade total; praticidade vem com dependência."],
     "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4d-q10",
+    "topicId": "m4d",
+    "stem": "Entre os candidatos a reserva de valor, qual não deveria ser a principal alocação de um investidor comum?",
+    "options": [
+      { "text": "Bitcoin e criptomoedas — por serem ainda muito voláteis e especulativas para servir como refúgio principal" },
+      { "text": "Ouro — por ter séculos de história como proteção" },
+      { "text": "Tesouro Selic — por ter liquidez total e baixo risco" },
+      { "text": "Imóvel em moeda forte" }
+    ],
+    "correct": 0,
+    "explanation": "Enquanto ouro, dólares e imóveis têm história de funcionar como refúgio, Bitcoin é recente e extremamente volátil — não é reserva de valor confiável ainda. Pode ser exposição pequena, não principal.",
+    "difficulty": "medio",
+    "bloom": "avaliar",
+    "type": "conceitual",
+    "hints": ["Qual é muito novo e volátil para ser \"porto seguro\" principal?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4d-q11",
+    "topicId": "m4d",
+    "stem": "Um investidor mantém 10% de sua carteira em ouro físico. Qual é a vantagem e a desvantagem principais?",
+    "options": [
+      { "text": "Vantagem: proteção em crises; Desvantagem: não gera renda e requer cuidados de armazenamento/seguro" },
+      { "text": "Vantagem: alto retorno anual; Desvantagem: facilmente perdido", "misconception": "ouro-como-ativo-de-retorno" },
+      { "text": "Vantagem: paga dividendos mensais; Desvantagem: é estrangeiro" },
+      { "text": "Nenhuma vantagem; é apenas desperdício" }
+    ],
+    "correct": 0,
+    "explanation": "Ouro não gera renda, mas protege em incertezas. O custo é armazenamento e seguro. Em pequena fatia (5-10%), funciona como proteção sem impactar o retorno geral da carteira.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Pense em proteção versus geração de renda."],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4e-q01",
+    "topicId": "m4d",
+    "stem": "A inclusão de uma pequena fatia de reserva de valor em uma carteira diversificada de ativos é comparável a:",
+    "options": [
+      { "text": "Um seguro: caro em período de paz, mas extremamente valioso em crises" },
+      { "text": "Um gasto inútil que reduz retorno" },
+      { "text": "Uma garantia de lucro futuro" },
+      { "text": "Uma aposta de alto risco" }
+    ],
+    "correct": 0,
+    "explanation": "Reserva de valor é proteção, não motor de retorno. Como seguro, \"custa\" um pouco em retorno esperado nos anos normais, mas protege em crises — valor que compensa o custo.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4e-q02",
+    "topicId": "m4d",
+    "stem": "Por que diversificar entre reservas de valor (ouro, dólares, criptomoedas) em vez de concentrar em uma?",
+    "options": [
+      { "text": "Porque cada uma responde diferente a cenários: ouro em inflação; dólar em crises Brasil; cripto em desconfiança em moedas fiat" },
+      { "text": "Porque todas têm desempenho idêntico" },
+      { "text": "Não há razão para diversificar reservas de valor" },
+      { "text": "Uma é sempre melhor que as outras" }
+    ],
+    "correct": 0,
+    "explanation": "Diferentes reservas se comportam melhor em cenários diferentes: ouro sobe em inflação; dólar protege em desconfiança do real; Bitcoin pode superar em cenários de crise sistêmica de moedas. Diversificar reduz risco.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Qual reserva funciona bem em qual situação?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4e-q03",
+    "topicId": "m4d",
+    "stem": "Um casal com R$ 1.000.000 em patrimônio diversificado em ações (40%), renda fixa (40%) e reserva de valor (20%) enfrenta uma crise de mercado em que ações caem 30%. Qual é a função da reserva de valor nessa situação?",
+    "options": [
+      { "text": "Manter estabilidade emocional e permitir que não precisem vender ações no pior momento, preservando o longo prazo" },
+      { "text": "Desaparecer magicamente o prejuízo" },
+      { "text": "Garantir lucro imediato na crise" },
+      { "text": "Evitar que a crise exista" }
+    ],
+    "correct": 0,
+    "explanation": "A reserva de valor reduz a pressão de vender ações ou renda fixa no pior momento. O investidor não é forçado a liquidar posições ruins — aguarda recuperação. Isso preserva retorno de longo prazo.",
+    "difficulty": "dificil",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["O que impede o investidor de vender no pânico?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4e-q04",
+    "topicId": "m4d",
+    "stem": "Comparar \"reserva de valor\" com \"ativo de crescimento\" é como comparar:",
+    "options": [
+      { "text": "Freios (proteção) versus acelerador (retorno) — ambos necessários em boa carteira" },
+      { "text": "Um é sempre melhor que o outro" },
+      { "text": "Freios que desaceleram o carro para sempre" },
+      { "text": "Itens sem relação" }
+    ],
+    "correct": 0,
+    "explanation": "Ativos de crescimento buscam retorno (acelerador); reservas de valor protegem (freios). Juntos, permitem dirigir seguro na longa jornada — nem só acelerador (risco descontrolado) nem só freios (sem crescimento).",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "interpretacao",
+    "hints": ["Cada um cumpre função diferente."],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4e-q05",
+    "topicId": "m4d",
+    "stem": "A razão pela qual investidores mais ricos costumam ter percentual MAIOR de reservas de valor é que:",
+    "options": [
+      { "text": "Com patrimônio grande, o foco muda de crescimento máximo para preservação — precisam proteger o que já têm" },
+      { "text": "Porque ricos têm acesso a reservas de valor melhores" },
+      { "text": "Porque são mais conservadores por natureza" },
+      { "text": "Porque querem perder oportunidades de retorno" }
+    ],
+    "correct": 0,
+    "explanation": "Quem tem R$ 100 milhões em patrimônio está mais preocupado em manter e preservar do que em triplicar em 10 anos. Reservas de valor crescem em importância conforme o patrimônio cresce — muda o trade-off retorno-risco.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "interpretacao",
+    "hints": ["O que muda quando você já tem bastante?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4e-q06",
+    "topicId": "m4d",
+    "stem": "A importância de entender reservas de valor para qualquer investidor está em reconhecer que:",
+    "options": [
+      { "text": "Retorno máximo não é o único objetivo — proteção e estabilidade também constroem patrimônio de forma sustentável" },
+      { "text": "Reservas de valor são inúteis para qualquer pessoa" },
+      { "text": "Apenas pessoas muito ricas precisam de proteção" },
+      { "text": "Crescimento é tudo que importa" }
+    ],
+    "correct": 0,
+    "explanation": "Estratégia de longo prazo bem-sucedida balanceia crescimento e proteção. Foco exclusivo em retorno máximo leva a decisões impulsivas e perdas em crises. Reservas de valor habilitam disciplina.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4e-q07",
+    "topicId": "m4d",
+    "stem": "Um investidor inicialmente alocou 5% em ouro, mas após 10 anos de estabilidade, esse percentual encolheu para 2% devido aos retornos superiores de ações/renda fixa. Ele deveria rebalancear?",
+    "options": [
+      { "text": "Sim — restabelecer a alocação de 5% garante que a proteção volte ao nível originalmente planejado" },
+      { "text": "Não — deixar crescer apenas as ações significa mais retorno" },
+      { "text": "Vender tudo de ouro para comprar mais ações" },
+      { "text": "Ignorar completamente a alocação" }
+    ],
+    "correct": 0,
+    "explanation": "Rebalancear mantém a estratégia alinhada aos objetivos. Se começou com 5% como proteção, deixar cair para 2% por \"preguiça\" reduz a proteção planejada — rebalancear restaura o balanço.",
+    "difficulty": "dificil",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Se você começou com uma estratégia intencional, deixá-la mudar passivamente é bom?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4e-q08",
+    "topicId": "m4d",
+    "stem": "Na escolha entre dólar e ouro como reserva de valor, qual fator faz a diferença?",
+    "options": [
+      { "text": "Contexto: dólar protege em desconfiança da moeda local; ouro em inflação alta — a escolha depende do risco esperado" },
+      { "text": "Dólar é sempre melhor" },
+      { "text": "Ouro é sempre melhor" },
+      { "text": "Não há diferença" }
+    ],
+    "correct": 0,
+    "explanation": "Dólar se valoriza quando desconfiam do real (crises políticas, fiscal); ouro se valoriza em inflação alta. A escolha deve considerar qual risco o investidor teme mais — Brasil desestabilizado ou inflação global.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Em qual cenário cada um funciona melhor?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4e-q09",
+    "topicId": "m4d",
+    "stem": "O investidor que IGNORA completamente reservas de valor e coloca tudo em ações/renda fixa corre o risco de:",
+    "options": [
+      { "text": "Ser forçado a vender posições no pior momento (baixa) em caso de emergência, cristalizando perdas e saindo do mercado na hora errada" },
+      { "text": "Ganhar automaticamente mais retorno" },
+      { "text": "Nunca ter problemas em crise" },
+      { "text": "Ter carteira mais fácil de gerir" }
+    ],
+    "correct": 0,
+    "explanation": "Sem reserva de proteção, qualquer crise ou emergência força venda no pior momento — exatamente quando preços estão baixos. Isso congela perdas temporárias e destrói retorno de longo prazo.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "interpretacao",
+    "hints": ["O que acontece se você não tem liquidez/proteção num aperto?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4e-q10",
+    "topicId": "m4d",
+    "stem": "Um investidor com carteira de R$ 500.000 decide alocar 15% em reservas de valor, mas está em dúvida entre qual alocação é melhor: 100% ouro ou 50% ouro + 50% dólar. O critério mais importante é:",
+    "options": [
+      { "text": "Seu cenário esperado para os próximos anos — em qual risco ele crê mais? Isso define a melhor mistura" },
+      { "text": "O preço do ouro hoje" },
+      { "text": "Qual é mais famoso" },
+      { "text": "Sempre deve ser 100% ouro" }
+    ],
+    "correct": 0,
+    "explanation": "A mistura correta de reservas de valor depende da visão do investidor sobre os principais riscos: se teme inflação global, mais ouro; se teme desconfiança do real, mais dólar. Ambos no portfólio é robusto.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Em qual risco você crê que o Brasil/mundo vai se vendo?"],
+    "source": "M4 · Reservas de Valor"
+  },
+  {
+    "id": "m4e-q11",
+    "topicId": "m4d",
+    "stem": "A conclusão mais importante sobre reservas de valor é que elas:",
+    "options": [
+      { "text": "Não maximizam retorno, mas maximizam a probabilidade de sucesso de longo prazo ao permitir mantermo-nos investidos em crises" },
+      { "text": "São obrigatórias em toda carteira" },
+      { "text": "Eliminam riscos completamente" },
+      { "text": "Nunca valem a pena" }
+    ],
+    "correct": 0,
+    "explanation": "O verdadeiro benefício de reservas de valor não é o maior ganho anual, e sim permanecer na estratégia durante crises — isso compensa a perda de alguns pontos percentuais de retorno. Sucesso é persistência.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "source": "M4 · Reservas de Valor"
   }
 ]

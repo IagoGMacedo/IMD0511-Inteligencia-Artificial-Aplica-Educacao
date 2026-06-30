@@ -638,5 +638,235 @@
     "type": "conceitual",
     "hints": ["Como a Receita verifica se seu patrimônio cresceu de forma compatível com sua renda?"],
     "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irD-q10",
+    "topicId": "irD",
+    "stem": "Ao guardar os comprovantes de investimento e operações, qual é o prazo mínimo recomendado para manter essa documentação?",
+    "options": [
+      { "text": "5 anos (ou mais, a partir da data de cada operação)" },
+      { "text": "1 ano apenas", "misconception": "prazo-retencao-muito-curto", "feedback": "A Receita pode fiscalizar por até 5 anos a contar da data da operação; manter a documentação por no mínimo 5 anos é prudente." },
+      { "text": "Nunca é necessário guardar papéis" },
+      { "text": "Apenas durante o ano da operação" }
+    ],
+    "correct": 0,
+    "explanation": "Manter documentação por 5 anos permite comprovar operações e valores se a Receita questionar — é essencial para se proteger de autuações.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irD-q11",
+    "topicId": "irD",
+    "stem": "Um investidor recebeu informes de 4 corretoras, mas sua declaração só mencionou 3. O que pode acontecer?",
+    "options": [
+      { "text": "A Receita receberá os dados das 4 corretoras e pode questionar a omissão, levando à malha fina" },
+      { "text": "Nada, pois declaração é confidencial e a Receita nunca cruza dados" },
+      { "text": "O investidor economiza impostos automaticamente" },
+      { "text": "A corretora fica responsável por cobrar o imposto" }
+    ],
+    "correct": 0,
+    "explanation": "As instituições enviam cópia dos dados à Receita; divergências entre o informe oficial e a declaração disparam verificações — omitir informes é uma das causas mais comuns de malha fina.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["As corretoras reportam à Receita. Se sua declaração divergir..."],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irE-q01",
+    "topicId": "irD",
+    "stem": "Para uma pessoa física que apenas recebe salário, sem investimentos, o que é obrigatório declarar no IR?",
+    "options": [
+      { "text": "Nada, se o salário for abaixo do limite de isenção de pessoa física (cerca de R$ 2.826 mensais em 2024)" },
+      { "text": "Sempre o IR completo, mesmo sem renda para declarar" },
+      { "text": "Apenas a declaração simplificada" },
+      { "text": "Somente a ficha de dependentes" }
+    ],
+    "correct": 0,
+    "explanation": "Existe limite de renda mensal para obrigatoriedade de declaração; quem ganha menos disso (sem investimentos ou outras fontes) é dispensado — mas pode declarar mesmo assim para receber restituição.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irE-q02",
+    "topicId": "irD",
+    "stem": "Um declarante descobre que deveria ter feito uma declaração retificadora para corrigir um erro do ano passado. O prazo para fazer isso é:",
+    "options": [
+      { "text": "5 anos a partir do ano da apuração (sem limite de vezes)" },
+      { "text": "Apenas no mesmo ano da operação", "misconception": "retificadora-so-no-ano-atual", "feedback": "Declarações retificadoras podem ser feitas até 5 anos após o exercício, permitindo correções antigas." },
+      { "text": "Nunca é possível corrigir erro antigo" },
+      { "text": "3 meses após o ano da operação" }
+    ],
+    "correct": 0,
+    "explanation": "A declaração retificadora pode ser entregue até 5 anos após o exercício, permitindo correções de erros cometidos em anos anteriores.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Há prazo para consertar um erro antigo de declaração?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irE-q03",
+    "topicId": "irD",
+    "stem": "O que é \"malha fina\" na declaração do IR?",
+    "options": [
+      { "text": "O processo em que a Receita analisa a declaração com mais rigor por identificar inconsistências ou omissões" },
+      { "text": "Uma multa automática cobrada por toda declaração" },
+      { "text": "Um tipo de imposto adicional sobre fundos" },
+      { "text": "Um desconto na restituição" }
+    ],
+    "correct": 0,
+    "explanation": "A malha fina é uma verificação especial: a Receita pede comprovações de dados que geraram dúvidas. Podem resultar em cobrança de imposto, multas e juros se houver irregularidade.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["É uma verificação mais profunda feita pela Receita."],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irE-q04",
+    "topicId": "irD",
+    "stem": "Qual situação NÃO costuma resultar em malha fina?",
+    "options": [
+      { "text": "Declarar todos os ativos e rendimentos de forma consistente com os informes das instituições" },
+      { "text": "Omitir ativos em Bens e Direitos", "misconception": "acredita-omissao-nao-gera-malha" },
+      { "text": "Divergências grandes entre o patrimônio declarado e a renda do período" },
+      { "text": "Despesas dedutíveis muito acima da média" }
+    ],
+    "correct": 0,
+    "explanation": "Declarar de forma completa, consistente e com documentação tende a evitar malha fina. As situações que geram verificação são as inversas: omissões, divergências, inconsistências.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["O que reduz o risco de ser questionado pela Receita?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irE-q05",
+    "topicId": "irD",
+    "stem": "Para quem planeja viajar ao exterior e deixará ativos financeiros no Brasil, qual é uma precaução importante sobre IR?",
+    "options": [
+      { "text": "Certificar-se de continuar cumprindo as obrigações de declaração (como residente no exterior, se mudar)" },
+      { "text": "Deixar os ativos sem declarar, pois o IR não segue o investidor no exterior", "misconception": "acredita-ir-nao-segue-exterior", "feedback": "Residentes no exterior também têm obrigações de declaração no Brasil sobre bens lá deixados — mudança de residência não cancela a obrigação." },
+      { "text": "Resgatar tudo antes de sair" },
+      { "text": "Transferir os ativos para nomes de terceiros" }
+    ],
+    "correct": 0,
+    "explanation": "Mudar-se para o exterior não cancela as obrigações de declaração sobre bens deixados no Brasil. A mudança de status tributário exige atenção especial para não incorrer em irregularidades.",
+    "difficulty": "dificil",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Sair do Brasil cancela a necessidade de declarar aqui?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irE-q06",
+    "topicId": "irD",
+    "stem": "Um investidor em dúvida sobre como declarar um investimento específico que o seu contador esqueceu de orientar. A ação mais prudente é:",
+    "options": [
+      { "text": "Consultar a Instrução Normativa da Receita ou um especialista ANTES de declarar, para não criar irregularidade" },
+      { "text": "Chutar uma resposta e corrigir depois se cair na malha fina", "misconception": "declara-errado-espera-correcao", "feedback": "Errar propositalmente ou por negligência e \"corrigir\" depois é visto com desconfiança e pode gerar multas; o certo é acertar na declaração original." },
+      { "text": "Omitir o investimento para evitar erro" },
+      { "text": "Juntar todo o dinheiro e declarar como salário" }
+    ],
+    "correct": 0,
+    "explanation": "Tirar dúvidas ANTES de declarar com base em fontes oficiais é a forma mais segura. Errar na declaração original, mesmo que se corrija depois, pode trazer multas e questionamentos.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["O melhor é acertar de primeira ou depois corrigir?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irE-q07",
+    "topicId": "irD",
+    "stem": "A Receita Federal utiliza inteligência artificial e análise de padrões para identificar declarações suspeitas. Entre os sinais que aumentam o risco de malha fina está:",
+    "options": [
+      { "text": "Patrimônio que cresce muito mais rápido do que a renda declarada permitiria" },
+      { "text": "Declarar consistentemente, ano após ano, de forma similar" },
+      { "text": "Usar contador profissional no preenchimento" },
+      { "text": "Manter toda a documentação organizada" }
+    ],
+    "correct": 0,
+    "explanation": "Discrepâncias entre renda e patrimônio são detectadas por sistemas de inteligência artificial da Receita. Uma carteira que cresceu acima do que a renda justificaria é um sinal de alerta.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "aplicacao",
+    "hints": ["Se você ganhou R$ 50k em um ano, como explica uma carteira que cresceu R$ 500k?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irE-q08",
+    "topicId": "irD",
+    "stem": "Qual é a melhor forma de preparar-se para a declaração de IR com investimentos?",
+    "options": [
+      { "text": "Desde o início do ano, separar todos os informes, notas de operação e comprovantes; manter planilha com posições e ganhos" },
+      { "text": "Deixar tudo acumulado para o último mês antes do vencimento da declaração" },
+      { "text": "Contar mentalmente com uma aproximação do que foi investido" },
+      { "text": "Pedir para alguém preencher sem realmente saber o que está acontecendo" }
+    ],
+    "correct": 0,
+    "explanation": "Preparação ao longo do ano (informes, notas, planilhas) torna a declaração rápida, precisa e menos suscetível a erros. Deixar para última hora ou desorganização leva a imprecisões.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "aplicacao",
+    "hints": ["Qual hábito reduz o risco de erros na declaração?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irE-q09",
+    "topicId": "irD",
+    "stem": "Um investidor que faz malha fina e a Receita questiona uma informação. Para se defender, o melhor é:",
+    "options": [
+      { "text": "Apresentar a documentação original (extratos, notas, informes) que comprova a informação declarada" },
+      { "text": "Dizer que foi erro do contador, sem trazer provas" },
+      { "text": "Argumentar verbalmente, sem papéis" },
+      { "text": "Ignorar a notificação da Receita" }
+    ],
+    "correct": 0,
+    "explanation": "Em caso de questionamento, documentação é a arma mais poderosa. Guardar originais e apresentá-los é o caminho para comprovar a legalidade da declaração.",
+    "difficulty": "dificil",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["O que a Receita exige como comprovação?"],
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irE-q10",
+    "topicId": "irD",
+    "stem": "Sobre a declaração de IR no caso de morte do investidor, é correto que:",
+    "options": [
+      { "text": "Os herdeiros devem dar prosseguimento à declaração (ou deixar em dia) conforme a legislação, podendo responder por negligência se não fizerem" },
+      { "text": "As obrigações fiscais terminam automaticamente com a morte" },
+      { "text": "Ninguém precisa se preocupar mais com IR" },
+      { "text": "Só o executor do testamento responde, sem responsabilidade dos herdeiros" }
+    ],
+    "correct": 0,
+    "explanation": "Na herança, as obrigações de declaração do falecido (se devidas) continuam, e os herdeiros podem ser cobrados. Manter a documentação e cumprir prazos é responsabilidade compartilhada.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "conceitual",
+    "source": "IR · Imposto de Renda"
+  },
+  {
+    "id": "irE-q11",
+    "topicId": "irD",
+    "stem": "A principal razão pela qual manter registros organizados de investimentos é importante, além de facilitar a declaração, é:",
+    "options": [
+      { "text": "Permitir comprovar a origem lícita do dinheiro em caso de verificação e proteger-se de autuações e multas" },
+      { "text": "Para aumentar a declaração de forma artificial" },
+      { "text": "Para esconder lucros da Receita" },
+      { "text": "Porque é legalmente obrigatório ter computador com programa de contabilidade" }
+    ],
+    "correct": 0,
+    "explanation": "Registros completos e organizados servem como defesa legal contra questionamentos — comprovam a veracidade das operações. Além disso, facilitam a identificação de inconsistências e erros antes de declarar.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "source": "IR · Imposto de Renda"
   }
 ]

@@ -1118,5 +1118,238 @@
     "type": "aplicacao",
     "hints": ["Muitas ações do MESMO setor diversificam de verdade?"],
     "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3g-q10",
+    "topicId": "m3g",
+    "stem": "Em um ETF diversificado de ações, qual dos seguintes riscos NÃO é eliminado ou reduzido pela diversificação?",
+    "options": [
+      { "text": "Risco sistêmico (de mercado) — que afeta todas as ações quando há crise econômica geral" },
+      { "text": "Risco específico de uma empresa (ex.: CEO ruim de uma ação isolada)", "misconception": "diversificacao-elimina-risco-sistematico" },
+      { "text": "Risco de concentração em um setor" },
+      { "text": "Risco de falta de liquidez em um título" }
+    ],
+    "correct": 0,
+    "explanation": "Diversificação dilui riscos específicos (de cada empresa ou setor), mas o risco sistêmico permanece: em crises que afetam toda economia, praticamente todas as ações caem juntas.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Há um risco que atravessa toda a bolsa, independentemente de quantos papéis você tem?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3g-q11",
+    "topicId": "m3g",
+    "stem": "Para um iniciante em bolsa, qual é a principal vantagem de começar com um ETF em vez de comprar ações individuais?",
+    "options": [
+      { "text": "Diversificação automática, menor volume de pesquisa necessária e taxa baixa de administração" },
+      { "text": "ETF garante lucro todo mês" },
+      { "text": "ETF não tem risco de nenhum tipo" },
+      { "text": "Ações individuais são proibidas para iniciantes" }
+    ],
+    "correct": 0,
+    "explanation": "ETF oferece exposição diversificada a baixo custo, reduzindo risco de erro ao escolher ações isoladas. Para quem está começando, é uma forma prudente de ganhar experiência com menos complexidade.",
+    "difficulty": "facil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["O ETF facilita a vida de quem não quer analisar cada ação isoladamente."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3h-q01",
+    "topicId": "m3g",
+    "stem": "Um investidor que segue a filosofia de \"comprar ações boas e segurar longamente\" está praticando qual estratégia?",
+    "options": [
+      { "text": "Buy and hold (compra e segura) — aproveita o crescimento das empresas e dos juros compostos ao longo dos anos" },
+      { "text": "Day trading — compra e vende todo dia" },
+      { "text": "Market timing — tenta acertar o topo e o fundo do mercado", "misconception": "segurar-longo-prazo-e-timing", "feedback": "Timing é tentar acertar picos/fundos. Buy and hold é simplesmente comprar bom ativo e confiar no crescimento de longo prazo." },
+      { "text": "Especulação de curto prazo" }
+    ],
+    "correct": 0,
+    "explanation": "Buy and hold é uma abordagem de longo prazo: compra empresa sólida (ou índice) e segura por anos, aproveitando crescimento dos lucros e efeito de juros compostos, sem tentar timing de mercado.",
+    "difficulty": "facil",
+    "bloom": "lembrar",
+    "type": "conceitual",
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3h-q02",
+    "topicId": "m3g",
+    "stem": "Por que as grandes quedas de mercado (crises) tendem a ser oportunidades para investidores de longo prazo em ações?",
+    "options": [
+      { "text": "Porque os preços caem, permitindo comprar bom ativos com desconto — quando se recuperam, o ganho é maior" },
+      { "text": "Porque garantem ganho futuro certo" },
+      { "text": "Porque elimina o risco de perda" },
+      { "text": "Porque quem compra em crise nunca perde" }
+    ],
+    "correct": 0,
+    "explanation": "Crises assustam outros investidores que vendem com medo, derrubando preços. Quem tem coragem (e capital) de comprar nessas ocasiões compra empresa boa por preço ruim — quando a crise passa, o ganho é amplo.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["O que acontece com os preços em crise? Quem ganha com isso?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3h-q03",
+    "topicId": "m3g",
+    "stem": "Um investidor ouve falar de uma ação que uma celebridade recomendou em rede social. O cuidado mais importante é:",
+    "options": [
+      { "text": "Verificar a empresa de forma independente (demonstrações, rentabilidade, perspectivas) antes de comprar baseado em recomendação" },
+      { "text": "Comprar imediatamente, pois a celebridade sabe mais que qualquer um" },
+      { "text": "Assumir que é fraude só por vir de celebridade" },
+      { "text": "Seguir cegamente o que fazem as redes sociais" }
+    ],
+    "correct": 0,
+    "explanation": "Recomendações de celebridades (ou influenciadores) não substituem análise própria. Muitas são enganosas ou tendenciosas. O cuidado é pesquisar independentemente e só investir após se convencer sobre os fundamentos.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Uma recomendação em rede social é suficiente para investir seu dinheiro?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3h-q04",
+    "topicId": "m3g",
+    "stem": "Qual é o erro mais comum que investidores iniciantes cometem ao enfrentar a primeira queda significativa de suas ações?",
+    "options": [
+      { "text": "Vender em pânico, cristalizando perdas justo quando deveria esperar a recuperação" },
+      { "text": "Dobrar a aposta para recuperar rápido o valor" },
+      { "text": "Ignorar completamente e nunca mais olhar" },
+      { "text": "Não há erro possível" }
+    ],
+    "correct": 0,
+    "explanation": "Pânico leva a vendas precipitadas no pior momento, transformando perdas temporárias em permanentes. Histórico mostra que quem segura em crises tende a se recuperar — o timing importa.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "hints": ["O que o medo faz com as decisões de investimento?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3h-q05",
+    "topicId": "m3g",
+    "stem": "Para um investidor que quer começar a comprar ações, qual é a sequence correta de passos?",
+    "options": [
+      { "text": "1) Ter reserva de emergência; 2) Estudar o mercado e companhias; 3) Abrir conta em corretora; 4) Comprar com pequenas quantias inicialmente" },
+      { "text": "Sair comprando ações imediatamente com todas as economias" },
+      { "text": "Pedir dinheiro emprestado para investir em ações" },
+      { "text": "Comprar a ação mais cara porque deve ser melhor" }
+    ],
+    "correct": 0,
+    "explanation": "Sequência prudente: reserva segura a base, estudo reduz erros, corretora estabelece o acesso, pequenas posições iniciais permitem aprender sem grandes riscos — isso é progressão saudável.",
+    "difficulty": "dificil",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Em qual ordem essas etapas fazem sentido?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3h-q06",
+    "topicId": "m3g",
+    "stem": "A diferença entre investir em ações de crescimento (alto potencial, sem dividendos altos) e ações de renda (mais maduras, dividendos altos) está principalmente em:",
+    "options": [
+      { "text": "O tipo de retorno esperado: crescimento vem de valorização; renda vem de dividendos mensais/trimestrais" },
+      { "text": "Crescimento é sempre melhor que renda" },
+      { "text": "Ambas têm exatamente o mesmo retorno" },
+      { "text": "Renda não pode valorizar" }
+    ],
+    "correct": 0,
+    "explanation": "Ações de crescimento reinvestem lucros buscando expansão (retorno por valorização); ações de renda distribuem aos acionistas (retorno por dividendos). Cada uma atende perfis e objetivos diferentes.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Pense em como cada tipo retorna dinheiro ao investidor."],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3h-q07",
+    "topicId": "m3g",
+    "stem": "Um investidor combina ações de crescimento (30%), ações de renda (30%), ETFs diversificados (30%) e renda fixa (10%). Qual é o principal benefício dessa alocação?",
+    "options": [
+      { "text": "Balanço entre tipos de retorno (crescimento e renda) e diversificação de classes, reduzindo risco concentrado" },
+      { "text": "Garant maior rentabilidade que qualquer outra combinação" },
+      { "text": "Elimina completamente o risco de mercado" },
+      { "text": "Não há benefício particular" }
+    ],
+    "correct": 0,
+    "explanation": "A alocação busca múltiplas fontes de retorno e reduz concentração: crescimento + renda em ações, diversificação em ETFs, estabilidade em renda fixa. Isso suaviza oscilações e se adapta a vários cenários.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Cada componente cumpre um papel; juntos, o que conquistam?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3h-q08",
+    "topicId": "m3g",
+    "stem": "Por que conhecer o setor de uma ação (energia, tecnologia, varejo, etc.) é importante para investir nela?",
+    "options": [
+      { "text": "Porque setores têm ciclos e sensibilidades diferentes — entender o setor ajuda a avaliar perspectivas e riscos da empresa" },
+      { "text": "O setor não importa, só o nome da empresa" },
+      { "text": "Todos os setores têm desempenho igual todo tempo" },
+      { "text": "O setor muda de forma aleatória e imprevisível" }
+    ],
+    "correct": 0,
+    "explanation": "Setores têm dinâmicas próprias: tecnologia tem ciclos de inovação; energia depende de preços de commodities; varejo segue economia de consumo. Entender essas dinâmicas ajuda a prever e avaliar riscos.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["O setor influencia as perspectivas da empresa?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3h-q09",
+    "topicId": "m3g",
+    "stem": "Um investidor com carteira forte em ações brasileiras diversifica comprando ações de empresas tecnológicas americanas. Qual risco ele está reduzindo?",
+    "options": [
+      { "text": "Risco-Brasil e risco específico de setor — adicionando exposição a moeda/economia diferente e a setor com dinâmica diferente" },
+      { "text": "Nenhum risco, pois ações no exterior são sempre mais seguras" },
+      { "text": "Risco de câmbio desaparece" },
+      { "text": "Risco sistêmico global é eliminado" }
+    ],
+    "correct": 0,
+    "explanation": "Adicionar tecnologia americana reduz dependência de Brasil e de setores tradicionais brasileiros. Não elimina risco, mas o espalha — diversificação geográfica e setorial reduz impacto de crises localizadas.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "aplicacao",
+    "hints": ["O que muda ao investir em país e setor diferentes?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3h-q10",
+    "topicId": "m3g",
+    "stem": "O conceito de \"margem de segurança\" em investimento de ações refere-se a:",
+    "options": [
+      { "text": "Comprar uma ação por preço significativamente abaixo do valor justo calculado, criando proteção contra erros de análise" },
+      { "text": "Comprar a ação mais cara porque deve ser segura" },
+      { "text": "Nunca comprar ações porque são perigosas" },
+      { "text": "Confiar cegamente no preço de mercado" }
+    ],
+    "correct": 0,
+    "explanation": "Margem de segurança é ter \"colchão\" entre o preço pago e o valor estimado. Se você calcula que a ação vale R$ 100, comprar por R$ 70 cria margem — se errar no cálculo, ainda assim não sai em prejuízo.",
+    "difficulty": "dificil",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Como reduzir o risco de erro ao comprar uma ação?"],
+    "source": "M3 · Renda Variável"
+  },
+  {
+    "id": "m3h-q11",
+    "topicId": "m3g",
+    "stem": "A importância de ter clareza sobre o horizonte de investimento (3, 5, 10+ anos) antes de comprar ações está em que:",
+    "options": [
+      { "text": "Prazos diferentes exigem tolerância de risco diferente — curto prazo pede proteção; longo prazo permite assumir mais volatilidade" },
+      { "text": "O horizonte não influencia nada; retorno é sempre igual" },
+      { "text": "Sempre é melhor o prazo mais curto" },
+      { "text": "Horizonte deve ser descoberto depois de comprar" }
+    ],
+    "correct": 0,
+    "explanation": "Definir horizonte claro permite escolher ativos alinhados: curto prazo exige recuperação rápida (menos risco); longo prazo tolera quedas temporárias e busca crescimento maior. Clareza evita vender no pânico.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Como o tempo que você tem disponível influencia a escolha de ações?"],
+    "source": "M3 · Renda Variável"
   }
 ]

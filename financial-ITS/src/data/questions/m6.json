@@ -638,5 +638,237 @@
     "type": "aplicacao",
     "hints": ["Cada ajuste tem custo e imposto; e se você ajusta toda hora?"],
     "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q10",
+    "topicId": "m6d",
+    "stem": "A 'drift' (desvio) de uma carteira significa:",
+    "options": [
+      { "text": "A alocação natural se afasta do alvo — ex.: ações que crescem mais rápido que renda fixa aumentam de peso na carteira, desbalanceando-a" },
+      { "text": "Quando você compra e vende constantemente" },
+      { "text": "Quando investe sem planejamento" },
+      { "text": "Quando não há diversificação" }
+    ],
+    "correct": 0,
+    "explanation": "Drift é uma consequência natural: se ações crescem 20% e renda fixa 5%, a carteira se rebalanceia 'sozinha' — aumenta % de ações. Isso afasta do alvo (ex.: 60/40 original vira 65/35). Rebalancear corrige isso.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["O que acontece quando um ativo cresce mais que outro na carteira?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q11",
+    "topicId": "m6d",
+    "stem": "Um investidor com alocação 60% ações / 40% renda fixa observa que após 1 ano, a carteira está 65% ações / 35% renda fixa. O que ele deveria fazer?",
+    "options": [
+      { "text": "Vender um pouco de ações e comprar renda fixa para voltar a 60/40 — corrigir a drift e manter a estratégia" },
+      { "text": "Deixar como está, pois mais ações é melhor retorno" },
+      { "text": "Vender tudo e começar do zero" },
+      { "text": "Não fazer nada" }
+    ],
+    "correct": 0,
+    "explanation": "Rebalancear mantém a estratégia disciplinada — a alocação 60/40 foi escolhida por um motivo (risco). Se deixar virar 65/35, o risco aumenta sem ter decidido isso — rebalancear restaura controle.",
+    "difficulty": "dificil",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Se a carteira mudou, a estratégia mudou também?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q12",
+    "topicId": "m6d",
+    "stem": "Qual é a frequência ideal de rebalanceamento de uma carteira para a maioria dos investidores?",
+    "options": [
+      { "text": "Anual ou semestral — balanceia custos (não paga IR/corretagem demais) com disciplina (não deixa drift grande demais)" },
+      { "text": "Todos os dias" },
+      { "text": "Nunca — deixar a carteira sem tocar é melhor" },
+      { "text": "Sempre que o mercado se mexe" }
+    ],
+    "correct": 0,
+    "explanation": "Rebalancear demais gasta com impostos e corretagem; rebalancear nunca deixa drift virar risco descontrolado. Anual/semestral é meio termo — suficiente sem excessivo.",
+    "difficulty": "medio",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Como não desperdiçar com custos mas também não deixar sair do controle?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q13",
+    "topicId": "m6d",
+    "stem": "A importância de ter uma 'política de rebalanceamento' por escrito está em:",
+    "options": [
+      { "text": "Evitar decisões impulsivas — quando o mercado está em euforia ou pânico, ter regras escritas mantém você disciplinado e racional" },
+      { "text": "Garantir maior retorno" },
+      { "text": "Documentar para fiscalização" },
+      { "text": "Não há importância" }
+    ],
+    "correct": 0,
+    "explanation": "Quando ações disparam (euforia), você quer vender — mas a política escrita diz 'rebalanceie quando desvio passar de 5%'. Quando ações caem (pânico), você quer vender também — a política protege de erros emocionais.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "hints": ["Como a escrita da política te protege de impulsividade?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q14",
+    "topicId": "m6d",
+    "stem": "Um investidor está tendencialmente 'ancorado' em comprar ações quando estão em baixa porque já paga impostos ao vender — isso é exemplo de:",
+    "options": [
+      { "text": "Ancoragem comportamental (loss aversion) — não quer 'cristalizar' perdas mesmo que rebalancear fosse racional" },
+      { "text": "Boa estratégia de investimento" },
+      { "text": "Ignorância completa de estratégia" },
+      { "text": "Não há comportamento aqui" }
+    ],
+    "correct": 0,
+    "explanation": "Ancoragem emocional leva a evitar vender ativos em perda para não 'reconhecer' o fracasso — mesmo que a venda fosse racional para rebalancear. Isso distorce decisões. Regras escritas ajudam a superar.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "hints": ["Qual emoção pode impedir uma venda que faria sentido estratégico?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q15",
+    "topicId": "m6d",
+    "stem": "Dois investidores com a mesma carteira e desempenho histórico têm um: segue rigorosamente sua alocação; outro ajusta constantemente buscando 'otimizar'. Qual tende a sair melhor?",
+    "options": [
+      { "text": "O que segue a disciplina — custos (IR, corretagem) e erros de timing compensam ganhos ocasionais do 'otimizador'" },
+      { "text": "O que otimiza constantemente ganha sempre mais" },
+      { "text": "Ambos terão exatamente o mesmo resultado" },
+      { "text": "Depende do dia da semana" }
+    ],
+    "correct": 0,
+    "explanation": "Disciplina (alocação fixa + rebalanceamento planejado) vence 'otimização' constante na maioria dos casos — custos, impostos e timing errado da otimização superam ganhos ocasionais.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "hints": ["O que mais consome capital: custos fixos ou decisões perfeitas ocasionais?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q16",
+    "topicId": "m6d",
+    "stem": "A alocação apropriada de uma carteira para um investidor deve considerar principalmente:",
+    "options": [
+      { "text": "Horizonte de investimento e tolerância de risco — prazos curtos exigem mais proteção; prazos longos permitem mais risco" },
+      { "text": "Qual foi o retorno nos últimos 3 meses" },
+      { "text": "O que os bancos estão recomendando hoje" },
+      { "text": "Qual ativo está 'na moda'" }
+    ],
+    "correct": 0,
+    "explanation": "Horizonte (tempo disponível) e tolerância de risco (quanto perde sem desesperar) definem alocação apropriada. Moda, recomendações de banco ou retorno recente são ruído — distração de princípios.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "conceitual",
+    "hints": ["O que de verdade importa para escolher seus investimentos?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q17",
+    "topicId": "m6d",
+    "stem": "Um investidor com carteira bem definida e disciplina de rebalanceamento ainda assim perde dinheiro em um mercado ruim. Significa que:",
+    "options": [
+      { "text": "A estratégia ainda estava apropriada — perda em mercado ruim é esperada; disciplina minimiza danos e permite recuperação depois" },
+      { "text": "A estratégia foi fracasso completo" },
+      { "text": "Deve abandonar investimentos imediatamente" },
+      { "text": "A disciplina não serve de nada" }
+    ],
+    "correct": 0,
+    "explanation": "Mercados ruins acontecem — não há estratégia que lucre sempre. A disciplina funciona reduzindo pânico e decisões ruins; permite permanecer investido e recuperar depois. Sucesso é longo prazo, não cada ano.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "hints": ["Uma perda temporária significa fracasso da estratégia?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q18",
+    "topicId": "m6d",
+    "stem": "A razão pela qual a documentação clara da estratégia (por escrito) é tão importante é que:",
+    "options": [
+      { "text": "Reduz influência de emoção e palpite — ao revisar a decisão escrita, você questionará seus impulsos contra a lógica de antes" },
+      { "text": "Garante retorno melhor" },
+      { "text": "Impede qualquer prejuízo" },
+      { "text": "Não há razão particular" }
+    ],
+    "correct": 0,
+    "explanation": "Quando o medo toma conta (mercado caindo), você quer vender. Reler a política escrita ('mantenha por 5+ anos', 'rebalanceie só anualmente') traz racionalidade de volta — você reconsiders impulsividade.",
+    "difficulty": "dificil",
+    "bloom": "aplicar",
+    "type": "interpretacao",
+    "hints": ["Como a escrita te protege quando as emoções estão altas?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q19",
+    "topicId": "m6d",
+    "stem": "Um investidor com 40 anos, carteira de 500k e renda estável de 150k/ano deveria alocar mais agressivo (80% ações) ou mais conservador (40% ações)?",
+    "options": [
+      { "text": "Mais agressivo — tem horizonte de ~25 anos e renda para absorver quedas; crise temporária não afeta vida cotidiana" },
+      { "text": "Mais conservador — quanto mais dinheiro, mais segurança precisa" },
+      { "text": "50/50 é a única opção" },
+      { "text": "Depende do preço do bitcoin hoje" }
+    ],
+    "correct": 0,
+    "explanation": "Horizonte longo (até 65 anos) permite suportar volatilidade. Renda confortável significa não precisa liquidar na crise. Patrimônio atual (500k) é significativo mas não obriga conservadorismo — pode 'esperar' recuperação.",
+    "difficulty": "dificil",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Quais fatores (idade, renda, patrimônio) influenciam sua alocação?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q20",
+    "topicId": "m6d",
+    "stem": "O maior benefício de compreender gestão de carteira, rebalanceamento e disciplina é que:",
+    "options": [
+      { "text": "Permite persistência através de ciclos de mercado — você não desiste em crises nem fica irracional em booms; sucesso depende disso" },
+      { "text": "Garante ganho todo mês" },
+      { "text": "Impede perdas completamente" },
+      { "text": "Não há benefício especial" }
+    ],
+    "correct": 0,
+    "explanation": "Mercados são ciclos — quem cede ao pânico em crises ou à ganância em booms fracassa. Compreensão de gestão e disciplina permitem navegar os ciclos com cabeça fria — isso é tudo sobre sucesso.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q21",
+    "topicId": "m6d",
+    "stem": "A relação entre 'compreensão estratégia investimento' e 'sucesso no longo prazo' pode ser resumida como:",
+    "options": [
+      { "text": "Compreensão solidifica disciplina — quem entende POR QUE está fazendo é menos propenso a desistir quando cenário fica ruim" },
+      { "text": "Não há relação; é só sorte" },
+      { "text": "Compreensão garante lucro garantido" },
+      { "text": "Sucesso é independente de compreensão" }
+    ],
+    "correct": 0,
+    "explanation": "Quem entende a lógica por trás da estratégia (diversificação, rebalanceamento, horizonte) mantém-se nela em crises — quando fica tentação de desistir. Educação é fundação da disciplina, que é fundação do sucesso.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "hints": ["Como o conhecimento de estratégia afeta suas decisões em crise?"],
+    "source": "M6 · O começo — Gestão"
+  },
+  {
+    "id": "m6d-q22",
+    "topicId": "m6d",
+    "stem": "A conclusão do módulo 'O começo — Gestão' é que sucesso em investimento depende principalmente de:",
+    "options": [
+      { "text": "Disciplina, compreensão clara, planejamento escrito e persistência — não tanto de sorte ou timing perfeito de mercado" },
+      { "text": "Acertar o melhor ativo para comprar hoje" },
+      { "text": "Retorno máximo a qualquer custo" },
+      { "text": "Sorte pura" }
+    ],
+    "correct": 0,
+    "explanation": "Pesquisa repetida mostra que investidores disciplinados com plano claro ganham mais que tentadores de timing. Gestão apropriada — não ativo perfeito — é o diferencial. Sucesso é construído, não encontrado.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "source": "M6 · O começo — Gestão"
   }
 ]

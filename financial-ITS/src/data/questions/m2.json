@@ -958,5 +958,238 @@
     "type": "conceitual",
     "hints": ["O que o nome 'crédito privado' acrescenta de risco?"],
     "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2f-q10",
+    "topicId": "m2f",
+    "stem": "Um fundo de renda fixa com come-cotas semestral apresenta uma rentabilidade de 10% a.a. Para o investidor, qual efeito o come-cotas tem no retorno final?",
+    "options": [
+      { "text": "Reduz o retorno efetivo final, pois retira cotas a cada semestre que deixarão de render juros sobre juros" },
+      { "text": "Não afeta nada, pois o IR é cobrado de qualquer forma no resgate", "misconception": "come-cotas-sem-efeito-real", "feedback": "Come-cotas reduz o capital investido a cada semestre, diminuindo o efeito de juros compostos e reduzindo o retorno efetivo." },
+      { "text": "Aumenta o retorno por antecipar o imposto" },
+      { "text": "Transforma o fundo em ação" }
+    ],
+    "correct": 0,
+    "explanation": "Come-cotas antecipa o IR semestralmente; ao reduzir o número de cotas, diminui o capital que segue rendendo, impactando negativamente o retorno de longo prazo comparado a um título sem antecipação.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Menos cotas significa menos dinheiro rendendo nos próximos semestres."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2f-q11",
+    "topicId": "m2f",
+    "stem": "Entre um fundo com come-cotas de 10% a.a. e um título prefixado de 11% a.a. (sem come-cotas), qual é a forma mais justa de comparar?",
+    "options": [
+      { "text": "Calcular o retorno líquido do fundo (considerando o impacto do come-cotas) e só então comparar com os 11% do título" },
+      { "text": "Comparar 10% com 11% diretamente, pois os nomes são diferentes", "misconception": "compara-bruto-sem-consider-come-cotas", "feedback": "Come-cotas reduz o retorno efetivo; comparar sem ajustar é enganoso." },
+      { "text": "Escolher automaticamente o fundo por ter less volatilidade" },
+      { "text": "Não há forma justa de comparar" }
+    ],
+    "correct": 0,
+    "explanation": "O come-cotas reduz o retorno efetivo do fundo. Comparar de forma justa exige ajustar o retorno bruto do fundo para considerar esse impacto antes de comparar com o título.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["O fundo é anunciado em bruto; e se você calcular o líquido considerando o come-cotas?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2g-q01",
+    "topicId": "m2f",
+    "stem": "Um investidor com objetivo de renda de longo prazo (10+ anos) costuma preferir títulos pós-fixados atrelados ao CDI porque:",
+    "options": [
+      { "text": "Acompanhando o CDI, o retorno real tende a ser preservado ao longo de ciclos de juros" },
+      { "text": "Pós-fixado garante maior retorno em qualquer cenário" },
+      { "text": "É isento de IR por ser de longo prazo", "misconception": "pós-fixado-isento-lp", "feedback": "Pós-fixado não é isento; a tributação segue o prazo. O benefício é acompanhar o mercado de juros." },
+      { "text": "Só existe para prazos longos" }
+    ],
+    "correct": 0,
+    "explanation": "No pós-fixado ao CDI, o retorno flutua com a Selic; em horizontes longos, isso tende a preservar a rentabilidade real conforme ciclos de juros mudarem, sem ficar preso a uma taxa que pode envelhecer.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["O que significa estar atrelado ao CDI? Que vantagem oferece no longo prazo?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2g-q02",
+    "topicId": "m2f",
+    "stem": "Em um cenário de Selic caindo de 10% para 5%, como se comportariam um prefixado de 10% e um pós-fixado ao CDI, respectivamente?",
+    "options": [
+      { "text": "Prefixado mantém 10%; pós-fixado cai para ~5%, rendendo menos, mas o prefixado se valorizaria no mercado secundário" },
+      { "text": "Ambos caem para 5%" },
+      { "text": "Ambos mantêm seus retornos originais" },
+      { "text": "Pós-fixado fica melhor que prefixado automaticamente" }
+    ],
+    "correct": 0,
+    "explanation": "Prefixado trava a taxa (fica em 10%); pós-fixado acompanha a queda (cai para ~5%). Porém, no mercado secundário, o prefixado de 10% ganha valor (pois está acima do novo patamar de 5%).",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "interpretacao",
+    "hints": ["Um trava a taxa; outro acompanha. Qual fica mais valioso quando os juros caem?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2g-q03",
+    "topicId": "m2f",
+    "stem": "A diversificação em renda fixa significa:",
+    "options": [
+      { "text": "Variar entre tipos diferentes (prefixado, pós-fixado, IPCA+) e prazos, reduzindo riscos de taxa e inflação" },
+      { "text": "Ter vários CDBs do mesmo banco" },
+      { "text": "Colocar tudo em um único Tesouro IPCA+" },
+      { "text": "Comprar dois títulos prefixados" }
+    ],
+    "correct": 0,
+    "explanation": "Verdadeira diversificação em renda fixa protege contra cenários diferentes: prefixado sofre se a inflação sobe; pós-fixado reduz se juros caem; IPCA+ protege contra inflação. Juntos, cobrem vários cenários.",
+    "difficulty": "medio",
+    "bloom": "entender",
+    "type": "conceitual",
+    "hints": ["Pense em proteger-se contra diferentes riscos: taxa, inflação, etc."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2g-q04",
+    "topicId": "m2f",
+    "stem": "Um investidor montou uma carteira de renda fixa com 50% prefixado, 30% pós-fixado e 20% IPCA+. Qual situação de mercado favoreceria mais a carteira como um todo?",
+    "options": [
+      { "text": "Uma mistura de cenários diferentes, pois cada tipo se sai bem em situações distintas" },
+      { "text": "Apenas queda de inflação (favor al prefixado)" },
+      { "text": "Apenas alta de juros (favorável ao pós-fixado)" },
+      { "text": "Cenários extremos sempre prejudicam toda carteira" }
+    ],
+    "correct": 0,
+    "explanation": "A diversificação da carteira proposta equilibra riscos: prefixado sofre em inflação alta; pós-fixado sofre em queda de juros; IPCA+ protege inflação. Em cenários reais (mistos), a carteira tende a se comportar melhor que se tivesse um único tipo.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Cada tipo \"gosta\" de um cenário diferente; juntos, cobrem várias possibilidades."],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2g-q05",
+    "topicId": "m2f",
+    "stem": "Qual é o principal cuidado ao investir em renda fixa privada (CDB, LCA, Debêntures) em vez de títulos públicos?",
+    "options": [
+      { "text": "O risco de crédito: se o emissor falir, o FGC protege CDB até R$ 250 mil, mas LCA/CRA/Debêntures podem não ter cobertura" },
+      { "text": "Títulos privados sempre rendem menos que o Tesouro" },
+      { "text": "Nenhum, pois tudo é garantido pela União" },
+      { "text": "Apenas a complexidade burocrática de resgate" }
+    ],
+    "correct": 0,
+    "explanation": "Renda fixa privada oferece rendimentos maiores justamente pelo risco de crédito da instituição. CDB tem FGC (até R$ 250 mil por pessoa por banco); LCA/CRA e Debêntures comuns não têm essa cobertura. Concentrar muito em um banco ou emissor é arriscado.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "conceitual",
+    "hints": ["O prêmio de rendimento vem acompanhado de qual risco?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2g-q06",
+    "topicId": "m2f",
+    "stem": "Para uma pessoa que não quer ter que rebalancear frequentemente sua carteira de renda fixa, qual estratégia costuma funcionar melhor?",
+    "options": [
+      { "text": "Comprar títulos com prazos escalonados (alguns vencem em 1, 2, 3, 5 anos) e reinvestir os resgates conforme a estratégia" },
+      { "text": "Comprar tudo com o mesmo vencimento" },
+      { "text": "Comprar apenas fundo com rebalanceamento automático, sempre" },
+      { "text": "Nunca reavaliar a carteira" }
+    ],
+    "correct": 0,
+    "explanation": "Títulos escalonados criam um \"fluxo natural\" de resgates em diferentes momentos, facilitando o reinvestimento sem necessidade de vender antecipadamente. Reduz esforço de rebalanceamento ativo.",
+    "difficulty": "dificil",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Se os títulos vencem em datas diferentes, o que você ganha?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2g-q07",
+    "topicId": "m2f",
+    "stem": "A rentabilidade de um fundo de renda fixa caiu de 8% a.a. para 6% a.a. Qual é a situação mais provável?",
+    "options": [
+      { "text": "A Selic foi reduzida pelo Banco Central, afetando o patamar de retorno de toda classe de renda fixa" },
+      { "text": "O fundo está tendo má performance por culpa do gestor" },
+      { "text": "O FGC reduziu a cobertura" },
+      { "text": "Todos os fundos do mercado tiveram a mesma queda" }
+    ],
+    "correct": 0,
+    "explanation": "A rentabilidade de renda fixa é muito ligada ao patamar de juros (Selic) definido pelo Banco Central. Se a Selic cai, todo o mercado de renda fixa tende a render menos — não é necessariamente culpa do fundo.",
+    "difficulty": "medio",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["O que define o patamar de retorno de renda fixa?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2g-q08",
+    "topicId": "m2f",
+    "stem": "Qual é a relação entre volatilidade esperada e tipo de ativo de renda fixa?",
+    "options": [
+      { "text": "Pós-fixado é menos volátil (segue a Selic suavemente); prefixado é mais volátil (reage a mudanças de expectativa de taxa)" },
+      { "text": "Todos os tipos de renda fixa têm a mesma volatilidade", "misconception": "todas-rf-mesmo-risco", "feedback": "Pós-fixado acompanha suavemente; prefixado oscila com mudanças nas expectativas de taxa de juros — volatilidades diferentes." },
+      { "text": "Prefixado nunca oscila" },
+      { "text": "Volatilidade é irrelevante em renda fixa" }
+    ],
+    "correct": 0,
+    "explanation": "Pós-fixado segue a Selic (que muda gradualmente); prefixado reage a mudanças nas expectativas e ciclos de taxa (maior oscilação). Quem quer menos volatilidade prefere pós-fixado no curto prazo.",
+    "difficulty": "dificil",
+    "bloom": "analisar",
+    "type": "conceitual",
+    "hints": ["Qual tipo oscila mais ao longo do tempo?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2g-q09",
+    "topicId": "m2f",
+    "stem": "Um investidor precisa de R$ 100.000 em 5 anos. Qual estratégia em renda fixa maximiza a chance de atingir o objetivo?",
+    "options": [
+      { "text": "Comparar o rendimento acumulado esperado de prefixado, pós-fixado e IPCA+, escolhendo o que mais se aproxima de 100% em 5 anos conforme projeções" },
+      { "text": "Escolher a maior taxa nominal, sem considerar prazos", "misconception": "maior-taxa-resolve", "feedback": "Maior taxa nominal pode vir de prazo curto; é preciso verificar que o prazo cobre os 5 anos necessários." },
+      { "text": "Comprar tudo em poupança" },
+      { "text": "Não há forma de planejar com renda fixa" }
+    ],
+    "correct": 0,
+    "explanation": "Objetivo claro exige análise: qual tipo de renda fixa + prazo permite atingir ~R$ 100k em exatamente 5 anos? Pode ser um prefixado de 5 anos ou escadaria de produtos curtos reinvestidos.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "aplicacao",
+    "hints": ["Qual combinação de tipo e prazo de renda fixa o leva a R$ 100k em 5 anos?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2g-q10",
+    "topicId": "m2f",
+    "stem": "Ao rebalancear uma carteira de renda fixa porque alguns títulos explodiram em valor, qual cuidado é essencial?",
+    "options": [
+      { "text": "Verificar o impacto do IR no ganho ao vender — a alienação gera imposto que reduz o líquido a reinvestir" },
+      { "text": "Nenhum, pois renda fixa não tem imposto" },
+      { "text": "Vender tudo imediatamente para aproveitar o ganho" },
+      { "text": "Ignorar o ganho e manter a posição anterior" }
+    ],
+    "correct": 0,
+    "explanation": "Ganhos com renda fixa (ex.: prefixado que subiu de preço no mercado secundário) geram impostos quando vendidos. O rebalanceamento deve considerar o IR para não perder retorno em tributos desnecessários.",
+    "difficulty": "dificil",
+    "bloom": "aplicar",
+    "type": "aplicacao",
+    "hints": ["Vender um título com ganho gera quanto de imposto? Como isso afeta o rebalanceamento?"],
+    "source": "M2 · Renda Fixa"
+  },
+  {
+    "id": "m2g-q11",
+    "topicId": "m2f",
+    "stem": "A importância de entender a diferença entre prefixado, pós-fixado e IPCA+ está em:",
+    "options": [
+      { "text": "Poder escolher a estratégia de renda fixa que melhor se adapta a cada cenário econômico e objetivo do investidor" },
+      { "text": "Todos os três rendem igual, então a escolha não importa" },
+      { "text": "Apenas economistas precisam entender essas diferenças" },
+      { "text": "A escolha é aleatória" }
+    ],
+    "correct": 0,
+    "explanation": "Cada tipo se comporta diferentemente em cenários de taxa e inflação. Entender essas diferenças permite fazer escolhas estratégicas que protegem e maximizam o patrimônio conforme as metas e projeções.",
+    "difficulty": "dificil",
+    "bloom": "avaliar",
+    "type": "interpretacao",
+    "source": "M2 · Renda Fixa"
   }
 ]
